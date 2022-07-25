@@ -1,0 +1,226 @@
+{
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Jessie": "adult/polite/shy/positive/female/not-datable/null/Town/summer 1//Custom_LK_LodgingHouse 21 4/Jessie"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Jessie": "Thank you! This is just what I wanted!/222 230 254 281 282/Thank you, I shall cherish it./-81 -75 -79 350/Sorry dear, but I'm not a fan./-6 206 424 426/I'm sorry. I find this... unpleasant./-4 446/Thanks. I'm sure this will come in useful.//"
+       }
+    },
+    //Loves Rhubarb Pie, Red plate, Melon, Cranberries, Chanterelle
+    //Dislikes/Hates animal products (eggs, milk, fish), pizza 
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Jessie",
+      "FromFile": "assets/Characters/Jessie/Sprites.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Jessie",
+      "FromFile": "assets/Portraits/Jessie/Portraits.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Jessie",
+      "FromFile": "assets/schedules/JessieSchedule.json",
+      "When": {
+        "HasSeenEvent |contains=191393": false,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Jessie",
+      "FromFile": "assets/schedules/JessieScheduleJojaClosed.json",
+      "When": {
+        "HasSeenEvent |contains=191393": true,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Jessie",
+      "FromFile": "assets/dialogue/JessieDialogue.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jessie",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Entries": {
+        "Sat": "It would be a shame to be inside, working, on such a lovely day.#$b#I hope that country life is agreeing with you.",
+        "Sat4": "I must say, @, it's good to have a friend in this town.$4#$b#When you work with herbs... well, some people seem to view you with suspicion.$2",
+        "Sun": "Are you taking some time to relax this weekend, @?#$b#Sometimes it's good to slow down.",
+        "Sun6": "You know, even in the most trying of times, my imagination is always free to fly and soar."
+      }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jessie",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Spouse": "Wizard"
+      },
+      "Entries": {
+        "spring_23_2": "I hope you have fun at the festival tomorrow. Me? Oh, I shall not be attending.#$b#Linus is no longer in need of my company, and I have other commitments."
+      }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jessie",
+      "When": {
+        "HasSeenEvent": "191393"
+      },
+      "Entries": {
+        "Sat": "It would be a shame to be inside, working, on such a lovely day.#$b#I hope that country life is agreeing with you.",
+        "Sat4": "I must say, @, it's good to have a friend in this town.$4#$b#When you work with herbs... well, some people seem to view you with suspicion.$2",
+        "Sun": "Are you taking some time to relax this weekend, @?#$b#Sometimes it's good to slow down.",
+        "Sun6": "You know, even in the most trying of times, my imagination is always free to fly and soar."
+      }
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Jessie_work": "0 12 24 24 24/20 20 20 20 20 20 21 21 21 20 20 20 22 22 20 20 22 22 20 20 21 21 21 21 20 20 20 23 23 23 20 20 20/24 24 24 12 0",
+        "Jessie_exercise": "0 18/16 16 16 16 16 17 17 17 17 16 16 16 16 16 16/18 0",
+        "Jessie_waterL": "25/25/25",
+        "Jessie_waterR": "26/26/26",
+        "Jessie_waterF": "27/27/27"
+      }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jessie",
+      "Entries": {
+        "{{season}}_Wed6": "$1 Pregnant_Gift#Hello @. Congratulations of the imminent new arrival. Here's a little something that might help.[351]$k#$e#I hope everything's going well, @."
+      },
+      "When": {
+        "Pregnant": "@{{playerName}}"
+      }
+    },
+    //Temp Actors and Maps 
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/SlimeyBoi",
+      "FromFile": "assets/img/SlimeyBoi.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/LexiMon",
+      "FromFile": "assets/img/LexiMon.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Maps/SunsetBeach",
+      "FromFile": "assets/Maps/SunsetBeach.tbin"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Maps/SunsetBeach2",
+      "FromFile": "assets/Maps/SunsetBeach2.tbin"
+    },
+    //Jessie is gathering fiddlehead ferns in the Secret Woods
+    {
+      "LogName": "4 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "Entries": {
+        "6398002/f Jessie 1000/d sat sun/t 900 1400/w sunny": "woodsTheme/18 17/Jessie 18 18 2 farmer 29 13 3/addTemporaryActor SlimeyBoi 16 16 -100 -100 2 false/skippable/pause 500/move farmer -8 0 2/pause 1000/emote Jessie 56/pause 500/move farmer 0 4 3/faceDirection Jessie 1/pause 500/emote Jessie 32/pause 1500/speak Jessie \"Oh, hello @. I didn't know anyone else knew about this place.\"/pause 500/faceDirection Jessie 3/pause 500/faceDirection Jessie 1/speak Jessie \"Magical, isn't it?\"/pause 1000/quickQuestion #Yes, it is.#What are you doing here?#Aren't you afraid of the slimes?#I'm only here for the hardwood.(break)speak Jessie \"I'm glad that you can feel it too, @.\"(break)speak Jessie \"Oh, I'm here to gather {{GatherText}}\"(break)speak Jessie \"Not particularly, no. You're not here to hunt them, are you?\"(break)speak Jessie \"Ah yes, it is a useful resource. And extraodinary how fast these ancient stumps sprout new growth.\"/stopMusic/pause 500/playSound slime/pause 500/emote farmer 16/warp SlimeyBoi 19 14/faceDirection farmer 0 true/faceDirection Jessie 0 true/playMusic XOR/animate SlimeyBoi false true 100 0 1 2 3 19 18 17 0 0 0/speed farmer 5/move farmer -2 0 0/move farmer 0 -1 0/textAboveHead Jessie \"Don't hurt her!\"/pause 500/emote farmer 8/move Jessie 0 -3 0 true/pause 500/emote farmer 28/pause 1500/stopAnimation SlimeyBoi 0/shake SlimeyBoi 480/pause 500/emote Jessie 56/pause 1500/playSound slime/move SlimeyBoi 0 -1 2/speak Jessie \"We're not here to hurt you.$2\"/pause 500/shake SlimeyBoi 480/jump SlimeyBoi 5/speak Jessie \"Live in peace.\"/jump SlimeyBoi 5/pause 500/move SlimeyBoi 0 -1 2/pause 1000/emote Jessie 56/move SlimeyBoi 0 -1 2/playSound slime/pause 500/move SlimeyBoi 0 -1 2/warp SlimeyBoi -100 -100/stopMusic/pause 1000/playMusic woodsTheme/move farmer 0 -1 3/faceDirection Jessie 1/speak Jessie \"$q 639870 null#...#$r 639871 25 JessieSlime_How#How did you do that? Can you teach me?#$r 639872 -50 JessieSlime_Kill#It's a monster! You should've let me kill it!\"/pause 500/speak Jessie \"Consider the question, @: What makes a monster?#$b#The slimes are unnatural, yes; they carry the taint of the void upon them. But they were once gentle, peaceable creatures.#$b#Perhaps, once day, we can help them rediscover their old ways. Until then...$2\"/pause 500/faceDirection Jessie 0/pause 500/speak Jessie \"I'm not going to ask that you refrain from killing. For they are dangerous, and I understand that necessity.$2#$b#But please, do not make a sport of it.$2\"/pause 500/faceDirection Jessie 1/pause 500/speak Jessie \"Even those labelled as monsters deserve respect and compassion.$2\"/pause 500/emote farmer 60/pause 1000/end warpOut"
+      }
+    },
+    {
+      "LogName": "4 Heart Event - SVE version",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "Entries": {
+        "6398002/f Jessie 1000/d sat sun/t 900 1400/w sunny": "woodsTheme/49 56/Jessie 54 55 2 farmer 58 48 2/addTemporaryActor SlimeyBoi 16 16 -100 -100 2 false/skippable/pause 500/move farmer -4 0 2/pause 1000/emote Jessie 56/pause 500/move farmer 0 5 2/faceDirection Jessie 0/pause 500/emote Jessie 32/pause 1500/speak Jessie \"Oh, hello @. I didn't know anyone else knew about this place.\"/pause 500/faceDirection Jessie 3/pause 500/faceDirection Jessie 1/speak Jessie \"Magical, isn't it?\"/pause 1000/quickQuestion #Yes, it is.#What are you doing here?#Aren't you afraid of the slimes?#I'm only here for the hardwood.(break)speak Jessie \"I'm glad that you can feel it too, @.\"(break)speak Jessie \"Oh, I'm here to gather {{GatherText}}\"(break)speak Jessie \"Not particularly, no. You're not here to hunt them, are you?\"(break)speak Jessie \"Ah yes, it is a useful resource. And extraodinary how fast these ancient stumps sprout new growth.\"/stopMusic/pause 500/playSound slime/pause 500/emote farmer 16/warp SlimeyBoi 50 54/faceDirection farmer 3 true/faceDirection Jessie 3 true/playMusic XOR/animate SlimeyBoi false true 100 0 1 2 3 19 18 17 0 0 0/speed farmer 5/move farmer -2 0 0/move farmer 0 1 3/textAboveHead Jessie \"Don't hurt her!\"/pause 500/emote farmer 8/move Jessie -3 0 3 true/pause 500/emote farmer 28/pause 1500/stopAnimation SlimeyBoi 0/shake SlimeyBoi 480/pause 500/emote Jessie 56/pause 1500/playSound slime/move SlimeyBoi 0 1 2/speak Jessie \"We're not here to hurt you.$2\"/pause 500/shake SlimeyBoi 480/jump SlimeyBoi 5/speak Jessie \"Live in peace.\"/jump SlimeyBoi 5/pause 500/move SlimeyBoi -2 0 2/pause 1000/emote Jessie 56/warp SlimeyBoi -100 -100/stopMusic/pause 1000/playMusic woodsTheme/move farmer -1 0 2/faceDirection Jessie 0/speak Jessie \"$q 639870 null#...#$r 639871 25 JessieSlime_How#How did you do that? Can you teach me?#$r 639872 -50 JessieSlime_Kill#It's a monster! You should've let me kill it!\"/pause 500/speak Jessie \"Consider the question, @: What makes a monster?#$b#The slimes are unnatural, yes; they carry the taint of the void upon them. But they were once gentle, peaceable creatures.#$b#Perhaps, once day, we can help them rediscover their old ways. Until then...$2\"/pause 500/faceDirection Jessie 0/pause 500/speak Jessie \"I'm not going to ask that you refrain from killing. For they are dangerous, and I understand that necessity.$2#$b#But please, do not make a sport of it.$2\"/pause 500/faceDirection Jessie 3/pause 500/faceDirection Jessie 0/speak Jessie \"Even those labelled as monsters deserve respect and compassion.$2\"/pause 500/emote farmer 60/pause 1000/end warpOut"
+      },
+      "When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+    },
+    {
+      "LogName": "2 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_LK_ClearingHouse",
+      "Entries": {
+        "6398001/f Jessie 500/p Jessie/z winter": "spring2/22 20/farmer 24 22 0 Jessie 17 18 3/skippable/pause 500/emote Jessie 56/message \"Someone is singing.\"/pause 1000/move farmer 0 -3 3/pause 500/faceDirection Jessie 1/emote Jessie 32/move Jessie 0 1 1/pause 500/speak Jessie \"Hello @! A lovely day, isn't it!\"/move farmer -4 0 3 true/move Jessie 1 0 1 true/pause 500/emote farmer 32/pause 500/speak Jessie \"I hear you've made quite an impression around here.\"/pause 500/emote farmer 60/pause 500/speak Jessie \"I've got a little gift for you.\"/emote farmer 8/move Jessie 1 0 1/pause 500/speak Jessie \"Give me your hand, @. [{{JessGift}}]\"/playSound give_gift/speak Jessie \"#$b#Here, something to help nurture a friendship.$1\"/pause 500/emote farmer 20/pause 1000/end"
+      },
+      "When": {
+        "LoadESMap": "false"
+      }
+    },
+    {
+      "LogName": "6 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "Entries": {
+        "6398006/f Jessie 1500/f Linus 1500/e 191393/w sunny/t 1400 1800": "{{season}}_day_ambient/29 12/Jessie 28 9 1 Linus 30 9 3 farmer 18 9 1/skippable/pause 500/speak Jessie \"...the earth is breathing easier now Joja have departed.\"/pause 500/speak Linus \"The earth? Indeed. I too can breath more easily.#$b#It is a wonder you survived there so long, my dear.\"/shake Linus 240/pause 500/speak Jessie \"There is beauty to be found anywhere, even within those sterile walls.#$b#In a kind word spoken, a joke. Or a smile shared.$3\"/pause 500/speak Linus \"Oh, your unfailing ability to see the best in people will always impress me, Ms. Jessie.#$b#It's one of the many things I admire about you.$1\"/pause 500/emote Linus 20/emote Jessie 60/move farmer 8 0 1/pause 500/speak Jessie \"Speaking of admiration...\"/faceDirection Jessie 3/speak Jessie \"Good evening, @. You've freed the town from the Joja shackles, and now it is time for her - for us - to heal.\"/pause 500/quickQuestion #Sorry, am I interrupting something?#Even though you lost your job?#How does a town heal?(break)speak Jessie \"Oh no, of course not, @. Your company is always welcome!\"(break)speak Jessie \"There is more to life than work, as I hope you have discovered, @.#$b#And better ways to find fulfilment.$1#$b#Family, the earth...\"\\faceDirection Jessie 1\\emote Jessie 32\\speak Jessie \"...and friendship, are far better ways to find contentment.$4\"(break)speak Jessie \"Community heals a town. It strengthens the bonds that bring us together.\"/pause 500/speak Linus \"JojaCorp is built on greed, @. The desire, always, to be bigger, brighter, to be MORE.$2#$b#It creates people like Morris.$3\"/pause 500/speak Jessie \"But it also creates people like us, doesn't it?$1\"/emote Jessie 56/move Jessie 0 -1 2/move Jessie 1 0 2/speak Jessie \"Come, join us, @.$1\"/pause 500/move farmer 2 0 1/pause 500/speak Jessie \"For food, companionship, and tales told. They are the hearthstone of community.\"/pause 1500/end"
+      }
+    },
+    {
+      "LogName": "8 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_LK_LodgingHouse",
+      "Entries": {
+         "6398003/f Jessie 2000/t 0900 1400/d sat sun": "none/17 12/farmer 13 18 0 Jessie -100 -100 0/skippable/move farmer 0 -4 1/move farmer 4 0 1/playSound woodyStep/emote farmer 8/move farmer 4 0 0/move farmer 0 -1 0/playSound doorOpen/pause 500/fade/viewport -100 -100/warp farmer -1000 -1000/changeLocation Custom_LK_LodgingHouseBasement/viewport -100 -100/warp Jessie 3 6/playMusic desolate/viewport 10 6/textAboveHead Jessie \"Oh, my Lexi\"/pause 1250/textAboveHead Jessie \"Where are you now?\"/pause 1000/playSound stairsdown/pause 500/warp farmer 5 10/pause 1000/speak Jessie \"Hello @. Welcome to my basement - and my most precious secret.\"/move farmer 0 -2 0/faceDirection farmer 1/pause 500/faceDirection farmer 0/pause 500/move farmer 0 -2 3/faceDirection Jessie 1/pause 500/emote farmer 8/pause 500/speak Jessie \"I know what you're thinking. Did I have a child? And the answer is 'no'.\"/pause 500/faceDirection Jessie 3/pause 500/emote Jessie 40/pause 500/faceDirection Jessie 1/textAboveHead Jessie \"But also yes.\"/pause 2000/emote farmer 8/pause 500/speak Jessie \"There was a terrible storm. The wind howled like a wild animal in pain, and the rain fell in a furious deluge.$2#$b#The next morning, all was calm and still, as though the storm had never been.#$b#But something drew me to the beach...\"/faceDirection Jessie 2/pause 1000/stopMusic/fade/viewport -100 -100/changeToTemporaryMap SunsetBeach/viewport -100 -100/warp farmer -1000 -1000/warp Jessie 27 15/playMusic ocean/viewport 15 10/move Jessie -12 0 3/pause 500/playSound junimoMeep1/pause 500/faceDirection Jessie 0/jump Jessie 5/emote Jessie 16/speed Jessie 5/move Jessie -1 0 0/move Jessie 0 -1 3/pause 500/playSound junimoMeep1/pause 500/emote Jessie 56/pause 1000/fade/viewport -100 -100/changeLocation Custom_LK_LodgingHouseBasement/warp farmer 5 7/faceDirection farmer 3/warp Jessie 3 7/faceDirection Jessie 1/stopMusic/playMusic desolate/viewport 10 6/pause 500/speak Jessie \"I brought them home, of course: this tiny infant wrapped in seaweed.$3\"/emote farmer 20/pause 500/speak Jessie \"I dared not tell the other villagers of my foundling child. They wouldn't have understood.$2#$b#Many, now, are good folks, but back then... there was a lot of distrust in the uncanny.$2#$b#And the storm took a lot from us.$2\"/move Jessie 0 1 3/pause 500/speak Jessie \"I scavenged what I could, and raised Lexi as though they were my own.\"/move Jessie 0 -1 1/pause 500/speak Jessie \"I've always liked children, @. And if things had turned out differently - if I'd turned out differently - perhaps I would've had my own.$2\"/pause 500/emote farmer 40/speak Jessie \"As it is, I can't regret the path I've taken.\"/pause 500/speak Jessie \"I raised Lexi to the best of my ability.#$b#And taught Lexi not to be human, but to be humane.$3#$b#Lexi grew. And thrived... but the ocean still held their heart.#$b#And it was no life for Lexi here... these two rooms, my garden, and the only water still and sterile.$2\"/stopMusic/fade/viewport -1000 -1000/speak Jessie \"Lexi grew up, and left me.$2\"/changeToTemporaryMap SunsetBeach2/viewport -1000 -1000/addTemporaryActor LexiMon 16 32 15 14 3 true/warp Jessie 14 14/warp farmer -100 -100/viewport 15 10/pause 500/emote Jessie 56/emote LexiMon 20/faceDirection LexiMon 0/faceDirection Jessie 0/move LexiMon 0 -3 2/pause 500/faceDirection LexiMon 0/pause 500/warp LexiMon -100 -100/playSound dropItemInWater/pause 500/emote Jessie 20/pause 1500/fade/viewport -1000 -1000/changeLocation Custom_LK_LodgingHouseBasement/viewport -1000 -1000/warp Jessie 3 7/faceDirection Jessie 1/warp farmer 5 7/viewport 10 6/pause 500/speak Jessie \"I hope Lexi found their people.\"/pause 500/faceDirection Jessie 3/pause 500/emote farmer 60/faceDirection Jessie 1/speak Jessie \"Lexi was not my child of blood, but the child of my heart, @.$2#$b#And not a day goes by that I do not miss them. Others might brand Lexi an animal, perhaps even a monster.$5#$b#But Lexi was not, they were just a child who needed to be loved.$4\"/pause 500/faceDirection Jessie 0/pause 1000/end"
+      }
+    },
+    {
+      "LogName": "Jessie and Vincent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "6398004/f Kent 50/p Vincent/e 191393/t 1700 1900": "continue/-100 -100/Vincent 43 24 2 farmer 27 22 2 Willy 27 25 0 Jessie 38 12 2/addMailReceived Jessie_Vincent/skippable/animate Vincent false true 500 18 19/specificTemporarySprite beachStuff/viewport 40 25 true/move Jessie 0 12 1/speak Jessie \"Oh, hello Vincent. May I join you?\"/pause 500/stopAnimation Vincent 18/emote Vincent 40/pause 3000/textAboveHead Vincent \"Okay.\"/pause 500/move Jessie 3 0 2/showFrame Jessie 32/pause 500/speak Jessie \"Thank you. Sometimes I come to the beach to gather shells, other times to think.#$b#It's a good place to think, isn't it?\"/pause 500/faceDirection Vincent 3/emote Vincent 40/pause 2000/speak Vincent \"Mom says you're a witch.\"/move Willy 0 5 2/warp Willy -100 -100/faceDirection farmer 1/pause 500/emote Jessie 60/pause 2000/speak Vincent \"But I don't think that's true. Penny read a book to us about witches. Witches are ugly and bald and sometimes have green skin or funny colored eyes.#$b#But you're not ugly, and you're not mean; you're nice! So maybe you can help me.\"/pause 500/emote Jessie 8/textAboveHead Jessie \"Help you?\"/pause 500/speak Jessie \"Of course I will help you.$2\"/pause 500/speak Vincent \"Dad's back. But he's different from what I remember.$3#$b#We used to do fun things together, like play and run and swim, and look for bugs and stuff.$2#$b#Now, he's sad lots, and yesterday, when I jumped out to surprise him, he shouted at me.$2\"/pause 500/showFrame Vincent 18/speak Vincent \"It was scary!$2\"/pause 500/showFrame Vincent 19/move Jessie 1 0 2/showFrame Jessie 32/pause 500/speak Vincent \"So, I was wondering, if you're really a witch, could you maybe help get my dad back?$2\"/showFrame Vincent 12/pause 500/speak Jessie \"Oh Vincent. It's not going to take a magic potion to get your dad back.\"/pause 500/textAboveHead Vincent \"Oh...\"/pause 500/speak Jessie \"But there is a special cure, although it can take a while to work.\"/pause 500/speak Vincent \"There is? Is it a magic spell?$3\"/pause 500/speak Jessie \"No. It's love.\"/jump Vincent 4/speak Vincent \"Love? Ick. You mean like kissing and stuff? Ugh!$3\"/pause 500/speak Jessie \"No kissing required, promise!$1#$b#But other love: the kind you show with hugs, and smiles. With kind words and fun games, and stories.\"/pause 500/speak Vincent \"Oh! But I'm doing that already.$3#$b#And it's not making him better.$2\"/pause 500/speak Jessie \"There's another special ingredient. And it's not such a good one, I'm afraid.$2\"/pause 500/speak Vincent \"Is it spiders?$3\"/pause 1500/speak Jessie \"No!$1#$b#It's time.#$b#Your dad's hurt, Vincent, but not in ways that a doctor can put a bandage on.$2#$b#And it's okay for you to be scared, and sad, that he's not the dad that you remember.$2#$b#But he's still that dad deep inside, okay? And he still loves you a lot.\"/pause 500/speak Vincent \"I know... Mom says the same thing.$2#$b#Thanks Miss Jessie. Will you come, sit with me sometimes?\"/speak Jessie \"Of course I will, Vincent.\"/pause 500/jump Vincent 4/speak Vincent \"Hey, I've had a great idea! Maybe you could teach me some spells?#$b#Like how to make my toys put themselves away?$1\"/pause 500/animate Jessie false true 500 33 34/showFrame farmer 20/pause 500/end"
+      }
+    },
+    {
+      "LogName": "Jessie and Lexi",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "6398005/f Jessie 2500/e 6398003/p Jessie/w rainy": "ocean/85 39/Jessie 86 40 2 farmer 87 25 2/addTemporaryActor LexiMon 16 32 -100 -100 0 true/skippable/swimming LexiMon/pause 500/emote Jessie 56/pause 500/move farmer 0 15 2 true/pause 500/textAboveHead Jessie \"Oh Lexi...\"/pause 2500/speak Jessie \"I just wish I knew you were alive and well.$2\"/pause 1500/faceDirection Jessie 1/speak Jessie \"Good evening, @. I didn't expect to see you out in this weather.#$b#Then again, I suppose, a farmer's work is never done, is it?#$b#Even when our plants don't need to be watered.\"/pause 500/emote farmer 32/pause 500/faceDirection farmer 3/pause 1500/emote farmer 8/pause 500/speak Jessie \"Me? Oh, it's foolish, I know, but when it rains... well, I keep hoping Lexi might come home.\"/pause 500/faceDirection Jessie 2/faceDirection farmer 2/speak Jessie \"You may have heard the tales? Of the strange creature, possibly one of the merfolk, glimpsed off the edge of the wharf?\"/faceDirection Jessie 1/pause 500/emote farmer 40/pause 500/speak Jessie \"Lexi is shy. The villagers aren't fond of monsters.$2#$b#I believe that, were Lexi to return, they would choose a day like today - when the rain keeps the villagers indoors.\"/pause 500/faceDirection Jessie 2/pause 500/speak Jessie \"Lexi always liked my singing, so I sing to them. Perhaps, I think, the music might guide them home.\"/pause 500/faceDirection Jessie 1/pause 500/speak Jessie \"Would you join your voice with mine, @? Perhaps the two of us, singing in harmony, might make Lexi less afraid?\"/{{MusicalInterlude}}/faceDirection Jessie 2/playMusic mermaidSong/pause 10000/playSound dropItemInWater/pause 500/stopMusic/warp LexiMon 86 46/faceDirection farmer 2/emote farmer 16/pause 2500/textAboveHead Jessie \"Lexi...\"/pause 500/move LexiMon 0 -4 0/pause 500/emote LexiMon 20/pause 2000/end"
+      },
+      "When": {
+        "HasFlag": "beachBridgeFixed"
+      }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jessie",
+      "Entries": {
+        "summer": "610 Custom_LK_LodgingHouse 18 14 2/900 Custom_LK_ClearingHouse 17 21 3 Jessie_waterL/1100 Custom_LK_ClearingHouse 12 13 2 Jessie_waterF/1230 Mountain 60 37 1/1600 Mountain 29 8 2/2000 Custom_LK_LodgingHouse 20 4 1"
+      },
+      "When": {
+        "HasSeenEvent |contains=191393": true,
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.Marigold"
+      }
+    },
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "rain": "MAIL beachBridgeFixed/GOTO rain_noBridge/630 Custom_LK_LodgingHouse 17 14 0/700 Custom_LK_LodgingHouse 20 14 2/1100 Custom_LK_LodgingHouse 8 14 2/1300 Beach 83 40 2/1800 Custom_LK_LodgingHouse 18 14 2/2300 Custom_LK_LodgingHouse 20 4 1",
+    "rain_noBridge": "630 Custom_LK_LodgingHouse 17 14 0/700 Custom_LK_LodgingHouse 20 14 2/1100 Custom_LK_LodgingHouse 8 14 2/1300 Beach 42 36 2/1800 Custom_LK_LodgingHouse 18 14 2/2300 Custom_LK_LodgingHouse 20 4 1",
+    "spring_15": "610 Custom_LK_LodgingHouse 18 14 2/650 Town 95 51 0/830 JojaMart 9 25 1 Jessie_work/1700 Town 46 32 2/2100 Town 35 20 0 0/2300 Custom_LK_LodgingHouse 20 4 1",
+    "spring": "610 Custom_LK_LodgingHouse 18 14 2/900 Custom_LK_ClearingHouse 17 21 3 Jessie_waterL/1100 Custom_LK_ClearingHouse 12 13 2 Jessie_waterF/1300 Custom_LK_ClearingHouse 9 17 1 Jessie_waterR/1500 Town 95 51 0/1700 JojaMart 9 25 1 Jessie_work/2300 Town 29 13/2500 Custom_LK_LodgingHouse 20 4 1",
+    "Tue": "610 Custom_LK_LodgingHouse 18 14 2/1000 SeedShop 15 23 0/1230 SeedShop 21 20 0 Jessie_exercise/1600 Town 95 51 0/1700 JojaMart 9 25 1 Jessie_work/2300 Town 35 20 2/2500 Custom_LK_LodgingHouse 20 4 1",
+    "Sat": "610 Custom_LK_LodgingHouse 18 14 2/650 Town 95 51 0/830 JojaMart 9 25 1 Jessie_work/2300 Town 35 20 0/2500 Custom_LK_LodgingHouse 20 4 1",
+    "Sun": "610 Custom_LK_LodgingHouse 18 14 2/650 Town 95 51 0/830 JojaMart 9 25 1 Jessie_work/1700 Town 46 32 2/2100 Town 35 20 0 0/2300 Custom_LK_LodgingHouse 20 4 1",
+    "summer": "GOTO spring",
+    "fall": "GOTO spring",
+    "winter": "GOTO spring",
+    "JojaMart_Replacement": "Custom_LK_LodgingHouse 7 14 0"
+}

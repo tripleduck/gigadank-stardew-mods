@@ -1,0 +1,232 @@
+{ 
+  "Changes": [
+    
+  {   "LogName": "Movie Theatre Default",
+      "Action": "EditData", 
+      "Target": "Data/MoviesReactions",	 
+          "Entries": {
+  //Juliet Movie Tastes          
+              "Juliet":   {
+                    "NPCName": "Juliet",
+                    "Reactions": [
+                      {   "Tag": "spring_movie_0",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {  
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "A kids' movie, really?"
+                                          },
+                                "DuringMovie": {
+                                      "ResponsePoint": "sprout_leave",
+                                      "Script": "/message \"(Juliet seems to be rubbing her eyes a lot.\"",
+                                      "Text": "Damn hayfever. All the dust in here...$s"
+                                          },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "What? I wasn't crying. Not at a sappy kids' movie. Don't be ridiculous!$5"
+                                          }
+                               },
+                       "ID": "reaction_1"
+                         },
+                      {   "Tag": "fall_movie_1",
+                          "Response": "love",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Oooh I hope there's lots of blood and gore!"
+                                      },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "/emote Juliet 20",
+                                      "Text": "Are you scared? You look scared! Do you need me to hold your hand?$1"
+                                      },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Fan-freaking-tastic! Hey, you know what we should do now? Go for a long walk in the dark woods.$1#$b#Hah, @, your face!$1"
+                                          }
+                                    },
+                          "ID": "reaction_2"
+                          },
+                      {   "Tag": "fall_movie_0",
+                          "Response": "love",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Oooh I hear this one is creepy and weird! Bring. It. On!"
+                                          },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "/emote Juliet 20",
+                                      "Text": "This is great!"
+                                      },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Oh, I could see that one again, and again! Maybe eventually I'll figure out what the heck was going on!"
+                                    }
+                                },
+                          "ID": "reaction_3"
+                                    },
+                      {   "Tag": "winter_movie_1",
+                          "Response": "dislike",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Fine... well if you've got your heart set on this holiday sap, so be it. I could do with a nap."
+                                      },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "/message \"Juliet looks bored.\"",
+                                      "Text": ""
+                                      },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "*yawns* Well that was a steaming pile of sentimental bull-dung. Next time I choose the movie, okay?$5"
+                                      }
+                                },
+                            "ID": "reaction_4"
+                                  },
+                      {   "Tag": "*",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "{{GenericMovieDialogue}}"
+                                      },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Well, I was entertained. How about you?"
+                                      }
+                                },
+                          "ID": "reaction_0"
+                          }
+                      ]
+               },
+  //Jessie Movie Tastes
+            "Jessie":   {
+                  "NPCName": "Jessie",
+                        "Reactions": [
+                            {   "Tag": "spring_movie_1",
+                                "Response": "love",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {  
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Our world certainly is beautiful. I'm looking forward to seeing this one."
+                                                    },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "/message \"(Jessie stares engrossed at the screen.)\"",
+                                            "Text": ""
+                                            },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Oh, what an extraordinary world we live in."
+                                            }
+                                      },
+                                "ID": "reaction_1"
+                              },
+                            {   "Tag": "fall_movie_1",
+                                "Response": "hate",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Juliet was raving about this one. I love her... but I'm not sure I trust her tastes!"
+                                              },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "/message \"(Jessie's eyes are firmly closed)\"",
+                                            "Text": ""
+                                              },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Oh... that's going to give me nightmares...$s"
+                                        }
+                                  },
+                                "ID": "reaction_2"
+                              },
+                            {   "Tag": "fall_movie_0",
+                                "Response": "hate",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Juliet loved this one... Therefore I'm a little concerned.$2"
+                                                },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": ""
+                                            },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Please never bring me to a horror movie again.$2"
+                                          }
+                                      },
+                                "ID": "reaction_3"
+                                          },
+                            {   "Tag": "*",
+                                "Response": "like",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "It's a pleasure to spend time with you. I hope the birds are happy here."
+                                            },
+                                      "DuringMovie": null,
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Thank you for inviting me, @. I really enjoyed it.$1"
+                                            }
+                                      },
+                              "ID": "reaction_0"
+                              }
+                    ]
+                  }
+            }
+      },
+{   "LogName": "Movie Theatre - Concession Tastes Default",	
+    "Action": "EditData",	
+    "Target": "Data/ConcessionTastes", 
+    "Entries":  { 
+        "Juliet": {  
+            "Name": "Juliet",
+	      "LovedTags": [	"Sour Slimes",	"Personal Pizza",	"Nachos",		"Stardrop Sorbet",    "Black Licorice" ],
+	      "LikedTags": [  "Ice Cream Sandwich",	  "Popcorn",	  "Chocolate Popcorn"	],
+            "DislikedTags": [ "Hummus Snack Pack",  "Kale Smoothie",	  "Salmon Burger"    ] 
+                  },
+        "Jessie": {
+            "Name": "Jessie",
+            "LovedTags": [	"Stardrop Sorbet", "Jasmine Tea", "Panzanella Salad"   ],
+            "LikedTags": [  "Hummus Snack Pack", "Kale Smoothie", "Popcorn", "Chocolate Popcorn"	],
+            "DislikedTags": [ "Personal Pizza",	"Nachos",	"Ice Cream Sandwich",	"Salmon Burger"    ] 
+                  }
+           }
+       }
+
+  ]
+}

@@ -1,0 +1,53 @@
+﻿[
+    //Theme Songs
+    {
+        "Id": "GabrielTheme",
+        "Filepath": "Music/GabrielTheme.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+
+	{
+        "Id": "ZinniaTheme",
+        "Filepath": "Music/ZinniaTheme.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+
+	{
+        "Id": "ZinniaSorrow",
+        "Filepath": "Music/ZinniaSorrow.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+
+	{
+        "Id": "SillyTheme",
+        "Filepath": "Music/SillyTheme.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+
+	{
+        "Id": "DaisyFarewell",
+        "Filepath": "Music/DaisyFarewell.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+
+]

@@ -1,0 +1,636 @@
+{
+    "Changes": [
+        //Egg Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 31 61 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Juliet 39 70 3",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 18 57 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Jessie 18 57 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 7 65 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Jessie 16 57 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        //FLower Dance 
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 31 41 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Juliet 22 32 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 25 25 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Jessie 19 30 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 25 26 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Jessie 19 30 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "Spouse |contains=Wizard": false
+            }
+        },
+        //Luau
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 26 17 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Juliet 25 19 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 41 17 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Jessie 37 15 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 50 22 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 26 20 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "86571101"
+            }
+        },
+        //Moonlight Jellies
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 9 9 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 9 10 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "86571101"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 54 7 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 73 6 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        //Fair
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 22 63 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 6 65 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "set-up",
+                        8
+                    ],
+                    "Value": "advancedMove Gremlin true 6 0 0 -6 1 3000 0 6 -6 0 1 3000",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "86571101"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 68 71 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //Spirit's Eve
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 26 23 down",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 34 69 down",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        //Ice Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 35 25 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 34 25 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "86571101"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 64 45 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 116 15 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        //Winter Star
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 23 62 2",
+                    "Delimiter": "/"
+                }
+            ],
+            /*"When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }*/
+        },
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 22 62 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },*/
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 44 58 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 12 57 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        //Festival Dialogue for Jessie and Juliet
+        {
+            "LogName": "Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "Juliet": "Hey farmer, you gonna chase after the eggs? Me? Nah. I think I'd rather hang back and check out the talent.$8",
+                "Jessie": "Hello @. You know, it would be nice if the kids could win the egg hunt for once.$1#$b#But Abigail? She's been winning it every year since she was a child. Very competitive spirit, that lass."
+            }
+        },
+        {
+            "LogName": "Flower Dance Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/spring24",
+            "Entries": {
+                "Juliet": "How quaint, everyone's all paired neatly off. Wanna shake it up a bit, @?$9#$b#Go on, ask Sebastian to dance, I dare ya.^Go on, ask Abigail to dance, I dare ya.$9",
+                "Jessie": "It's lovely to see everyone gathered together, but a little overwhelming too."
+            }
+        },
+        {
+            "LogName": "Luau Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/summer11",
+            "Entries": {
+                "Juliet": "Did you find something good to add to the soup? I was gonna put in one of those red mushrooms, but Jessie talked me out of it.",
+                "Jessie": "I'm pleased to see you made it. Hopefully I won't need any of my special ginger tea tomorrow!",
+                "Gremlin": "Arf!$4"
+            }
+        },
+        {
+            "LogName": "Jellyfish Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Juliet": "Hey @! If I were to jump in right now, do you think they'd consider me one of their own?$12#$b#Nah, they'd probably just sting me to death!$12",
+                "Gremlin": "Arp?#$b#%Gremlin seems to be watching the water.",
+                "Jessie": "There's something mystical about the jellyfish. They're so insubstantial, yet they travel so far and visit us every year."
+            }
+        },
+        {
+            "LogName": "Fair Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/fall16",
+            "Entries": {
+                "Juliet": "Not meaning to brag, but I'm so good with the slingshot that they won't let me play anymore.$13#$b#I pretend I'm shooting Morris between the eyes!$13",
+                "Jessie": "Too much excitement for me, my dear. I would rather stay here and let Linus keep me company.",
+                "Gremlin": "Arp!$1#$b#%Gremlin looks at you expectantly, hoping your brought her a treat."
+            }
+        },
+        {
+            "LogName": "Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Juliet": "Have you heard the tale of the Woman in White, @? No?$14#$b#Legend says she lost her child, long ago, then took her own life in despair.$14#$b#On Spirit's Eve, when the veil between our world and the shadow world grows thin, she prowls the woods, seeking that which she has lost...$14#$b#...an innocent child to claim as her own.$14",
+                "Jessie": "Oh... Spirit's Eve sends shivers down my spine. The folk here don't realize that it's their happiness and good cheer that keeps the void's creeping touch at bay.$2"
+            }
+        },
+        {
+            "LogName": "Ice Festival Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+                "Juliet": "Got bored too, eh? I mean, snowmen are cool and all that...#$b#Hah, get it? Yeh, sometimes I just kinda want a bit of space to myself, you know?$3",
+                "Jessie": "I hope you're keeping warm today, @. Festivals are a good opportunity to catch up with everyone.",
+                "Gremlin": "Arp!#$b#%Gremlin licks snow from your hands. She's very warm."
+            }
+        },
+        {
+            "LogName": "Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Juliet": "Hey @! Happy Winter Star. Hope you get an extra special something this year.",
+                "Jessie": "It's so lovely to see everyone gathered together."
+            }
+        },
+        {
+            "LogName": "Ice Festival Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Juliet": "Hey babe! Chilly, isn't it? Wanna snuggle for warmth? Here, I got you a little something.[459]"
+            },
+            "When": {
+                "Relationship:Juliet": "Dating, engaged, married"
+            }
+        }
+    ]
+}

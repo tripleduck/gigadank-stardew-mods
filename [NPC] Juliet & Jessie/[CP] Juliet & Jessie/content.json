@@ -1,0 +1,610 @@
+{
+        "Format": "1.23.0",
+        "CustomLocations": [
+                {
+                        "Name": "Custom_LK_ClearingHouse",
+                        "FromMapFile": "assets/Maps/ClearingHouse.tmx"
+                },
+                {
+                        "Name": "Custom_LK_LodgingHouse",
+                        "FromMapFile": "assets/Maps/LodgingHouse.tmx"
+                },
+                {
+                        "Name": "Custom_LK_JojaBreakRoom",
+                        "FromMapFile": "assets/Maps/JojaBreakRoom.tmx"
+                },
+                {
+                        "Name": "Custom_LK_TheaterBreakroom",
+                        "FromMapFile": "assets/Maps/TheaterBreakroom.tmx"
+                },
+                {
+                        "Name": "Custom_LK_LodgingHouseBasement",
+                        "FromMapFile": "assets/Maps/LodgingHouseBasement.tmx"
+                }
+        ],
+        "ConfigSchema": {
+                "LoadJojaMart": {
+                        "AllowValues": "true, false",
+                        "Default": "true"
+                },
+                "TownMap": {
+                        "AllowValues": "default, reimagined, SVE",
+                        "Default": "default"
+                }, //can remove SVE if recolor/door patch is left universal
+                "atdsdv": {
+                        "AllowValues": "none,standard, warm",
+                        "Default": "standard"
+                },
+                "alternateWallsNFloors": //for recolor compatibility (enabled does nothing and lets the mod proceed with standard load; ONLY FOR VANILLA)
+                {
+                        "AllowValues": "disabled, enabled",
+                        "Default": "disabled"
+                }
+        },
+        "DynamicTokens": [
+                //Loads ES Schedules if East Scarpe is installed but SVE is not
+                {
+                        "Name": "LoadESMap",
+                        "Value": "false"
+                },
+                {
+                        "Name": "LoadESMap",
+                        "Value": "true",
+                        "When": {
+                                "HasMod": "LemurKat.EastScarpe.CP"
+                        }
+                },
+                {
+                        "Name": "LoadESMap",
+                        "Value": "false",
+                        "When": {
+                                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+                        }
+                },
+                //Is Juliet's Boss Lewis or Morris? 
+                {
+                        "Name": "bossGuy",
+                        "Value": "Lewis",
+                        "When": {
+                                "IsCommunityCenterComplete": true
+                        }
+                },
+                {
+                        "Name": "bossGuy",
+                        "Value": "Morris",
+                        "When": {
+                                "IsCommunityCenterComplete": false
+                        }
+                },
+                //Spirit's Eve Costume
+                {
+                        "Name": "Costume",
+                        "Value": "{{Random:Pirate, Zombie}}"
+                },
+                {
+                        "Name": "Costume",
+                        "Value": "Pirate",
+                        "When": {
+                                "HasMod": "lunakatt.lunakattsDCBurgerStylePortraitsforJuliet"
+                        }
+                },
+                //Determines what gifts Jessie can give in her 2-heart event
+                {
+                        "Name": "JessGift",
+                        "Value": "453"
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 431",
+                        "When": {
+                                "Hearts:Haley": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 482",
+                        "When": {
+                                "Hearts:Shane": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 453",
+                        "When": {
+                                "Hearts:Penny": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 490",
+                        "When": {
+                                "Hearts:Abigail": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 745",
+                        "When": {
+                                "Hearts:Maru": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 802",
+                        "When": {
+                                "Hearts:Sam": "0,1,2,3,4"
+                        }
+                },
+                {
+                        "Name": "JessGift",
+                        "Value": "{{JessGift}} 433",
+                        "When": {
+                                "Hearts:Harvey": "0,1,2,3,4"
+                        }
+                },
+                //Recolor Configurations. This was done by 'The Help'
+                // this mod contains exteriors as well; atdsv token removed for people who want both this and atdsv
+                {
+                        "Name": "recolor",
+                        "Value": "vanilla",
+                        "When": {
+                                "HasMod |contains=Hesper.RusticCountrysideTownInterior": false,
+                                "HasMod |contains=minervamaga.CP.ATDSV": false
+                        }
+                },
+                {
+                        "Name": "recolor",
+                        "Value": "rusticInteriors",
+                        "When": {
+                                "HasMod |contains=Hesper.RusticCountrysideTownInterior": true,
+                                "HasMod |contains=minervamaga.CP.ATDSV": false
+                        }
+                },
+                {
+                        "Name": "recolor",
+                        "Value": "atdsdvStandard",
+                        "When": {
+                                "HasMod |contains=minervamaga.CP.ATDSV": true,
+                                "atdsdv": "standard"
+                        }
+                },
+                {
+                        "Name": "recolor",
+                        "Value": "atdsdvWarm",
+                        "When": {
+                                "HasMod |contains=minervamaga.CP.ATDSV": true,
+                                "atdsdv": "warm"
+                        }
+                },
+                {
+                        "Name": "recolor",
+                        "Value": "seasside",
+                        "When": {
+                                "HasMod |contains=rainkius.SeasideValley": true,
+                                "atdsdv": "none"
+                        }
+                },
+                //Dialogue For Jessie's 4-heart event
+                {
+                        "Name": "GatherText",
+                        "Value": "fiddlehead ferns.#$b#They may be an acquired taste, but they're rich in vitamins and minerals.#$b#However, take care if you cook them, for undercooked... they can cause digestive discomfit.$2",
+                        "When": {
+                                "Season": "Summer"
+                        }
+                },
+                {
+                        "Name": "GatherText",
+                        "Value": "morels.#$b#They're something of a delicacy, both to humans and bears, so keep a watchful eye out!",
+                        "When": {
+                                "Season": "Spring"
+                        }
+                },
+                {
+                        "Name": "GatherText",
+                        "Value": "chanterelles.#$b#Not only are they delicious, but they're also a rich source of vitamins and minerals.",
+                        "When": {
+                                "Season": "Fall"
+                        }
+                },
+                {
+                        "Name": "GatherText",
+                        "Value": "holly.#$b#I don't recommend eating the berries, but the leaves are useful for treating winter coughs and chest congestion.",
+                        "When": {
+                                "Season": "Winter"
+                        }
+                },
+                //Added flavour for Jessie's 10-heart event
+                {
+                        "Name": "MusicalInterlude",
+                        "Value": "pause 500/faceDirection farmer 3/emote farmer 32/pause 2500/faceDirection farmer 2/emote Jessie 56 true/emote farmer 56 true"
+                },
+                {
+                        "Name": "MusicalInterlude",
+                        "Value": "pause 500/faceDirection farmer 3/emote farmer 32/pause 2500/playSound dwop/showFrame 98/emote Jessie 16/pause 500/speak Jessie \"Oh! You have hidden talents, @!\"/pause 500/emote Jessie 56",
+                        "When": {
+                                "HasSeenEvent": "2"
+                        }
+                },
+                //Platonic or Romantic for Juliet's 10-heart event
+                {
+                        "Name": "10HeartReact",
+                        "Value": "emote Juliet 20/pause 1000"
+                },
+                {
+                        "Name": "10HeartReact",
+                        "Value": "animate Juliet false false 4500 28/animate farmer true false 4500 101/positionOffset farmer -10 0/positionOffset Juliet 10 0/textAboveHead Juliet \"<\"",
+                        "When": {
+                                "HasDialogueAnswer": "639899"
+                        }
+                },
+                {
+                        "Name": "GenericMovieDialogue",
+                        "Value": "It's weird to be on this side of the counter! Hi Kevin!",
+                        "When": {
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                        }
+                },
+                {
+                        "Name": "GenericMovieDialogue",
+                        "Value": "Hey Claire! You're looking happy. It suits you!",
+                        "When": {
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+                        }
+                },
+                //14-heart Event Participants
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "Marlon 28 8 2 Marnie 35 8 2"
+                },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "Marlon 28 8 2 Marnie 29 8 2",
+                        "When": {
+                                "HasSeenEvent": "50706110"
+                        }
+                },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} Vincent 40 10 0 Jas 41 10 0 Willy 43 11 3 Penny 38 10 1 Lewis 33 11 1 Caroline 24 11 1 Jodi 25 11 3 Wizard 22 11 1 Alex 27 12 1 Haley 28 12 3 Kent 22 15 1 Gus 23 18 1 Pam 23 20 1 Harvey 26 21 0 Shane 29 19 3 Clint 27 17 2 Pierre 26 9 2 Emily 30 15 2 Gunther 30 18 0 Leah 34 17 1 Elliott 35 16 2 Robin 36 17 3 Sam 38 15 1 Abigail 39 14 2 Sebastian 40 15 3 Demetrius 43 15 3 Maru 46 13 0 Evelyn 39 19 2 George 40 19 2 Linus 42 20 3 Jessie 38 20 1 Juliet 32 11 3 farmer 32 23 0"
+                },
+                //Adds selected custom NPCs: Jasper, Tristan and Luckiel (if installed)
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} Jasper 43 12 3",
+                        "When": {
+                                "HasMod": "Lemurkat.NPCJasper"
+                        }
+                },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} MisterGinger 43 16 3",
+                        "When": {
+                                "HasSeenEvent": "5295000",
+                                "HasMod": "Lemurkat.Tristan.CP"
+                        }
+                },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} Lucikiel 28 21 0",
+                        "When": {
+                                "HasMod": "Arknir.Lucikiel"
+                        }
+                },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} Jade 36 11 3",
+                        "When": {
+                                "HasMod": "malic.cp.jadeNPC"
+                        }
+                },
+                //Main Event Rearrangement, includes custom NPCs
+                {
+                        "Name": "Juliet_MainEvent",
+                        "Value": "warp Gunther 31 17 true/warp Jessie 39 15 true/faceDirection Jessie 3 true/warp Juliet 34 11 true/faceDirection Juliet 2 true/warp farmer 35 13 true/warp Vincent 26 11 true/faceDirection Vincent 1 true/warp Jas 37 12 true/faceDirection Jas 3 true/faceDirection Penny 3 true/warp Lewis 36 8 true/faceDirection Lewis 2 true/warp Caroline 25 10 true/faceDirection Jodi 1 true/warp Kent 22 14 true/warp Gus 25 14 true/warp Pam 26 16 true/faceDirection Pam 0 true/warp Harvey 24 13 true/faceDirection Harvey 1 true/warp Shane 38 13 true/warp Clint 28 15 true/faceDirection Clint 0 true/faceDirection Pierre 1 true/faceDirection Emily 0 true/warp Gunther 31 17 true/warp Leah 36 15 true/faceDirection Leah 0 true/warp Elliott 35 15 true/faceDirection Elliott 0 true/warp Robin 33 17 true/faceDirection Robin 0 true/warp Sam 32 14 true/faceDirection Sam 0 true/warp Abigail 31 14 true/faceDirection Abigail 0 true/warp Sebastian 33 14 true/faceDirection Sebastian 0 true/warp Demetrius 34 17 true/faceDirection Demetrius 0 true/warp Maru 42 12 true/faceDirection Maru 3 true/warp Evelyn 41 14 true/faceDirection Evelyn 3 true/warp George 40 14 true/faceDirection George 3 true/warp Linus 38 16 true/faceDirection Linus 0 true/warp Jessie 39 15 true/faceDirection Jessie 3 true/warp Juliet 34 11 true/faceDirection Juliet 2 false/warp farmer 35 13 false"
+                },
+                {
+                        "Name": "Juliet_MainEvent",
+                        "Value": "{{Juliet_MainEvent}}/warp Jasper 43 15/faceDirection Jasper 3",
+                        "When": {
+                                "HasMod": "Lemurkat.NPCJasper"
+                        }
+                },
+                {
+                        "Name": "Juliet_MainEvent",
+                        "Value": "{{Juliet_MainEvent}}/warp MisterGinger 43 13/faceDirection MisterGinger 3",
+                        "When": {
+                                "HasSeenEvent": "5295000",
+                                "HasMod": "LemurKat.Tristan.CP"
+                        }
+                },
+                {
+                        "Name": "Juliet_MainEvent",
+                        "Value": "{{Juliet_MainEvent}}/warp Lucikiel 29 17/faceDirection Lucikiel 0",
+                        "When": {
+                                "HasMod": "Arknir.Lucikiel"
+                        }
+                },
+                //Adds Lucikiel's reactions into 14-heart event
+                {
+                        "Name": "Clint_Heckle",
+                        "Value": "textAboveHead Pam \"Get on with it!\""
+                },
+                {
+                        "Name": "Clint_Heckle",
+                        "Value": "textAboveHead Pam \"Get on with it!\"/pause 500/emote Lucikiel 12/pause 500/textAboveHead Lucikiel \"Show 'em, Beardy!\"",
+                        "When": {
+                                "HasMod": "Arknir.Lucikiel"
+                        }
+                },
+                {
+                        "Name": "Clint_Heckle2",
+                        "Value": "textAboveHead Pam \"Impressive...\""
+                },
+                {
+                        "Name": "Clint_Heckle2",
+                        "Value": "textAboveHead Lucikiel \"Nice work.\"",
+                        "When": {
+                                "HasMod": "Arknir.Lucikiel"
+                        }
+                },
+                {
+                        "Name": "Clint_Heckle3",
+                        "Value": "emote Emily 32/emote Clint 60"
+                },
+                {
+                        "Name": "Clint_Heckle3",
+                        "Value": "emote Emily 32/emote Clint 60/pause 500/emote Lucikiel 12",
+                        "When": {
+                                "HasMod": "Arknir.Lucikiel"
+                        }
+                }
+        ],
+        //These files contains the actual code for each NPC!
+        "Changes": [
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/Jessie.json"
+                },
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/Juliet.json"
+                },
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/LodgingHouse.json",
+                        "When": {
+                                "LoadESMap": "false"
+                        }
+                },
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/ES_LodgingHouse.json",
+                        "When": {
+                                "LoadESMap": "true"
+                        }
+                },
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/MovieTastes.json"
+                },
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/Festivals.json"
+                },
+                // SVE AND RECOLOR COMPATIBILITY EDIT: JOJAMART BACKDOOR
+                {
+                        "LogName": "JojaMart backdoor for SVE and optional interior recolors",
+                        "Action": "EditMap",
+                        "Target": "Maps/JojaMart",
+                        "FromFile": "assets/Maps/JojaMart-Backdoor-{{recolor}}.tmx",
+                        "FromArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 2,
+                                "Height": 5
+                        },
+                        "ToArea": {
+                                "X": 2,
+                                "Y": 1,
+                                "Width": 2,
+                                "Height": 5
+                        },
+                        "When": {
+                                "IsCommunityCenterComplete": false
+                        }
+                },
+                //Counter chance
+                {
+                        "LogName": "Changes out the counter",
+                        "Action": "EditMap",
+                        "Target": "Maps/JojaMart",
+                        "FromFile": "assets/Maps/JojaMart-Counter.tmx",
+                        "FromArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 2,
+                                "Height": 4
+                        },
+                        "ToArea": {
+                                "X": 8,
+                                "Y": 23,
+                                "Width": 2,
+                                "Height": 4
+                        },
+                        "When": {
+                                "IsCommunityCenterComplete": false,
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                        }
+                },
+                // Optional Universal Recolor Compat and Disabling Alternating Tiles
+                {
+                        "LogName": "Theater Breakroom - Alternate Walls and Floors",
+                        "Action": "EditMap",
+                        "Target": "Maps/Custom_LK_TheaterBreakroom",
+                        "FromFile": "assets/Maps/TheaterBreakroomAlternateWalls-enabled.tmx",
+                        "FromArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 22,
+                                "Height": 22
+                        },
+                        "ToArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 22,
+                                "Height": 22
+                        },
+                        "When": {
+                                "HasMod |contains=RusticCountry.wallsandfloors": false,
+                                "alternateWallsNFloors": "disabled"
+                        }
+                },
+                // Rustic Country Walls and Floors compatibility
+                {
+                        "LogName": "Theater Breakroom - Rustic Country Walls and Floors",
+                        "Action": "EditMap",
+                        "Target": "Maps/Custom_LK_TheaterBreakroom",
+                        "FromFile": "assets/Maps/TheaterBreakroom-rusticWalls.tmx",
+                        "FromArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 22,
+                                "Height": 22
+                        },
+                        "ToArea": {
+                                "X": 9,
+                                "Y": 26,
+                                "Width": 22,
+                                "Height": 22
+                        },
+                        "When": {
+                                "HasMod |contains=RusticCountry.wallsandfloors": true
+                        }
+                },
+                //EDITS END
+                {
+                        "LogName": "Add dirt tile underneath Joja to try and eliminate voiding issue.",
+                        "Action": "EditMap",
+                        "Target": "Maps/Town",
+                        "MapTiles": [
+                                {
+                                        "Position": {
+                                                "X": 95,
+                                                "Y": 50
+                                        },
+                                        "Layer": "Back",
+                                        "SetTileSheet": "Landscape",
+                                        "SetIndex": "153"
+                                }
+                        ]
+                },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromMaps",
+                        "Entries": {
+                                "ClearingHouse.1": "Looks like a litterbug lives here.",
+                                "ClearingHouse.2": "This garden looks well tended. Someone clearly takes great pride in it.",
+                                "ClearingHouse.3": "Oh... it looks empty. Where's the doggy?",
+                                "ClearingHouse.4": "The crystals look tacky, but standing near them you feel a sense of peace wash over you. Interesting.",
+                                "JojaBR.000": "WASH YOUR OWN DISHES",
+                                "JojaBR.001": "None yet",
+                                "JojaBR.002": "CLEAN AFTER USE.",
+                                "JojaBR.003": "They're locked.",
+                                "JojaBR.004": "Juliet's locker is covered in stickers of unicorns. Some are making crude hand gestures. One is vomiting a rainbow.",
+                                "JojaBR.005": "Joja Cola Max for 'enhanced productivity'.^('Side effects may include: high blood pressure, heart disease, diabetes, tooth decay, and enhanced appetite for creophagy).'",
+                                "LodgingHouse.000": "The kitchen is spotless, and smells fresh and clean.",
+                                "LodgingHouse.001": "You spot a missing piece of the puzzle. It slots in perfectly! Success!",
+                                "LodgingHouse.002": "It's password protected. Also, it's very rude to snoop!",
+                                "LodgingHouse.003": "It's tuned to the gardening channel.",
+                                "LodgingHouse.004": "Slipped in between a Gardener's Manual and a Field Guide to Birds of the Valley, there's a battered copy of... oooh... someone here likes their literature spicy!",
+                                "LodgingHouse.005": "The artist really loves color. Perhaps a little TOO much...",
+                                "LodgingHouse.006": "Are these for relaxation or yoga? Who knows?",
+                                "LodgingHouse.007": "Wow, Juliet certainly likes her music loud and angry.",
+                                "LodgingHouse.008": "Juliet certainly has eclectic taste - and some of these titles are making you blush.",
+                                "LodgingHouse.009": "Various books on herbology... and spellcraft? Is there something Jessie hasn't told you?",
+                                "LodgingHouse.010": "A collection of gardening journals, with a few herbology titles mixed in.",
+                                "LodgingHouse.011": "The battered bunny stares at you with weary eyes. It's threadbare and... are those bite marks?",
+                                "LodgingHouse.012": "you wipe away the fine layer of dust to see a photograph of Jessie and... a child in a costume? It's taken at night, and you can't see their face.",
+                                "LodgingHouse.013": "The family in here don't look human. They've been crafted together from clothespegs and pompoms and wool.",
+                                "LodgingHouse.014": "A pile of children's classics.",
+                                "LodgingHouse.015": "Looks like this is designed to only play DVDs, and they're all kids titles. Movies about family and friendship. Very wholesome.",
+                                "JulesMovie.1": "The owl blinks sleepily at you. It looks well fed.",
+                                "JulesMovie.2": "You put out your hand and the little bird pecks it. Ow!"
+                                //Jule's favourite author: Rachael Morrigan, author of the Cerulean Moon/Sanguine Skies.
+                        }
+                },
+                // Adds the warp so that Juliet can enter the Theater Breakroom (non-SVE). 
+                {
+                        "Action": "EditMap",
+                        "Target": "Maps/Town",
+                        "MapProperties": {
+                                "NPCWarp": "90 43 Custom_LK_TheaterBreakroom 2 11"
+                        },
+                        "When": {
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                                "HasFlag |contains=ccMovieTheater": true
+                        }
+                },
+                { //Adds spouse strings for the movie theater
+                        "Action": "EditData",
+                        "Target": "Strings/Characters",
+                        "Entries": {
+                                "MovieInvite_Spouse_Juliet": "{{Random:Sounds great! Date night!$1++Ooooh, a night on the town! Time to get wild!$1++Heh, I know - we can make out in the back row like a couple of teenagers.$4|inputSeparator=++}}"
+                        }
+                },
+                //Juliet should refuse movie invitiations whilst she is working
+                {
+                        "LogName": "Movie Theatre Default",
+                        "Action": "EditData",
+                        "Target": "Data/MoviesReactions",
+                        "When": {
+                                "DayofWeek": "Monday, Tuesday, Wednesday, Thursday",
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                        },
+                        "Entries": {
+                                "Juliet": {
+                                        "NPCName": "Juliet",
+                                        "Reactions": [
+                                                {
+                                                        "Tag": "*",
+                                                        "Response": "reject",
+                                                        "Whitelist": [],
+                                                        "SpecialResponses": null,
+                                                        "ID": "reaction_0"
+                                                }
+                                        ]
+                                }
+                        }
+                },
+                //I said I wouldn't, but I did anyway... with a little help! (The Help didn't want credit :P) : SVE compatibility
+                //Sets Juliet as second teller for JojaMart, changes her schedule from working theater. For extra compatibility (not seen in this file), added a backroom to JojaMart with recolor support for every interior recolor mod that touches JojaMart (that the Help knows of).
+                {
+                        "Action": "Include",
+                        "FromFile": "assets/SVECompatibility.json",
+                        "When": {
+                                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+                        }
+                },
+                {
+                        "LogName": "NPC Exclusion antisocial NPCs",
+                        "Action": "EditData",
+                        "Target": "Data/CustomNPCExclusions",
+                        "Entries": {
+                                "Gremlin": "All"
+                        }
+                },
+                //Spouse Room
+                {
+                        "Action": "EditData",
+                        "Target": "Data/SpouseRooms",
+                        "Entries": {
+                                "Juliet": "Lemurkat_Juliet_SpouseRoom/0"
+                        }
+                },
+                {
+                        "Action": "Load",
+                        "Target": "Maps/Lemurkat_Juliet_SpouseRoom",
+                        "FromFile": "assets/Maps/SpouseRoomJulietRev.tmx"
+                }
+        ]
+}

@@ -1,0 +1,13 @@
+﻿{    
+    "Name": "Adventurer's Guild Expanded Music",
+    "Author": "SUPERT",
+    "Version": "1.0.0",
+    "Description": "Adds Custom Music to the Adventurer's Guild Expansion.",
+    "UniqueID": "supert.guildexpandedsaat",
+    "UpdateKeys": [ "Nexus:???" ],  
+    "ContentPackFor":
+    {
+        "UniqueID": "ZeroMeters.SAAT.Mod",
+        "MinimumVersion": "1.0.3"
+    },
+}

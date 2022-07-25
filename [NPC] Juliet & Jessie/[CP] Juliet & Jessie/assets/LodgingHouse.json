@@ -1,0 +1,104 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-vanilla.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SDR2.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=DaisyNiko.SVR2": true,
+				"HasMod |contains=Karmylla.ImmersiveMaps": true,
+				"TownMap": "reimagined"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SDR2.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains= DaisyNiko.SVR2": true,
+				"HasMod |contains=Karmylla.ImmersiveMaps": false
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-Reimagined1.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=DaisyNiko.StardewValleyReimagined": true
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SVE.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Warp"
+					],
+					"Value": "34 0 Custom_LK_ClearingHouse 24 29",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
+			"LogName": "Removes bushes from their path",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 33,
+						"Y": 15
+					},
+					"Layer": "Paths",
+					"Remove": true
+				}
+			]
+		}
+	]
+}

@@ -4,7 +4,10 @@ The 7 mods were picked by someone somewhere somewhen.
 I am not the owner, developer or maintainer of any of these mods.<br>
 I am simply an enjoyer of Stardew Valley that attempts to use the following mods.
 
+---
+
 All the mods are hosted on NexusMods and are the intellectual property of their respected developers and/or owners
+
 ---
 
 # Table of Contents

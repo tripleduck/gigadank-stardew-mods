@@ -41,6 +41,7 @@
     "TwoKids_1": "I love the little monsters, but they're really a handful.#$b#I don't think %kid1 ever sleeps. I've got up in the middle of the night, and they've just been staring at me.",
     "TwoKids_2": "Aww, isn't it cute the way the little monsters play together?#$b#Though maybe you should have a word to %kid1 about biting.",
     "TwoKids_3": "%kid1 drew a picture of us today. It's on the fridge.#$b#Yeh, they've got your likeness down pat, haven't they?",
+    "Good_0":"Good morning gorgeous! Hard to believe I actually got hitched.#$b#Yeh, I love you, for what it's worth.$4",
     "Good_1": "Hey gorgeous. Is that a new scent you're wearing? No? Hmm, well anyway, I like it.",
     "Good_2": "Don't you look delicious this morning? I'd drag you back to bed, but I know - you've got work to do.$1#$b#But maybe we could have an early night?",
     "Good_3": "Good morning lover! Never thought I'd be the marrying type, but hey...$3#$b#I've got this wicked farm, and a sexy husband.^I've got this wicked farm, and an amazing wife.$4#$b#Married life ain't half bad.$1",
@@ -50,6 +51,8 @@
     "Good_7": "Got any plans for this evening?#$b#No? Well that's good, because I have. Come here.$4",
     "Neutral_0": "I hope Gremlin's going okay with Jessie. At least she won't be lonely.",
     "Neutral_1": "Oooh, my latest order of books arrived yesterday. Guess what I'm gonna be doing today?",
+    "Neutral_3":"Hey, if you're headed into town today, give Lewis my love.#$b#Hah! Just kidding. But you can tell him I say 'hi', I guess.$1",   
+    "Neutral_4":"Hey lover! Figured I'd do some laundry for you this morning, so you could get right back on the farm.#$b#Err... but I found this red sock in it. You like the color pink, right?$1",
     "Neutral_6": "Are you going to be away from the farm today, @? I hope so, cos I'm planning of crankin' up the volume and rocking the walls.",
     "Neutral_7": "Yeah, I know, I could've done some house-work. But I didn't feel like it, okay?$5",
     "Neutral_8": "I've been thinking about getting a new tattoo.#$b#What do you think?",
@@ -57,6 +60,8 @@
     "Bad_6": "I knew marriage was a dumb idea. Shouldn't have let myself fall for your charms.$5",
     "Bad_7": "And I thought my Joja sentence was bad enough... You could talk to me more, you know. I mean, I'm right here!$2",
     "Bad_8": "Yoba, if I'd known I was gonna be a house slave, I'd never have signed the contract.$5",
-    "Bad_9": "Leave me the hell alone. I don't feel like talking right now, alright?$5"
+    "Bad_9": "Leave me the hell alone. I don't feel like talking right now, alright?$5",
+    "fall_1":"Good morning lover! Well, I'm off for the day! Laters!$1#$b#Oh, here's a little something to stop you wearing yourself out. I have plans for you later.$4[240]",
+	"fall_15":"Don't forget the fair's tomorrow! I've been honing my slingshot skills.$1#$b#Oh, and you'd better kickass at the Grange Display. I'd be very disappointed if you didn't beat Pierre."
 
 }

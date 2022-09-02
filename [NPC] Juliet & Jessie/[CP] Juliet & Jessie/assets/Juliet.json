@@ -6,7 +6,7 @@
       "Action": "EditData",
       "Target": "Data/NPCDispositions",
       "Entries": {
-        "Juliet": "adult/rude/outgoing/negative/female/not-datable/null/Town/spring 15/Gremlin 'puppy'/Custom_LK_LodgingHouse 27 6/Juliet"
+        "Juliet": "adult/rude/outgoing/negative/female/not-datable/null/Town/spring 15/Gremlin 'puppy'/Custom_LK_LodgingHouse 22 6/Juliet"
       }
     },
     {
@@ -132,13 +132,13 @@
       "Action": "Load",
       "Target": "Characters/Juliet_FortuneTeller",
       "FromFile": "assets/Characters/Juliet/Juliet_FortuneTeller.png"
-  },
-  { //Kataryna
-    "LogName": "Juliet FortuneTeller",
-    "Action": "Load",
-    "Target": "Portraits/Juliet_FortuneTeller",
-    "FromFile": "assets/Portraits/Juliet/Juliet_FortuneTeller.png"
-},
+    },
+    { //Kataryna
+      "LogName": "Juliet FortuneTeller",
+      "Action": "Load",
+      "Target": "Portraits/Juliet_FortuneTeller",
+      "FromFile": "assets/Portraits/Juliet/Juliet_FortuneTeller.png"
+    },
     //Festivals
     {
       "LogName": "EggFestival",
@@ -351,7 +351,7 @@
       "Target": "Characters/schedules/Juliet",
       "FromFile": "assets/schedules/JulietSchedule.json",
       "When": {
-        "HasSeenEvent |contains=191393": "false"//has not seen Community Center opening = Joja still eopn
+        "HasSeenEvent |contains=191393": "false" //has not seen Community Center opening = Joja still eopn
       }
     },
     {
@@ -371,8 +371,8 @@
       "Target": "Characters/schedules/Juliet",
       "FromFile": "assets/schedules/JulietScheduleJojaClosed.json",
       "When": {
-        "HasSeenEvent |contains=191393": true,//Community Center made
-        "HasFlag |contains=ccMovieTheater": false//theater not built
+        "HasSeenEvent |contains=191393": true, //Community Center made
+        "HasFlag |contains=ccMovieTheater": false //theater not built
       }
     },
     {
@@ -381,8 +381,8 @@
       "Target": "Characters/schedules/Juliet",
       "FromFile": "assets/schedules/JulietScheduleTheater.json",
       "When": {
-        "HasFlag |contains=ccMovieTheater": true,//theater built
-        "HasFlag |contains=ccMovieTheaterJoja": false,//not Joja theater
+        "HasFlag |contains=ccMovieTheater": true, //theater built
+        "HasFlag |contains=ccMovieTheaterJoja": false, //not Joja theater
         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false //No SVE
       }
     },
@@ -392,9 +392,9 @@
       "Target": "Characters/schedules/Juliet",
       "FromFile": "assets/schedules/JulietScheduleJojaClosed.json",
       "When": {
-        "HasFlag |contains=ccMovieTheater": true,//theater built
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,//has SVE
-        "HasSeenEvent |contains=191393": "true"//Joja closed
+        "HasFlag |contains=ccMovieTheater": true, //theater built
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, //has SVE
+        "HasSeenEvent |contains=191393": "true" //Joja closed
       }
     },
     //changes schedule if you encourage her to play drums (ES not installed)
@@ -403,7 +403,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Juliet",
       "Entries": {
-        "Sat": "700 Custom_LK_LodgingHouse 21 16 1/900 Custom_LK_ClearingHouse 16 7 3/1100 SamHouse 16 18 0 Juliet_drums/1500 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 27 6 2 juliet_sleep"
+        "Sat": "700 Custom_LK_LodgingHouse 21 21 1/900 Custom_LK_ClearingHouse 16 7 3/1100 SamHouse 16 18 0 Juliet_drums/1500 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep"
       },
       "When": {
         "HasDialogueAnswer": "8571103, 8571105"
@@ -415,7 +415,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Juliet",
       "Entries": {
-        "Sat": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/950 Custom_LK_ClearingHouse 25 20 2/1030 Custom_EastScarpe 21 102 0/1400 Custom_EastScarpe 56 41 2/1700 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 27 6 2 juliet_sleep"
+        "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/950 Custom_LK_ClearingHouse 25 20 2/1030 Custom_EastScarpe 21 102 0/1400 Custom_EastScarpe 56 41 2/1700 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep"
       },
       "When": {
         "HasSeenEvent": "86571101",
@@ -427,7 +427,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Gremlin",
       "Entries": {
-        "Sat": "700 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1010 Custom_LK_ClearingHouse 24 20 2 Gremlin_sit/1030 Custom_EastScarpe 33 111 1/1400 Custom_EastScarpe 57 40 2/1700 Saloon 41 22 1 Gremlin_sit/2400 Custom_LK_LodgingHouse 27 6 2 Gremlin_sleep"
+        "Sat": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1010 Custom_LK_ClearingHouse 24 20 2 Gremlin_sit/1030 Custom_EastScarpe 33 111 1/1400 Custom_EastScarpe 57 40 2/1700 Saloon 41 22 1 Gremlin_sit/2400 Custom_LK_LodgingHouse 22 6 2 Gremlin_sleep"
       },
       "When": {
         "HasSeenEvent": "86571101",
@@ -500,10 +500,10 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Juliet": "I love the sound of the rain. And the best thing? I don't have to go to work!",
-        "Jessie": "It's a beautiful day, isn't it @? Of course I know it's raining! The plants love it, and it means Juliet is forced to spend quality time with me.$1"
+        "Jessie": "It's a beautiful day, isn't it ? Of course I know it's raining! The plants love it, and it means Juliet is forced to spend quality time with me.$1"
       }
     },
-    //Animations   
+    //Animations  
     {
       "LogName": "Animations",
       "Action": "EditData",
@@ -522,8 +522,8 @@
       "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "Entries": {
-        "Juliet0": "Hmm, last days of freedom. What to do? Oh, I'm teasing, @. I'm excited! Really!",
-        "Juliet1": "Hey, @. I seem to remember there's something I'm supposed to be doing tomorrow... but I can't quite remember what it was.#$b#Just kidding! We're getting hitched and you'll be stuck with me forever!"
+        "Juliet0": "Hmm, last days of freedom. What to do? Oh, I'm teasing, . I'm excited! Really!",
+        "Juliet1": "Hey, . I seem to remember there's something I'm supposed to be doing tomorrow... but I can't quite remember what it was.#$b#Just kidding! We're getting hitched and you'll be stuck with me forever!"
       }
     },
     //Changes Shane's schedule on rainy days
@@ -614,10 +614,10 @@
       "Action": "EditData",
       "Target": "Data/Events/Town",
       "Entries": {
-        "86571101/f Juliet 1000/t 1600 1800/d Sat Sun/w sunny": "none/-100 -100/Juliet 96 53 2 farmer 107 63 0/addTemporaryActor Gremlin 16 32 109 56 1 false/addConversationTopic JulietGremlin 3/animate Gremlin false true 300 22 22 23 23 23/skippable/viewport 100 59/playSound trashcan/move Juliet 0 3 1/pause 500/playSound dogWhining/jump Juliet 3/pause 500/emote Juliet 16/pause 500/playSound trashcan/pause 500/move Juliet 2 0 1/textAboveHead Juliet \"Hey puppy.\"/move Juliet 2 0 1/pause 1000/move Juliet 2 0 1/pause 1000/textAboveHead Juliet \"Don't be scared.\"/pause 1000/move farmer 0 -2 0/pause 500/stopAnimation Gremlin/pause 500/faceDirection Gremlin 3/shake Gremlin 250/showFrame Gremlin 18/pause 500/faceDirection Juliet 2/pause 500/speak Juliet \"Stop! You'll scare her.$5\"/pause 500/emote farmer 28/pause 500/playSound dog_bark/pause 500/shake Gremlin 250/playSound dog_bark/faceDirection Juliet 1/showFrame Juliet 26/pause 500/speak Juliet \"It's okay. We're not gonna hurt you. Here, I got you something.\"/addObject 104 56 641 0/pause 500/emote farmer 40/showFrame Gremlin 12/pause 500/playSound dog_pant/move Gremlin -1 0 3/pause 500/move Gremlin -1 0 3/pause 500/playSound dog_bark/textAboveHead Juliet \"It's okay girl.\"/move Gremlin -2 0 1/animate Gremlin false true 250 26 27 26 27 12 12 12 12/advancedMove Juliet false -1 0 0 5 4 0/faceDirection Juliet 1/pause 1500/speak Juliet \"What? Yeah, it's Joja meat, so mostly water and growth hormones, but it shouldn't hurt her.$3#$b#Yoba, what were you thinking charging in like that?\"/pause 500/faceDirection farmer 3/emote farmer 40/speak Juliet \"$q 86571116 null#You almost scared her away!#$r 8651116 25 Juliet_Gremlin_Apologise#I'm sorry...I didn't mean to scare her#$r 8651116 0 Juliet_Gremlin_Charge#What do you mean charging?#$r 8651118 -50 Juliet_Gremlin_Pest#You shouldn't be encouraging vermin.\"/pause 500/fork 8651118 Juliet_Gremlin_Disgust/pause 500/faceDirection Juliet 0/faceDirection farmer 0/speak Juliet \"Well, no harm, no foul, right? She's been hanging around for days. Poor thing.$2#$b#I've been trying to get her to trust me. Doesn't help Morris throws junk at her everytime he sees her.$5\"/removeSprite 104 56/stopAnimation Gremlin/showFrame Gremlin 0/pause 500/move Gremlin 0 2 2/pause 1000/emote Juliet 32/pause 500/move Gremlin 0 1 2/pause 1000/emote farmer 28/move Gremlin 0 1 2/textAboveHead Gremlin \"Arruuu?\"/pause 500/warp Gremlin -100 -100/showFrame Juliet 27/pause 1000/emote Juliet 20/pause 500/faceDirection farmer 3/emote farmer 32/pause 1000/end dialogue Juliet \"She followed me home, @... I guess I have a dog now?$1\"",
+        "86571101/f Juliet 1000/t 1600 1800/d Sat Sun/w sunny": "none/-100 -100/Juliet 96 53 2 farmer 107 63 0/addTemporaryActor Gremlin 16 32 109 56 1 false/addConversationTopic JulietGremlin 3/animate Gremlin false true 300 22 22 23 23 23/skippable/viewport 100 59/playSound trashcan/move Juliet 0 3 1/pause 500/playSound dogWhining/jump Juliet 3/pause 500/emote Juliet 16/pause 500/playSound trashcan/pause 500/move Juliet 2 0 1/textAboveHead Juliet \"Hey puppy.\"/move Juliet 2 0 1/pause 1000/move Juliet 2 0 1/pause 1000/textAboveHead Juliet \"Don't be scared.\"/pause 1000/move farmer 0 -2 0/pause 500/stopAnimation Gremlin/pause 500/faceDirection Gremlin 3/shake Gremlin 250/showFrame Gremlin 18/pause 500/faceDirection Juliet 2/pause 500/speak Juliet \"Stop! You'll scare her.$5\"/pause 500/emote farmer 28/pause 500/playSound dog_bark/pause 500/shake Gremlin 250/playSound dog_bark/faceDirection Juliet 1/showFrame Juliet 26/pause 500/speak Juliet \"It's okay. We're not gonna hurt you. Here, I got you something.\"/addObject 104 56 641 0/pause 500/emote farmer 40/showFrame Gremlin 12/pause 500/playSound dog_pant/move Gremlin -1 0 3/pause 500/move Gremlin -1 0 3/pause 500/playSound dog_bark/textAboveHead Juliet \"It's okay girl.\"/move Gremlin -2 0 1/animate Gremlin false true 250 26 27 26 27 12 12 12 12/advancedMove Juliet false -1 0 0 5 4 0/faceDirection Juliet 1/pause 1500/speak Juliet \"What? Yeah, it's Joja meat, so mostly water and growth hormones, but it shouldn't hurt her.$3#$b#Yoba, what were you thinking charging in like that?\"/pause 500/faceDirection farmer 3/emote farmer 40/speak Juliet \"$q 86571116 null#You almost scared her away!#$r 8651116 25 Juliet_Gremlin_Apologise#I'm sorry...I didn't mean to scare her#$r 8651116 0 Juliet_Gremlin_Charge#What do you mean charging?#$r 8651118 -50 Juliet_Gremlin_Pest#You shouldn't be encouraging vermin.\"/pause 500/fork 8651118 Juliet_Gremlin_Disgust/pause 500/faceDirection Juliet 0/faceDirection farmer 0/speak Juliet \"Well, no harm, no foul, right? She's been hanging around for days. Poor thing.$2#$b#I've been trying to get her to trust me. Doesn't help Morris throws junk at her everytime he sees her.$5\"/removeSprite 104 56/stopAnimation Gremlin/showFrame Gremlin 0/pause 500/move Gremlin 0 2 2/pause 1000/emote Juliet 32/pause 500/move Gremlin 0 1 2/pause 1000/emote farmer 28/move Gremlin 0 1 2/textAboveHead Gremlin \"Arruuu?\"/pause 500/warp Gremlin -100 -100/showFrame Juliet 27/pause 1000/emote Juliet 20/pause 500/faceDirection farmer 3/emote farmer 32/pause 1000/end dialogue Juliet \"She followed me home, ... I guess I have a dog now?$1\"",
         "Juliet_Gremlin_Disgust": "pause 500/emote Juliet 12/pause 500/faceDirection Juliet 0/pause 1000/emote farmer 28/pause 500/speak Juliet \"%Juliet is ignoring you.\"/pause 1000/end",
-        "86571120/e 86571110/e 86571141/f Juliet 2000/p Juliet/w sunny": "continue/83 32/Juliet 94 25 1 farmer 94 34 0 {{bossGuy}} 94 45 0/skippable/addTemporaryActor Melon 16 16 -100 -100 0 false/animate Juliet false false 150 49 49 49 49 50 50 51/warp Melon 95 25/speed Melon 7/playSound throw/move Melon 6 0 0/warp Melon -100 -100/playSound slimedead/addObject 100 24 255 0/pause 500/animate Juliet false false 150 49 49 49 49 50 50 51/warp Melon 95 25/speed Melon 7/playSound throw/move Melon 6 0 0/warp Melon -100 -100/playSound slimedead/addObject 101 24 255 0/emote farmer 8/showFrame Juliet 49/pause 500/showFrame Juliet 50/move farmer 0 -7 0/pause 500/jump Juliet 2/showFrame Juliet 51/playSound slimedead/addObject 97 25 255 0/faceDirection Juliet 2/emote Juliet 12/speak Juliet \"You startled me!\"/quickQuestion #What are you doing?#Why are you wasting melons?#I'm sorry!(break)speak Juliet \"What does it look like I'm doing?$5\"(break)speak Juliet \"Oh, relax, @. They're not your precious organic farm-grown melons. They're Joja crap destined for the dumpster.\"(break)speak Juliet \"No worries.\"/pause 500/speak Juliet \"I can see why emo-kid enjoys this so much. It's intensely satisfying. Better stress relief than coloring in!#$b#You wanna have a go?\"/emote farmer 40/showFrame Juliet 49/pause 500/speed {{bossGuy}} 3/move {{bossGuy}} 0 -10 0/showFrame Juliet 50/jump {{bossGuy}} 3/pause 500/emote {{bossGuy}} 16/speed {{bossGuy}} 7/move {{bossGuy}} 0 -5 0/emote {{bossGuy}} 16/pause 500/speak {{bossGuy}} \"What are you doing?!!$3\"/faceDirection farmer 2/faceDirection Juliet 2/jump Juliet 3/textAboveHead Juliet \"Busted! Run!\"/speed Juliet 3/move Juliet 0 -2 0 true/speed farmer 3/move farmer 0 -2 0 true/globalFade/viewport -2000 -2000/warp Juliet 46 33/warp farmer 45 33/warp {{bossGuy}} -100 -100/faceDirection Juliet 3/faceDirection farmer 1/positionOffset farmer 0 6/viewport 43 35/pause 500/faceDirection Juliet 1/pause 500/faceDirection Juliet 3/pause 500/textAboveHead Juliet \"Phew!\"/speak Juliet \"That was hilarious! Did you see the look on his face!\"/emote farmer 60/speak Juliet \"But ugh, I suppose I'll suffer the consequences tomorrow. He's such a freaking killjoy.$5\"/pause 500/faceDirection Juliet 1/playMusic desolate/pause 500/emote Juliet 40/speak Juliet \"Sometimes I just feel like I'm a kettle full of bitter, angry energy, @.$5#$b#It boils in every pore and I can't hold it back...$2#$b#Bashing the crap out of the drums helps... Smashing melons helps...#$b#But nothing really wipes away the guilt.$2\"/pause 500/shake Juliet 250/pause 500/move Juliet 3 0 1/pause 500/emote Juliet 28/pause 500/move farmer 3 0 1/pause 500/faceDirection Juliet 3/pause 500/emote Juliet 60/pause 500/speak Juliet \"Yoba, listen to me. You didn't want an invite to my self-pity party.$5#$b#I know I can't change the past... that I've gotta find redemption inside myself. But I'm not gonna lie, it's freaking hard.$2#$b#I'm just real lucky to have people who've got my back: Jessie, Gremlin. And you.$4\"/pause 500/emote farmer 20/speak Juliet \"Thank you, @, for putting up with my BS.$4\"/pause 500/emote Juliet 20/emote farmer 32/pause 400/speak Juliet \"Okay, enough wallowing!#$b#Wanna do something totally crazy? Let's jump naked in the lake!$1\"/pause 500/emote farmer 28/pause 1000/end",
-        "86571141/e 86571101/t 1700 2000": "nightTime/40 57/Juliet 41 57 0 Gremlin 42 57 3 farmer 30 58 1/skippable/pause 500/playSound dogWhining/pause 500/faceDirection Juliet 1/pause 500/showFrame Juliet 26/speak Juliet \"You can't live with me, girl. I... I can't look after you.$2#$b#I'm freaking useless; you'd probably get eaten by a fox or catch a terrible disease or something.$2#$b#Nah, you'll be way better off with a family who love you. You must've had one of those once, right?\"/shake Gremlin 450/move farmer 6 0 1/pause 500/faceDirection Juliet 1/speak Juliet \"Well, there's no sense in standing around here. Come on girl, let's get you something to eat.\"/pause 500/jump Gremlin 5/playSound dog_bark/move Gremlin 0 1 3/faceDirection Juliet 2/emote Juliet 16/speak Juliet \"Were you watching the whole time?$5\"/pause 500/emote farmer 60/pause 500/emote Juliet 40/playSound dog_bark/pause 500/speak Juliet \"$q 86571103 null#Well, I don't suppose you want a dog, do you?#$r 86571104 25 GremlinYes#Sure, she's cute!#$r 86571105 50 GremlinYours#I think she's chosen you, Juliet.#$r 86571105 -50 GremlinNo#No, why would I?\"/fork 86571105 GremlinJules/pause 500/speak Juliet \"You'll be a good dog for @. Won't you girl?$2\"/pause 500/playSound dog_bark/faceDirection Juliet 1/pause 500/showFrame Juliet 26/speak Juliet \"Go on girl, go with @. They'll take good care of you.$2\"/pause 500/faceDirection Juliet 1/move Gremlin -4 0 3 true/faceDirection Juliet 3/showframe 34/playSound dog_pant/speak Juliet \"I'm gonna miss you girl. Take good care of her, @.$2\"/pause 2000/faceDirection Juliet 1/pause 500/faceDirection Gremlin 1/pause 500/playSound dogWhining/move Gremlin 4 0 3/playSound dog_bark/jump Juliet 5/faceDirection Juliet 2/speak Juliet \"You really want to live with me girl?$4\"/pause 500/playSound dog_bark/faceDirection farmer 1/faceDirection Juliet 3/speak Juliet \"Do you think... Are you okay with that @? I mean, I can't promise she won't get eaten by a bear.$4\"/pause 500/emote farmer 32/pause 500/switchEvent GremlinJules",
+        "86571120/e 86571110/e 86571141/f Juliet 2000/p Juliet/w sunny": "continue/83 32/Juliet 94 25 1 farmer 94 34 0 {{bossGuy}} 94 45 0/skippable/addTemporaryActor Melon 16 16 -100 -100 0 false/animate Juliet false false 150 49 49 49 49 50 50 51/warp Melon 95 25/speed Melon 7/playSound throw/move Melon 6 0 0/warp Melon -100 -100/playSound slimedead/addObject 100 24 255 0/pause 500/animate Juliet false false 150 49 49 49 49 50 50 51/warp Melon 95 25/speed Melon 7/playSound throw/move Melon 6 0 0/warp Melon -100 -100/playSound slimedead/addObject 101 24 255 0/emote farmer 8/showFrame Juliet 49/pause 500/showFrame Juliet 50/move farmer 0 -7 0/pause 500/jump Juliet 2/showFrame Juliet 51/playSound slimedead/addObject 97 25 255 0/faceDirection Juliet 2/emote Juliet 12/speak Juliet \"You startled me!\"/quickQuestion #What are you doing?#Why are you wasting melons?#I'm sorry!(break)speak Juliet \"What does it look like I'm doing?$5\"(break)speak Juliet \"Oh, relax, . They're not your precious organic farm-grown melons. They're Joja crap destined for the dumpster.\"(break)speak Juliet \"No worries.\"/pause 500/speak Juliet \"I can see why emo-kid enjoys this so much. It's intensely satisfying. Better stress relief than coloring in!#$b#You wanna have a go?\"/emote farmer 40/showFrame Juliet 49/pause 500/speed {{bossGuy}} 3/move {{bossGuy}} 0 -10 0/showFrame Juliet 50/jump {{bossGuy}} 3/pause 500/emote {{bossGuy}} 16/speed {{bossGuy}} 7/move {{bossGuy}} 0 -5 0/emote {{bossGuy}} 16/pause 500/speak {{bossGuy}} \"What are you doing?!!$3\"/faceDirection farmer 2/faceDirection Juliet 2/jump Juliet 3/textAboveHead Juliet \"Busted! Run!\"/speed Juliet 3/move Juliet 0 -2 0 true/speed farmer 3/move farmer 0 -2 0 true/globalFade/viewport -2000 -2000/warp Juliet 46 33/warp farmer 45 33/warp {{bossGuy}} -100 -100/faceDirection Juliet 3/faceDirection farmer 1/positionOffset farmer 0 6/viewport 43 35/pause 500/faceDirection Juliet 1/pause 500/faceDirection Juliet 3/pause 500/textAboveHead Juliet \"Phew!\"/speak Juliet \"That was hilarious! Did you see the look on his face!\"/emote farmer 60/speak Juliet \"But ugh, I suppose I'll suffer the consequences tomorrow. He's such a freaking killjoy.$5\"/pause 500/faceDirection Juliet 1/playMusic desolate/pause 500/emote Juliet 40/speak Juliet \"Sometimes I just feel like I'm a kettle full of bitter, angry energy, .$5#$b#It boils in every pore and I can't hold it back...$2#$b#Bashing the crap out of the drums helps... Smashing melons helps...#$b#But nothing really wipes away the guilt.$2\"/pause 500/shake Juliet 250/pause 500/move Juliet 3 0 1/pause 500/emote Juliet 28/pause 500/move farmer 3 0 1/pause 500/faceDirection Juliet 3/pause 500/emote Juliet 60/pause 500/speak Juliet \"Yoba, listen to me. You didn't want an invite to my self-pity party.$5#$b#I know I can't change the past... that I've gotta find redemption inside myself. But I'm not gonna lie, it's freaking hard.$2#$b#I'm just real lucky to have people who've got my back: Jessie, Gremlin. And you.$4\"/pause 500/emote farmer 20/speak Juliet \"Thank you, , for putting up with my BS.$4\"/pause 500/emote Juliet 20/emote farmer 32/pause 400/speak Juliet \"Okay, enough wallowing!#$b#Wanna do something totally crazy? Let's jump naked in the lake!$1\"/pause 500/emote farmer 28/pause 1000/end",
+        "86571141/e 86571101/t 1700 2000": "nightTime/40 57/Juliet 41 57 0 Gremlin 42 57 3 farmer 30 58 1/skippable/pause 500/playSound dogWhining/pause 500/faceDirection Juliet 1/pause 500/showFrame Juliet 26/speak Juliet \"You can't live with me, girl. I... I can't look after you.$2#$b#I'm freaking useless; you'd probably get eaten by a fox or catch a terrible disease or something.$2#$b#Nah, you'll be way better off with a family who love you. You must've had one of those once, right?\"/shake Gremlin 450/move farmer 6 0 1/pause 500/faceDirection Juliet 1/speak Juliet \"Well, there's no sense in standing around here. Come on girl, let's get you something to eat.\"/pause 500/jump Gremlin 5/playSound dog_bark/move Gremlin 0 1 3/faceDirection Juliet 2/emote Juliet 16/speak Juliet \"Were you watching the whole time?$5\"/pause 500/emote farmer 60/pause 500/emote Juliet 40/playSound dog_bark/pause 500/speak Juliet \"$q 86571103 null#Well, I don't suppose you want a dog, do you?#$r 86571104 25 GremlinYes#Sure, she's cute!#$r 86571105 50 GremlinYours#I think she's chosen you, Juliet.#$r 86571105 -50 GremlinNo#No, why would I?\"/fork 86571105 GremlinJules/pause 500/speak Juliet \"You'll be a good dog for . Won't you girl?$2\"/pause 500/playSound dog_bark/faceDirection Juliet 1/pause 500/showFrame Juliet 26/speak Juliet \"Go on girl, go with . They'll take good care of you.$2\"/pause 500/faceDirection Juliet 1/move Gremlin -4 0 3 true/faceDirection Juliet 3/showframe 34/playSound dog_pant/speak Juliet \"I'm gonna miss you girl. Take good care of her, .$2\"/pause 2000/faceDirection Juliet 1/pause 500/faceDirection Gremlin 1/pause 500/playSound dogWhining/move Gremlin 4 0 3/playSound dog_bark/jump Juliet 5/faceDirection Juliet 2/speak Juliet \"You really want to live with me girl?$4\"/pause 500/playSound dog_bark/faceDirection farmer 1/faceDirection Juliet 3/speak Juliet \"Do you think... Are you okay with that ? I mean, I can't promise she won't get eaten by a bear.$4\"/pause 500/emote farmer 32/pause 500/switchEvent GremlinJules",
         "GremlinJules": "pause 500/move Gremlin -1 0 0/faceDirection Juliet 2/speak Juliet \"I guess you're stuck with me then girl.$4\"/pause 500/jump Gremlin 4/pause 500/playSound dog_bark/emote Gremlin 20/pause 500/emote Juliet 20/pause 500/speak Juliet \"I promise I'll take good care of you, girl.#$b#I think... I think I'll call you Gremlin. What do you think?$4\"/pause 500/playSound dog_bark/pause 200/warp Gremlin -100 -100/showFrame Juliet 27/pause 2000/end"
       }
     },
@@ -627,7 +627,7 @@
       "Action": "EditData",
       "Target": "Data/Events/JojaMart",
       "Entries": {
-        "86571110/f Juliet 1500/e 86571101/d Sat Sun/t 0900 1700": "none/13 11/Juliet 2 8 1 Morris 4 8 3 farmer 2 13 0/skippable/pause 500/speak Juliet \"...It was going in the trash anyway. It's not my fault that you over-ordered!$5\"/emote Morris 12/emote Juliet 12/shake Juliet 350/faceDirection Juliet 0/textAboveHead Juliet \"Screw you Morris\"/speed Juliet 7/move Juliet 0 -4 0/warp Juliet -100 -100/playSound doorClose/speed farmer 5/move farmer 0 -5 1/textAboveHead Morris \"Insolent brat!\"/emote farmer 40/speed farmer 5/move farmer 0 -4 0/warp farmer -100 -100/playSound doorClose/globalFade/viewport -2000 -2000/changeLocation Custom_LK_JojaBreakRoom/viewport -1000 -1000/warp Morris -100 -100/warp Juliet 2 5/faceDirection Juliet 1/advancedMove Juliet false 6 0 -6 0/viewport 11 7/textAboveHead Juliet \"Idiot...\"/pause 3000/emote Juliet 12/warp farmer 2 10/pause 500/move farmer 0 -2 0/showFrame Juliet 8/quickQuestion #Are you okay?#How can I help?#What have you done now?#Well, Morris is a pillock, isn't he?(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Do I look like I'm freaking okay?$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Don't give me that customer service BS.$4\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Oh, so it's MY fault now, @? I thought we were friends...$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Too freaking right.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"I hate him. Sometimes I wish I could just freaking quit.$5\"/question null \"#Well?...Why don't you?#Say nothing.\"/playMusic sappypiano/speak Juliet \"I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it.$2#$b#Have you ever done something so freaking terrible that it just made you wish you could restart the day afresh and do things different?$2\"/pause 500/emote farmer 28/pause 500/speak Juliet \"No? I have, and I did. And no, I don't want to talk about it.$2\"/pause 500/advancedMove Juliet false 4 0 -4 0/speak Juliet \"And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't.$2\"/pause 500/faceDirection Juliet 0/pause 500/move farmer 0 -2 0/move Juliet -1 0 3/shake Juliet 350/pause 500/quickQuestion #What did you do?#I'm here for you.#Did you kill someone?(break)emote Juliet 12\\speak Juliet \"I was young and dumb. Not that that's any freaking excuse.$2#$b#And what part of 'I don't want to talk about it don't you understand?$5#$b#But, I 'spose it's gonna come out sooner or later, and you deserve to know.$2\"(break)emote Juliet 40\\speak Juliet \"Really? Are you sure about that, @?$3#$b#You might not be, if you knew the full story.$5#$b#I suppose I'd better tell you, so you can run for the hills now while you still have the chance.$2\"(break)faceDirection Juliet 3\\pause 500\\shake Juliet 250\\speak Juliet \"No... not exactly...$2\"/pause 500/emote farmer 28/move Juliet 0 2 1/faceDirection farmer 2/speak Juliet \"To put it bluntly: someone died...because of me..$2#$b#It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.$2\"/pause 500/emote farmer 40/pause 500/speak Juliet \"He was my brother, my idol. And I would've followed him into the freaking void.$2#$b#I could've stopped him. Should've stopped him. But instead I got dragged into his dumbass pranks and schemes... And everything went horrible wrong.$2\"/pause 500/emote Juliet 40/pause 500/speak Juliet \"Now he's got a life sentence, and I'm in exile.$2#$b#Anyhow that's it, and now I guess you're gonna do the sensible thing, and walk away.$2\"/question fork0 \"...#Walk away#Stay and comfort Juliet\"/fork WalkAway/pause 500/move farmer 0 1 3/positionOffset farmer -4 0/speak Juliet \"Really? You wanna stick with me, despite... well, despite everything?$4\"/pause 500/emote farmer 32/pause 500/showFrame farmer 89/positionOffset farmer -2 0/showFrame Juliet 48/positionOffset Juliet 4 0/speak Juliet \"Thank you, @. That means a lot.$4\"/emote Juliet 20/pause 1000/end"
+        "86571110/f Juliet 1500/e 86571101/d Sat Sun/t 0900 1700": "none/13 11/Juliet 2 8 1 Morris 4 8 3 farmer 2 13 0/skippable/pause 500/speak Juliet \"...It was going in the trash anyway. It's not my fault that you over-ordered!$5\"/emote Morris 12/emote Juliet 12/shake Juliet 350/faceDirection Juliet 0/textAboveHead Juliet \"Screw you Morris\"/speed Juliet 7/move Juliet 0 -4 0/warp Juliet -100 -100/playSound doorClose/speed farmer 5/move farmer 0 -5 1/textAboveHead Morris \"Insolent brat!\"/emote farmer 40/speed farmer 5/move farmer 0 -4 0/warp farmer -100 -100/playSound doorClose/globalFade/viewport -2000 -2000/changeLocation Custom_LK_JojaBreakRoom/viewport -1000 -1000/warp Morris -100 -100/warp Juliet 2 5/faceDirection Juliet 1/advancedMove Juliet false 6 0 -6 0/viewport 11 7/textAboveHead Juliet \"Idiot...\"/pause 3000/emote Juliet 12/warp farmer 2 10/pause 500/move farmer 0 -2 0/showFrame Juliet 8/quickQuestion #Are you okay?#How can I help?#What have you done now?#Well, Morris is a pillock, isn't he?(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Do I look like I'm freaking okay?$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Don't give me that customer service BS.$4\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Oh, so it's MY fault now, ? I thought we were friends...$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Too freaking right.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"I hate him. Sometimes I wish I could just freaking quit.$5\"/question null \"#Well?...Why don't you?#Say nothing.\"/playMusic sappypiano/speak Juliet \"I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it.$2#$b#Have you ever done something so freaking terrible that it just made you wish you could restart the day afresh and do things different?$2\"/pause 500/emote farmer 28/pause 500/speak Juliet \"No? I have, and I did. And no, I don't want to talk about it.$2\"/pause 500/advancedMove Juliet false 4 0 -4 0/speak Juliet \"And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't.$2\"/pause 500/faceDirection Juliet 0/pause 500/move farmer 0 -2 0/move Juliet -1 0 3/shake Juliet 350/pause 500/quickQuestion #What did you do?#I'm here for you.#Did you kill someone?(break)emote Juliet 12\\speak Juliet \"I was young and dumb. Not that that's any freaking excuse.$2#$b#And what part of 'I don't want to talk about it don't you understand?$5#$b#But, I 'spose it's gonna come out sooner or later, and you deserve to know.$2\"(break)emote Juliet 40\\speak Juliet \"Really? Are you sure about that, ?$3#$b#You might not be, if you knew the full story.$5#$b#I suppose I'd better tell you, so you can run for the hills now while you still have the chance.$2\"(break)faceDirection Juliet 3\\pause 500\\shake Juliet 250\\speak Juliet \"No... not exactly...$2\"/pause 500/emote farmer 28/move Juliet 0 2 1/faceDirection farmer 2/speak Juliet \"To put it bluntly: someone died...because of me..$2#$b#It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.$2\"/pause 500/emote farmer 40/pause 500/speak Juliet \"He was my brother, my idol. And I would've followed him into the freaking void.$2#$b#I could've stopped him. Should've stopped him. But instead I got dragged into his dumbass pranks and schemes... And everything went horrible wrong.$2\"/pause 500/emote Juliet 40/pause 500/speak Juliet \"Now he's got a life sentence, and I'm in exile.$2#$b#Anyhow that's it, and now I guess you're gonna do the sensible thing, and walk away.$2\"/question fork0 \"...#Walk away#Stay and comfort Juliet\"/fork WalkAway/pause 500/move farmer 0 1 3/positionOffset farmer -4 0/speak Juliet \"Really? You wanna stick with me, despite... well, despite everything?$4\"/pause 500/emote farmer 32/pause 500/showFrame farmer 89/positionOffset farmer -2 0/showFrame Juliet 48/positionOffset Juliet 4 0/speak Juliet \"Thank you, . That means a lot.$4\"/emote Juliet 20/pause 1000/end"
       },
       "When": {
         "HasSeenEvent |contains=191393": false
@@ -638,8 +638,8 @@
       "Action": "EditData",
       "Target": "Data/Events/Town",
       "Entries": {
-        "86571110/f Juliet 1500/e 86571101/d Sat Sun/t 0900 1700": "none/54 26/Juliet 52 24 1 Lewis 54 24 3 farmer 52 29 0/skippable/pause 500/speak Juliet \"...It was going in the trash anyway. It's not my fault that you over-ordered for your little dinner party!$5\"/emote Lewis 12/emote Juliet 12/shake Juliet 350/faceDirection Juliet 0/textAboveHead Juliet \"Screw you Lewis\"/speed Juliet 7/move Juliet 0 -4 0/warp Juliet -100 -100/playSound doorClose/speed farmer 5/move farmer 0 -5 1/textAboveHead Lewis \"Insolent brat!\"/emote farmer 40/speed farmer 5/move farmer 0 -4 0/warp farmer -100 -100/playSound doorClose/globalFade/viewport -2000 -2000/changeLocation CommunityCenter/viewport -1000 -1000/warp Lewis -100 -100/warp Juliet 32 14/faceDirection Juliet 1/advancedMove Juliet false 6 0 -6 0/viewport 32 14/textAboveHead Juliet \"Idiot...\"/pause 3000/warp farmer 32 23/emote Juliet 12/move farmer 0 -4 0/pause 1500/move farmer 0 -2 0/showFrame Juliet 8/quickQuestion #Are you okay?#How can I help?#What have you done now?#Well, Lewis is a pillock, isn't he?(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Do I look like I'm freaking okay?$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Don't give me that customer service BS.$4\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Oh, so it's MY fault now, @? I thought we were friends...$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Too freaking right.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"He pisses me off. Sometimes I wish I could just freaking quit.$5\"/question null \"#Well?...Why don't you?#Say nothing.\"/playMusic sappypiano/speak Juliet \"I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it.$2#$b#Have you ever done something so freaking terrible that it just made you wish you could restart the day afresh and do things different?$2\"/pause 500/emote farmer 28/pause 500/speak Juliet \"No? I have, and I did. And no, I don't want to talk about it.$2\"/pause 500/advancedMove Juliet false 4 0 -4 0/speak Juliet \"And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't.$2\"/pause 500/faceDirection Juliet 0/pause 500/move farmer 0 -2 0/move Juliet -1 0 3/shake Juliet 350/pause 500/quickQuestion #What did you do?#I'm here for you.#Did you kill someone?(break)emote Juliet 12\\speak Juliet \"I was young and dumb. Not that that's any freaking excuse.$2#$b#And what part of 'I don't want to talk about it don't you understand?$5#$b#But, I 'spose it's gonna come out sooner or later, and you deserve to know.$2\"(break)emote Juliet 40\\speak Juliet \"Really? Are you sure about that, @?$3#$b#You might not be, if you knew the full story.$5#$b#I suppose I'd better tell you, so you can run for the hills now while you still have the chance.$2\"(break)faceDirection Juliet 3\\pause 500\\shake Juliet 250\\speak Juliet \"No... not exactly...$2\"/pause 500/emote farmer 28/move Juliet 0 2 1/faceDirection farmer 2/speak Juliet \"To put it bluntly: someone died...because of me..$2#$b#It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.$2\"/pause 500/emote farmer 40/pause 500/speak Juliet \"He was my brother, my idol. And I would've followed him into the freaking void.$2#$b#I could've stopped him. Should've stopped him. But instead I got dragged into his dumbass pranks and schemes... And everything went horrible wrong.$2\"/pause 500/emote Juliet 40/pause 500/speak Juliet \"Now he's got a life sentence, and I'm in exile.$2#$b#Anyhow that's it, and now I guess you're gonna do the sensible thing, and walk away.$2\"/question fork0 \"...#Walk away#Stay and comfort Juliet\"/fork WalkAway/pause 500/move farmer 0 1 3/positionOffset farmer -4 0/speak Juliet \"Really? You wanna stick with me, despite... well, despite everything?$4\"/pause 500/emote farmer 32/pause 500/showFrame farmer 89/positionOffset farmer -2 0/showFrame Juliet 48/positionOffset Juliet 4 0/speak Juliet \"Thank you, @. That means a lot.$4\"/emote Juliet 20/pause 1000/end",
-        "63984301/l ccMovieTheater/e 191393": "continue/96 53/Juliet 96 53 0 farmer 90 53 1 Jessie 71 53 1/addConversationTopic Juliet_JojaRuins 7/skippable/pause 1000/speak Juliet \"I got here for work this morning and found...this.$2#$b#I know I hated the place, but now it's gone. And I didn't even have anything to do with it.$2\"/move farmer 5 0 1 true/speak Juliet \"Yoba... what's gonna happen to me now?$2\"/faceDirection Juliet 3/speak Juliet \"Do you know what happened, @?$a\"/quickQuestion #Pierre gave a rousing speech & chased Morris out of town.#Pierre punched Morris to the moon!#Who cares? Good riddance to bad rubbish.#Recession. Or maybe the war. Definitely that.(break)emote Juliet 12\\pause 500\\speak Juliet \"Oh... I should've known it was his fault. Small town values, my ass, it's money he's wanted all along.$5\"(break)emote Juliet 16\\pause 500\\speak Juliet \"Seriously?! Not gonna lie, would've liked to see that.$1#$b#I should've known it was his fault. Small town values, my ass, it's money he's wanted all along.$5\"(break)emote Juliet 12\\pause 500\\friendship Juliet -50\\speak Juliet \"Oh fine words coming from you, farmer. I'm Joja too, you know.$5#$b#Not that it counted for much... at the end.$2\"(break)emote Juliet 40\\pause 500\\speak Juliet \"Yeh... my folks'd warble on about the economic climate... Never understood it myself.$5#$b#Probably should've listened more in school. Or, you know, actually attended.$2#$b#Anyway... now they're gone.$2\"/speak Juliet \"No thought of what that means to us, the ones caught in the Joja machine.$a\"/emote farmer 8/pause 1000/faceDirection Juliet 2/speak Juliet \"What's gonna happen to me? Oh, I 'spose someone'll come, someone official. They'll take me back to the city...$2\"/pause 500/emote Juliet 40/pause 1000/speak Juliet \"... Move me to another JojaMart, or throw me in a workhouse or something.$5\"/move Juliet 2 0 1/pause 1000/advancedMove Jessie false 23 0/speak Juliet \"And just when I was starting to get to like it here...$2#$b#Just when it was starting to feel like home.$2\"/pause 500/shake Juliet 1000/move farmer 2 0 1/showFrame 35/positionOffset farmer 8 0/shake Juliet 1000/pause 2000/textAboveHead Jessie \"Juliet?\"/faceDirection farmer 3/pause 500/faceDirection Juliet 3/move farmer 0 1 3/speak Jessie \"I'm not going to let anyone take you anywhere, Juliet.#$b#Not unless you want to go, of course.$2\"/move Juliet -3 0 3/move farmer -1 0 0/move farmer 0 -1 3/textAboveHead Juliet \"Really?\"/pause 1000/faceDirection Juliet 0/faceDirection Jessie 0/pause 1000/textAboveHead Jessie \"Really.\"/pause 3000/end"
+        "86571110/f Juliet 1500/e 86571101/d Sat Sun/t 0900 1700": "none/54 26/Juliet 52 24 1 Lewis 54 24 3 farmer 52 29 0/skippable/pause 500/speak Juliet \"...It was going in the trash anyway. It's not my fault that you over-ordered for your little dinner party!$5\"/emote Lewis 12/emote Juliet 12/shake Juliet 350/faceDirection Juliet 0/textAboveHead Juliet \"Screw you Lewis\"/speed Juliet 7/move Juliet 0 -4 0/warp Juliet -100 -100/playSound doorClose/speed farmer 5/move farmer 0 -5 1/textAboveHead Lewis \"Stubborn girl...\"/speak Lewis \"She only had to ask.$2\"/emote farmer 40/speed farmer 5/move farmer 0 -4 0/warp farmer -100 -100/playSound doorClose/globalFade/viewport -2000 -2000/changeLocation CommunityCenter/viewport -1000 -1000/warp Lewis -100 -100/warp Juliet 32 14/faceDirection Juliet 1/advancedMove Juliet false 6 0 -6 0/viewport 32 14/textAboveHead Juliet \"Idiot...\"/pause 3000/warp farmer 32 23/emote Juliet 12/move farmer 0 -4 0/pause 1500/move farmer 0 -2 0/showFrame Juliet 8/quickQuestion #Are you okay?#How can I help?#What have you done now?#Well, Lewis is a pillock, isn't he?(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Do I look like I'm freaking okay?$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Don't give me that customer service BS.$4\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Oh, so it's MY fault now, ? I thought we were friends...$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Too freaking right.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"He pisses me off. Sometimes I wish I could just freaking quit.$5\"/question null \"#Well?...Why don't you?#Say nothing.\"/playMusic sappypiano/speak Juliet \"I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it.$2#$b#Have you ever done something so freaking terrible that it just made you wish you could restart the day afresh and do things different?$2\"/pause 500/emote farmer 28/pause 500/speak Juliet \"No? I have, and I did. And no, I don't want to talk about it.$2\"/pause 500/advancedMove Juliet false 4 0 -4 0/speak Juliet \"And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't.$2\"/pause 500/faceDirection Juliet 0/pause 500/move farmer 0 -2 0/move Juliet -1 0 3/shake Juliet 350/pause 500/quickQuestion #What did you do?#I'm here for you.#Did you kill someone?(break)emote Juliet 12\\speak Juliet \"I was young and dumb. Not that that's any freaking excuse.$2#$b#And what part of 'I don't want to talk about it don't you understand?$5#$b#But, I 'spose it's gonna come out sooner or later, and you deserve to know.$2\"(break)emote Juliet 40\\speak Juliet \"Really? Are you sure about that, ?$3#$b#You might not be, if you knew the full story.$5#$b#I suppose I'd better tell you, so you can run for the hills now while you still have the chance.$2\"(break)faceDirection Juliet 3\\pause 500\\shake Juliet 250\\speak Juliet \"No... not exactly...$2\"/pause 500/emote farmer 28/move Juliet 0 2 1/faceDirection farmer 2/speak Juliet \"To put it bluntly: someone died...because of me..$2#$b#It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.$2\"/pause 500/emote farmer 40/pause 500/speak Juliet \"He was my brother, my idol. And I would've followed him into the freaking void.$2#$b#I could've stopped him. Should've stopped him. But instead I got dragged into his dumbass pranks and schemes... And everything went horrible wrong.$2\"/pause 500/emote Juliet 40/pause 500/speak Juliet \"Now he's got a life sentence, and I'm in exile.$2#$b#Anyhow that's it, and now I guess you're gonna do the sensible thing, and walk away.$2\"/question fork0 \"...#Walk away#Stay and comfort Juliet\"/fork WalkAway/pause 500/move farmer 0 1 3/positionOffset farmer -4 0/speak Juliet \"Really? You wanna stick with me, despite... well, despite everything?$4\"/pause 500/emote farmer 32/pause 500/showFrame farmer 89/positionOffset farmer -2 0/showFrame Juliet 48/positionOffset Juliet 4 0/speak Juliet \"Thank you, . That means a lot.$4\"/emote Juliet 20/pause 1000/end",
+        "63984301/l ccMovieTheater/e 191393": "continue/96 53/Juliet 96 53 0 farmer 90 53 1 Jessie 71 53 1/addConversationTopic Juliet_JojaRuins 7/skippable/pause 1000/speak Juliet \"I got here for work this morning and found...this.$2#$b#I know I hated the place, but now it's gone. And I didn't even have anything to do with it.$2\"/move farmer 5 0 1 true/speak Juliet \"Yoba... what's gonna happen to me now?$2\"/faceDirection Juliet 3/speak Juliet \"Do you know what happened, ?$a\"/quickQuestion #Pierre gave a rousing speech & chased Morris out of town.#Pierre punched Morris to the moon!#Who cares? Good riddance to bad rubbish.#Recession. Or maybe the war. Definitely that.(break)emote Juliet 12\\pause 500\\speak Juliet \"Oh... I should've known it was his fault. Small town values, my ass, it's money he's wanted all along.$5\"(break)emote Juliet 16\\pause 500\\speak Juliet \"Seriously?! Not gonna lie, would've liked to see that.$1#$b#I should've known it was his fault. Small town values, my ass, it's money he's wanted all along.$5\"(break)emote Juliet 12\\pause 500\\friendship Juliet -50\\speak Juliet \"Oh fine words coming from you, farmer. I'm Joja too, you know.$5#$b#Not that it counted for much... at the end.$2\"(break)emote Juliet 40\\pause 500\\speak Juliet \"Yeh... my folks'd warble on about the economic climate... Never understood it myself.$5#$b#Probably should've listened more in school. Or, you know, actually attended.$2#$b#Anyway... now they're gone.$2\"/speak Juliet \"No thought of what that means to us, the ones caught in the Joja machine.$a\"/emote farmer 8/pause 1000/faceDirection Juliet 2/speak Juliet \"What's gonna happen to me? Oh, I 'spose someone'll come, someone official. They'll take me back to the city...$2\"/pause 500/emote Juliet 40/pause 1000/speak Juliet \"... Move me to another JojaMart, or throw me in a workhouse or something.$5\"/move Juliet 2 0 1/pause 1000/advancedMove Jessie false 23 0/speak Juliet \"And just when I was starting to get to like it here...$2#$b#Just when it was starting to feel like home.$2\"/pause 500/shake Juliet 1000/move farmer 2 0 1/showFrame 35/positionOffset farmer 8 0/shake Juliet 1000/pause 2000/textAboveHead Jessie \"Juliet?\"/faceDirection farmer 3/pause 500/faceDirection Juliet 3/move farmer 0 1 3/speak Jessie \"I'm not going to let anyone take you anywhere, Juliet.#$b#Not unless you want to go, of course.$2\"/move Juliet -3 0 3/move farmer -1 0 0/move farmer 0 -1 3/textAboveHead Juliet \"Really?\"/pause 1000/faceDirection Juliet 0/faceDirection Jessie 0/pause 1000/textAboveHead Jessie \"Really.\"/pause 3000/end"
       },
       "When": {
         "HasSeenEvent |contains=191393": true
@@ -650,7 +650,7 @@
       "Action": "EditData",
       "Target": "Data/Events/CommunityCenter",
       "Entries": {
-        "WalkAway": "emote farmer 12/pause 500/move farmer 0 8 0 true/faceDirection Juliet 2/emote Juliet 28/warp farmer -100 -100/friendship Juliet -1000/speak Juliet \"Goodbye...$s\"/faceDirection Juliet 0/shake Juliet 500/end dialogue Juliet \"You made the right choice, @. I'd walk away from me too.\""
+        "WalkAway": "emote farmer 12/pause 500/move farmer 0 8 0 true/faceDirection Juliet 2/emote Juliet 28/warp farmer -100 -100/friendship Juliet -1000/speak Juliet \"Goodbye...$s\"/faceDirection Juliet 0/shake Juliet 500/end dialogue Juliet \"You made the right choice, . I'd walk away from me too.\""
       }
     },
     // 10 heart event
@@ -670,17 +670,16 @@
       "Entries": {
         "86571130/f Juliet 2502/e 6398421/A Juliet_Prop/x Juliet_invite": "null",
         "86571133/f Juliet 2502/e 502261/x Juliet_invite": "null",
-        "63984302/e 63984301/t 600 1200": "continue/64 15/farmer 64 16 2 Juliet 64 18 0/skippable/pause 1500/speak Juliet \"Yeah, hi @. Sorry for earlier. I wish you hadn't seen me like that...Ugh, how embarrassing$2\"/pause 500/emote Juliet 60/pause 1000/speak Juliet \"Anyhoo, thought I'd come to say... well, this is goodbye, I guess. Farewell, Au revoir, and all that.$2\"/pause 1000/emote farmer 28/pause 1000/faceDirection Juliet 2/pause 1000/faceDirection Juliet 0/speak Juliet \"Oh, your face. You'd actually miss me, wouldn't you?$2\"/pause 1000/emote farmer 40/pause 1000/speak Juliet \"Hah, well psych! I'm not leaving!$1\"/jump farmer 3/emote farmer 12/speak Juliet \"Jessie talked to my warden, my old man, AND Mayor Lewis, and they agreed to transfer my contract to community service.#$b#Yep, that's right, I'm here to service this community!$1\"/emote farmer 32/pause 1000/speak Juliet \"So, see you 'round farmer! And don't go littering or loitering, okay?\"/emote farmer 56/pause 1000/faceDirection Juliet 2/pause 1000/end",
+        "63984302/e 63984301/t 600 1200": "continue/64 15/farmer 64 16 2 Juliet 64 18 0/skippable/pause 1500/speak Juliet \"Yeah, hi . Sorry for earlier. I wish you hadn't seen me like that...Ugh, how embarrassing$2\"/pause 500/emote Juliet 60/pause 1000/speak Juliet \"Anyhoo, thought I'd come to say... well, this is goodbye, I guess. Farewell, Au revoir, and all that.$2\"/pause 1000/emote farmer 28/pause 1000/faceDirection Juliet 2/pause 1000/faceDirection Juliet 0/speak Juliet \"Oh, your face. You'd actually miss me, wouldn't you?$2\"/pause 1000/emote farmer 40/pause 1000/speak Juliet \"Hah, well psych! I'm not leaving!$1\"/jump farmer 3/emote farmer 12/speak Juliet \"Jessie talked to my warden, my old man, AND Mayor Lewis, and they agreed to transfer my contract to community service.#$b#Yep, that's right, I'm here to service this community!$1\"/emote farmer 32/pause 1000/speak Juliet \"So, see you 'round farmer! And don't go littering or loitering, okay?\"/emote farmer 56/pause 1000/faceDirection Juliet 2/pause 1000/end",
         //silent event to set HasSeenEvent if you are unable to trigger the above due to theater being finished before update installed
-        "63984302/k 63984301/n ccMovieTheater/e 191393":"none/-100 -100/farmer -1000 -1000 0/pause 50/end" 
-        
+        "63984302/k 63984301/n ccMovieTheater/e 191393": "none/-100 -100/farmer -1000 -1000 0/pause 50/end"
       }
     },
     {
       "Action": "EditData",
       "Target": "Data/Events/Farm",
       "Entries": {
-        "6398420/e 191393/e 86571120/f Juliet 2000/t 600 1200": "continue/64 15/farmer 64 16 2 Juliet 64 18 0/skippable/pause 500/emote Juliet 32/speak Juliet \"Hey @, seems like I've got a bit more free time on my hands now.#$b#Anyway, now that I'm no longer bound to the corporate a-holes, I was wondering... well...\"/pause 500/faceDirection Juliet 1/pause 500/faceDirection Juliet 0/emote Juliet 28/pause 1500/speak Juliet \"...do you wanna celebrate my liberation with me?$4\"/emote farmer 40/pause 500/speak Juliet \"Yeah, it's a date.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 0/speak Juliet \"You don't have to answer right now, but if you wanna take me up on my generous offer, meet me at the beach in the evening.#$b#We can watch the sunset like total romantic saps.$4\"/pause 500/faceDirection Juliet 2/pause 500/emote Juliet 40/faceDirection Juliet 0/speak Juliet \"Oh, and could you bring a bottle of wine? Doesn't matter the vintage!$1\"/pause 500/speak Juliet \"Well, see ya later!\"/pause 500/emote farmer 32/faceDirection Juliet 2/pause 1000/end"
+        "6398420/e 191393/e 86571120/f Juliet 2000/t 600 1200": "continue/64 15/farmer 64 16 2 Juliet 64 18 0/skippable/pause 500/emote Juliet 32/speak Juliet \"Hey , seems like I've got a bit more free time on my hands now.#$b#Anyway, now that I'm no longer bound to the corporate a-holes, I was wondering... well...\"/pause 500/faceDirection Juliet 1/pause 500/faceDirection Juliet 0/emote Juliet 28/pause 1500/speak Juliet \"...do you wanna celebrate my liberation with me?$4\"/emote farmer 40/pause 500/speak Juliet \"Yeah, it's a date.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 0/speak Juliet \"You don't have to answer right now, but if you wanna take me up on my generous offer, meet me at the beach in the evening.#$b#We can watch the sunset like total romantic saps.$4\"/pause 500/faceDirection Juliet 2/pause 500/emote Juliet 40/faceDirection Juliet 0/speak Juliet \"Oh, and could you bring a bottle of wine? Doesn't matter the vintage!$1\"/pause 500/speak Juliet \"Well, see ya later!\"/pause 500/emote farmer 32/faceDirection Juliet 2/pause 1000/end"
       },
       "When": {
         "HasSeenEvent": "63984302"
@@ -691,8 +690,8 @@
       "Target": "Data/mail",
       "Entries": {
         "Juliet_invite": "Hey babe!^Guess what? The powers-that-be have granted me parole, and there's someone in Grampleton I've gotta talk to.^No pressure, but if you could come along and hold my hand - metaphorically or literally! - I could really use the company.^I'll be headed out after 5 pm, if you want to meet me at the bus stop?^- Juliet. [#]Juliet's request",
-        "Juliet_Vet": "Hey @,^I've heard there's a vet in East Scarpe, so I'm taking Gremlin there to get her checked over. Do you want to come with me? If so, meet me in his waiting room sometime within the next week. I'd appreciate it!^Regards, Jules.^^PS: I WILL go without you.%item conversationTopic JulietVet 7 %%  [#]Vet visit. ",
-        "Juliet_VetDone": "Hey @,^so, I went to the vet. Sorry you couldn't make it! His name's Jacob, and he's easy on the eye. Anyhow, Gremlin's fine. Thank Yoba. Just skinny and stuff.^He offered to find her a new home, but I've decided to keep her. Jessie loves her too.^So anyway, drop by and see us sometime.^ - Jules [#]Vet Visit"
+        "Juliet_Vet": "Hey ,^I've heard there's a vet in East Scarpe, so I'm taking Gremlin there to get her checked over. Do you want to come with me? If so, meet me in his waiting room sometime within the next week. I'd appreciate it!^Regards, Jules.^^PS: I WILL go without you.%item conversationTopic JulietVet 7 %% [#]Vet visit. ",
+        "Juliet_VetDone": "Hey ,^so, I went to the vet. Sorry you couldn't make it! His name's Jacob, and he's easy on the eye. Anyhow, Gremlin's fine. Thank Yoba. Just skinny and stuff.^He offered to find her a new home, but I've decided to keep her. Jessie loves her too.^So anyway, drop by and see us sometime.^ - Jules [#]Vet Visit"
       }
     },
     {
@@ -700,23 +699,23 @@
       "Target": "Data/mail",
       "Entries": {
         "Juliet_invite": "Hey babe!^Guess what? The powers-that-be have granted me parole, and there's someone in Grampleton I've gotta talk to.^No pressure, but if you could come along and hold my hand - metaphorically or literally! - I could really use the company.^I'll be headed out after 5 pm, if you want to meet me at the bus stop?^- Juliet. [#]Juliet's request",
-        "Juliet_Vet": "Hey @,^I've heard there's a vet in East Scarpe, so I'm taking Gremlin there to get her checked over. Do you want to come with me? If so, meet me there sometime in the next week. I'd appreciate it!^Regards, Jules.%item conversationTopic JulietVet 7 %%  [#]Vet visit. ",
-        "Juliet_VetDone": "Hey @,^so, I went to the vet. Sorry you couldn't make it! His name's Jacob, and he's easy on the eye. Anyhow, Gremlin's fine. Thank Yoba. Just skinny and stuff.^He offered to find her a new home, but I've decided to keep her. Jessie loves her too.^So anyway, drop by and see us sometime.^ - Jules [#]Vet Visit"
+        "Juliet_Vet": "Hey ,^I've heard there's a vet in East Scarpe, so I'm taking Gremlin there to get her checked over. Do you want to come with me? If so, meet me there sometime in the next week. I'd appreciate it!^Regards, Jules.%item conversationTopic JulietVet 7 %% [#]Vet visit. ",
+        "Juliet_VetDone": "Hey ,^so, I went to the vet. Sorry you couldn't make it! His name's Jacob, and he's easy on the eye. Anyhow, Gremlin's fine. Thank Yoba. Just skinny and stuff.^He offered to find her a new home, but I've decided to keep her. Jessie loves her too.^So anyway, drop by and see us sometime.^ - Jules [#]Vet Visit"
       }
     },
     {
       "Action": "EditData",
       "Target": "Data/Events/BusStop",
       "Entries": {
-        "86571131/t 1700 1900/n Juliet_invite": "continue/12 11/farmer 12 19 0 Juliet 13 10 0/skippable/pause 500/move farmer 0 -4 0/faceDirection Juliet 2/emote Juliet 20/move farmer 0 -1 0/move Juliet 0 1 2/speak Juliet \"You came! I mean. Of course, I knew you would, cos I'm irresistable and I've piqued your curiosity...but still...$1#$b#Thank you, @. It means a lot.$4\"/emote farmer 32/pause 1500/emote farmer 8/pause 1000/speak Juliet \"Where are we going? Oh, to visit someone... It's time I finally laid my past to rest.$2\"/faceDirection Juliet 3/speak Juliet \"Come on, we should go. Let's get this done.$2\"/pause 500/move farmer 0 -4 0/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap GTCemetery false/speak Juliet \"Dammit... I'm nervous... This is my first time going to visit him. And yeah, I know it's dumb but...$2\"/Message \"Juliet is shaking.\"/pause 1000/playSound busDoorOpen/speak Juliet \"Well, here we are then... the dead center of town...$2#$b#... Grampleton Memorial Garden.$2\"/pause 500/warp Juliet 11 25/faceDirection Juliet 1/warp farmer 12 25/faceDirection farmer 0/playMusic {{season}}_day_ambient/viewport 17 17/advancedMove Juliet false 0 -10/move farmer 0 -10 0/pause 1000/faceDirection Juliet 1 true/faceDirection farmer 3 true/pause 500/speak Juliet \"Not what you expected?\"/emote farmer 32/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"Peaceful, isn't it? Kind of boring. I bet he hates it.\"/advancedMove Juliet false 0 -4 -2 0 -1 0/move farmer 0 -4 3/move farmer -3 0 0/viewport move 0 -2 2000 true/faceDirection farmer 3 true/faceDirection Juliet 0/pause 2500/faceDirection farmer 0/Message \"Nathanial Donahue^Taken too soon. Forever in our hearts.\"/pause 500/speak Juliet \"Hey Nate. Sorry I've been a crap little sis. First I let you get yourself killed, then I fell off the damn rails and got myself exiled, so I couldn't even visit you.$2#$b#Anyhow, I'm here now and I've brought someone to meet you.$4\"/pause 500/faceDirection Juliet 1 true/faceDirection farmer 3 true/pause 500/emote Juliet 20/pause 500/faceDirection Juliet 0/speak Juliet \"Yeh life ain't too bad; I've found good people who've helped me pick up the freaking mess I'd made.\"/pause 500/faceDirection Juliet 1/pause 400/faceDirection Juliet 0/speak Juliet \"Anyway, it sucks that you didn't get this chance too, Nate. But I hope that, wherever you are, you've finally found peace.$2#$b#Either that or you're raising hell.$1#$b#Here... I brought you something. I know, it's lame and you're probably gonna hate it. Either that, or the next visitor is gonna nick it. But tough.\"/pause 500/addObject 8 10 562/pause 1500/faceDirection Juliet 1/pause 500/speak Juliet \"Thanks for coming with me, @. It well... It means a lot.$4\"/{{10HeartReact}}/addTemporaryActor crowLK 16 32 20 9 3 false/move crowLK -12 0 3/pause 1500/showFrame crowLK 16/playSound crow/pause 500/jump Juliet 2/pause 1000/animate crowLK false false 1000 16 17 16/faceDirection Juliet 0 true/faceDirection farmer 0 true/pause 500/emote Juliet 8/pause 4000/textAboveHead Juliet \"Nathan?\"/pause 1000/faceDirection farmer 3/emote farmer 16/playSound crow/faceDirection Juliet 1/pause 1000/emote Juliet 60/pause 3000/end dialogue Juliet \"Yeh, I know, it was just a passing fancy... I don't really believe my brother came back as a crow.$4#$b#But I can't help but hope there's something after death, something more than the cold, dark embrace of the void.$2\""
+        "86571131/t 1700 1900/n Juliet_invite": "continue/12 11/farmer 12 19 0 Juliet 13 10 0/skippable/pause 500/move farmer 0 -4 0/faceDirection Juliet 2/emote Juliet 20/move farmer 0 -1 0/move Juliet 0 1 2/speak Juliet \"You came! I mean. Of course, I knew you would, cos I'm irresistable and I've piqued your curiosity...but still...$1#$b#Thank you, . It means a lot.$4\"/emote farmer 32/pause 1500/emote farmer 8/pause 1000/speak Juliet \"Where are we going? Oh, to visit someone... It's time I finally laid my past to rest.$2\"/faceDirection Juliet 3/speak Juliet \"Come on, we should go. Let's get this done.$2\"/pause 500/move farmer 0 -4 0/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap GTCemetery false/speak Juliet \"Dammit... I'm nervous... This is my first time going to visit him. And yeah, I know it's dumb but...$2\"/Message \"Juliet is shaking.\"/pause 1000/playSound busDoorOpen/speak Juliet \"Well, here we are then... the dead center of town...$2#$b#... Grampleton Memorial Garden.$2\"/pause 500/warp Juliet 11 25/faceDirection Juliet 1/warp farmer 12 25/faceDirection farmer 0/playMusic {{season}}_day_ambient/viewport 17 17/advancedMove Juliet false 0 -10/move farmer 0 -10 0/pause 1000/faceDirection Juliet 1 true/faceDirection farmer 3 true/pause 500/speak Juliet \"Not what you expected?\"/emote farmer 32/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"Peaceful, isn't it? Kind of boring. I bet he hates it.\"/advancedMove Juliet false 0 -4 -2 0 -1 0/move farmer 0 -4 3/move farmer -3 0 0/viewport move 0 -2 2000 true/faceDirection farmer 3 true/faceDirection Juliet 0/pause 2500/faceDirection farmer 0/Message \"Nathanial Donahue^Taken too soon. Forever in our hearts.\"/pause 500/speak Juliet \"Hey Nate. Sorry I've been a crap little sis. First I let you get yourself killed, then I fell off the damn rails and got myself exiled, so I couldn't even visit you.$2#$b#Anyhow, I'm here now and I've brought someone to meet you.$4\"/pause 500/faceDirection Juliet 1 true/faceDirection farmer 3 true/pause 500/emote Juliet 20/pause 500/faceDirection Juliet 0/speak Juliet \"Yeh life ain't too bad; I've found good people who've helped me pick up the freaking mess I'd made.\"/pause 500/faceDirection Juliet 1/pause 400/faceDirection Juliet 0/speak Juliet \"Anyway, it sucks that you didn't get this chance too, Nate. But I hope that, wherever you are, you've finally found peace.$2#$b#Either that or you're raising hell.$1#$b#Here... I brought you something. I know, it's lame and you're probably gonna hate it. Either that, or the next visitor is gonna nick it. But tough.\"/pause 500/addObject 8 10 562/pause 1500/faceDirection Juliet 1/pause 500/speak Juliet \"Thanks for coming with me, . It well... It means a lot.$4\"/{{10HeartReact}}/addTemporaryActor crowLK 16 32 20 9 3 false/move crowLK -12 0 3/pause 1500/showFrame crowLK 16/playSound crow/pause 500/jump Juliet 2/pause 1000/animate crowLK false false 1000 16 17 16/faceDirection Juliet 0 true/faceDirection farmer 0 true/pause 500/emote Juliet 8/pause 4000/textAboveHead Juliet \"Nathan?\"/pause 1000/faceDirection farmer 3/emote farmer 16/playSound crow/faceDirection Juliet 1/pause 1000/emote Juliet 60/pause 3000/end dialogue Juliet \"Yeh, I know, it was just a passing fancy... I don't really believe my brother came back as a crow.$4#$b#But I can't help but hope there's something after death, something more than the cold, dark embrace of the void.$2\""
       }
     },
     {
       "Action": "EditData",
       "Target": "Data/Events/Beach",
       "Entries": {
-        "6398421/e 6398420/f Juliet 2000/t 1700 2300/w sunny/i 348": "ocean/36 36/Juliet 42 36 2 farmer 26 35 1/ambientLight 50 120 120/addConversationTopic Juliet_Prop 5/skippable/pause 500/move farmer 15 0 2 true/pause 1000/faceDirection Juliet 3/speak Juliet \"Hey @. I wasn't sure you'd come. But I'm really glad you did.#$b#And not just because you've brought wine.$1#$b#You did bring wine, right?$2\"/pause 500/emote farmer 32/addObject 41 33 348/showFrame 9/pause 1000/move Juliet 0 -1 3/removeSprite 41 33/removeItem 348/faceDirection farmer 1/pause 500/speak Juliet \"Thanks @. I knew I could rely on you.\"/pause 500/faceDirection Juliet 0/playSound gulp/pause 500/faceDirection Juliet 2/pause 1000/emote Juliet 40/pause 500/emote farmer 8/pause 500/faceDirection Juliet 3/speak Juliet \"There's something I've been meaning to talk to you about, @.#$b#But first, here... a toast to us!\"/faceDirection farmer 2/showFrame farmer 90/pause 1000/farmerEat 348/pause 4000/pause 500/pause 500/faceDirection Juliet 3/faceDirection farmer 1/playMusic sappypiano/pause 500/speak Juliet \"You know I'm not a good person, @. That I've messed up, and done some dumb-ass stuff, and hurt people that I cared about it.$2\"/pause 500/emote farmer 8/pause 1500/speak Juliet \"But... you've stuck with me anyway... and, well, thank you.\"/pause 500/faceDirection Juliet 1/faceDirection farmer 1/pause 500/speak Juliet \"Look, I got you something, and I know it's a dumb tradition and you're probably gonna say 'no' but...$2\"/pause 500/faceDirection Juliet 3/pause 500/speak Juliet \"I want you to have it anyway, okay? [{{spacechase0.jsonAssets/ObjectId:Mystical Bouquet}}]$4\"/pause 500/emote Juliet 28/pause 500/emote farmer 40/pause 1500/speak Juliet \"So, what do ya say, @?#$b#$q 639897 null#Do you want me to be your girlfriend?#$r 639899 100 Juliet_Date_Yes#Yes, absolutely!#$r 639898 -250 Juliet_Date_No#This is awkward...I'd rather stay friends.#$r 639898 -500 Juliet_Date_HellNo#No! Why would I want to date you?#$r 639896 0 Juliet_NoMarried#I'm flattered... but also married. So no.\"/fork 639899 Juliet_Dating/fork 639896 Juliet_Married/pause 500/faceDirection Juliet 1/move Juliet 2 0 1/speak Juliet \"It's a dumb tradition anyway.$2#$b#I'd like to be left alone now.$2\"/pause 500/faceDirection Juliet 3/pause 500/emote farmer 28/speak Juliet \"Oh don't look at me like that, @. I'm a big girl. I'll get over it.$5#$b#Keep the bouquet. Heck, give it to someone else if you want to. It's okay.$2\"/emote farmer 60/pause 500/emote Juliet 32/pause 1000/end",
-        "Juliet_Dating": "pause 500/speak Juliet \"Hey, just so you know, @. It's not official until you give me one back!$1#$b#Now, let's drink your excellent wine, and watch the sun set. What do you think?$4\"/pause 500/faceDirection Juliet 2 true/faceDirection farmer 2 true/positionOffset Juliet -20 0/emote farmer 32/emote Juliet 20/pause 2000/end dialogue \"And don't think you can give me the same bouquet back. It's for you to keep. You can buy me a new one!$4",
+        "6398421/e 6398420/f Juliet 2000/t 1700 2300/w sunny/i 348": "ocean/36 36/Juliet 42 36 2 farmer 26 35 1/ambientLight 50 120 120/addConversationTopic Juliet_Prop 5/skippable/pause 500/move farmer 15 0 2 true/pause 1000/faceDirection Juliet 3/speak Juliet \"Hey . I wasn't sure you'd come. But I'm really glad you did.#$b#And not just because you've brought wine.$1#$b#You did bring wine, right?$2\"/pause 500/emote farmer 32/addObject 41 33 348/showFrame 9/pause 1000/move Juliet 0 -1 3/removeSprite 41 33/removeItem 348/faceDirection farmer 1/pause 500/speak Juliet \"Thanks . I knew I could rely on you.\"/pause 500/faceDirection Juliet 0/playSound gulp/pause 500/faceDirection Juliet 2/pause 1000/emote Juliet 40/pause 500/emote farmer 8/pause 500/faceDirection Juliet 3/speak Juliet \"There's something I've been meaning to talk to you about, .#$b#But first, here... a toast to us!\"/faceDirection farmer 2/showFrame farmer 90/pause 1000/farmerEat 348/pause 4000/pause 500/pause 500/faceDirection Juliet 3/faceDirection farmer 1/playMusic sappypiano/pause 500/speak Juliet \"You know I'm not a good person, . That I've messed up, and done some dumb-ass stuff, and hurt people that I cared about it.$2\"/pause 500/emote farmer 8/pause 1500/speak Juliet \"But... you've stuck with me anyway... and, well, thank you.\"/pause 500/faceDirection Juliet 1/faceDirection farmer 1/pause 500/speak Juliet \"Look, I got you something, and I know it's a dumb tradition and you're probably gonna say 'no' but...$2\"/pause 500/faceDirection Juliet 3/pause 500/speak Juliet \"I want you to have it anyway, okay? [{{spacechase0.jsonAssets/ObjectId:Mystical Bouquet}}]$4\"/pause 500/emote Juliet 28/pause 500/emote farmer 40/pause 1500/speak Juliet \"So, what do ya say, ?#$b#$q 639897 null#Do you want me to be your girlfriend?#$r 639899 100 Juliet_Date_Yes#Yes, absolutely!#$r 639898 -250 Juliet_Date_No#This is awkward...I'd rather stay friends.#$r 639898 -500 Juliet_Date_HellNo#No! Why would I want to date you?#$r 639896 0 Juliet_NoMarried#I'm flattered... but also married. So no.\"/fork 639899 Juliet_Dating/fork 639896 Juliet_Married/pause 500/faceDirection Juliet 1/move Juliet 2 0 1/speak Juliet \"It's a dumb tradition anyway.$2#$b#I'd like to be left alone now.$2\"/pause 500/faceDirection Juliet 3/pause 500/emote farmer 28/speak Juliet \"Oh don't look at me like that, . I'm a big girl. I'll get over it.$5#$b#Keep the bouquet. Heck, give it to someone else if you want to. It's okay.$2\"/emote farmer 60/pause 500/emote Juliet 32/pause 1000/end",
+        "Juliet_Dating": "pause 500/speak Juliet \"Hey, just so you know, . It's not official until you give me one back!$1#$b#Now, let's drink your excellent wine, and watch the sun set. What do you think?$4\"/pause 500/faceDirection Juliet 2 true/faceDirection farmer 2 true/positionOffset Juliet -20 0/emote farmer 32/emote Juliet 20/pause 2000/end dialogue \"And don't think you can give me the same bouquet back. It's for you to keep. You can buy me a new one!$4",
         "Juliet_Married": "pause 500/faceDirection Juliet 1/move Juliet 2 0 1/speak Juliet \"... I'm so embarrassed.$2\"/pause 500/faceDirection Juliet 3/pause 500/emote farmer 28/speak Juliet \"Once again Juliet, you've gone and put your foot in it! You're such a dumb-ass.$2#$b#Friends is good. Let's stay friends!#$b#And keep the bouquet, you could give it to %spouse!$1\"/emote farmer 60/pause 500/emote Juliet 32/pause 1000/end"
       }
     },
@@ -794,7 +793,7 @@
       "Action": "EditData",
       "Target": "Data/NPCDispositions",
       "Entries": {
-        "Gremlin": "child/neutral/shy/positive/female/not-datable/null/Town/null//Custom_LK_LodgingHouse 29 7/Gremlin"
+        "Gremlin": "child/neutral/shy/positive/female/not-datable/null/Town/null//Custom_LK_LodgingHouse 25 7/Gremlin"
       },
       "When": {
         "HasSeenEvent": "86571101",
@@ -947,7 +946,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Juliet",
       "Entries": {
-        "Sun": "700 Custom_LK_LodgingHouse 21 16 1/900 Custom_LK_LodgingHouse 33 7 0/1100 SeedShop 37 22 0/1400 Town 95 51 0/1700 JojaMart 9 25 1 Juliet_work/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+        "Sun": "700 Custom_LK_LodgingHouse 21 21 1/900 Custom_LK_LodgingHouse 28 7 0/1100 SeedShop 37 22 0/1400 Town 95 51 0/1700 JojaMart 9 25 1 Juliet_work/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
       },
       "When": {
         "HasMod": "Ginnyclaire.Paul, midnightsky550",
@@ -959,7 +958,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Juliet",
       "Entries": {
-        "Sun": "700 Custom_LK_LodgingHouse 21 16 1/900 Custom_LK_LodgingHouse 33 7 0/1100 SeedShop 37 22 0/1400 Town 95 51 0/1700 Town 26 22 2 Juliet_yoyo/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+        "Sun": "700 Custom_LK_LodgingHouse 21 21 1/900 Custom_LK_LodgingHouse 28 7 0/1100 SeedShop 37 22 0/1400 Town 95 51 0/1700 Town 26 22 2 Juliet_yoyo/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
       },
       "When": {
         "HasMod": "Ginnyclaire.Paul, midnightsky550",
@@ -971,8 +970,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Juliet",
       "Entries": {
-        "CommunityCenter_Fri": "$1 Juliet_Painting#Have you checked out that door in the corner yet, @? You should definitely go in there!$1$k#$e#That painting's creepy isn't it? Her eyes really seem to follow you around the room.$3",
-        "CommunityCenter_Mon": "Sometimes I hear someone singing in here, @. But when I look around, there's no one here.$2#$b#She's got a sweet voice though, I wonder who she is? Or was!$3"
+        "CommunityCenter_Fri": "$1 Juliet_Painting#Have you checked out that door in the corner yet, ? You should definitely go in there!$1$k#$e#That painting's creepy isn't it? Her eyes really seem to follow you around the room.$3",
+        "CommunityCenter_Mon": "Sometimes I hear someone singing in here, . But when I look around, there's no one here.$2#$b#She's got a sweet voice though, I wonder who she is? Or was!$3"
       },
       "When": {
         "HasMod": "MIDI.MysteriousWoman"
@@ -986,7 +985,7 @@
         "Sun2": "You're not afraid of spiders, are you? My housemate, Jade, is sweet on all kinds of creepy crawlies, so you never know what might crawl into your ear when you're asleep.",
         "Sun4": "At breakfast this morning, one of Jade's 8-legged friends marched straight across the table. Not gonna lie, I almost screamed like a little girl.#$b#And calm as anything, Jessie picked it up - in her bare hands! - and put it outside!",
         "Sun6": "Jade's been going on about fairies again. I mean, yeh, there's more things in this world than we know and all that nonsense, but me? I'll believe in them when I see them, right?",
-        "LodgingHouse_Sat": "Hey @, have you come to listen to me play? I hope Jade wasn't planning a lie-in!$2"
+        "LodgingHouse_Sat": "Hey , have you come to listen to me play? I hope Jade wasn't planning a lie-in!$2"
       },
       "When": {
         "HasMod": "malic.cp.jadeNPC"
@@ -997,9 +996,9 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Gremlin",
       "Entries": {
-        "Mon": "620 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/700 Town 71 98 0 square_3_3/930 Town 53 25 2 square_5_5/1700 Custom_LK_LodgingHouse 16 16 2 Gremlin_sit/2200 Custom_LK_LodgingHouse 29 15 2 Gremlin_sleep",
-        "Fri": "620 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/700 Town 71 98 0 square_3_3/930 Town 53 25 2 square_5_5/1700 Custom_LK_LodgingHouse 16 16 2 Gremlin_sit/2200 Custom_LK_LodgingHouse 29 15 2 Gremlin_sleep",
-        "Sat": "700 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1310 Beach 43 35 2/1800 Saloon 42 22 3/2200 Custom_LK_LodgingHouse 29 15 2 Gremlin_sleep"
+        "Mon": "620 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/700 Town 71 98 0 square_3_3/930 Town 53 25 2 square_5_5/1700 Custom_LK_LodgingHouse 17 22 2 Gremlin_sit/2200 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep",
+        "Fri": "620 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/700 Town 71 98 0 square_3_3/930 Town 53 25 2 square_5_5/1700 Custom_LK_LodgingHouse 17 22 2 Gremlin_sit/2200 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep",
+        "Sat": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1310 Beach 43 35 2/1800 Saloon 42 22 3/2200 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep"
       },
       "When": {
         "Spouse": "Juliet"
@@ -1012,7 +1011,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_ESVetHouse",
       "Entries": {
-        "86571142/e 86571141/k 86571138/t 900 1700/d Tue": "none/7 14/Juliet 3 14 0 Gremlin 4 12 3 Jacob 5 12 3 farmer 5 20 0/animate Gremlin false true 240 16 17/skippable/pause 500/textAboveHead Juliet \"Good girl.\"/playSound dogWhining/pause 500/speak Jacob \"You're a good girl, aren't you Gremlin?#$b#Almost done! Just one last injection...\"/pause 500/playSound dog_bark/pause 500/speak Juliet \"So, what's the verdict, Doc? Is she okay?$2\"/pause 500/emote Juliet 28/move Gremlin -1 0 2/playSound dog_pant/move farmer 0 -2 0/doAction 5 17/pause 500/move farmer 0 -3 0/jump Juliet 5/playSound dog_bark/faceDirection Jacob 2/emote farmer 60/pause 500/speak Jacob \"I'm sorry... you shouldn't...$2\"/pause 500/speak Juliet \"It's okay, Doctor. I invited @.\"/faceDirection Juliet 1/speak Juliet \"You're late...$5#$b#...but I'm glad you're here.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"I'd feel better Doc, having someone with me. If it's bad news.$2#$b#Is it bad news? Is she sick or hurt?$2\"/move farmer -1 0 0/move farmer 0 -1 3/faceDirection Juliet 1/emote Juliet 20/pause 1500/faceDirection Jacob 3/faceDirection farmer 0 true/faceDirection Juliet 0 true/faceDirection Gremlin 1/speak Jacob \"She's underweight and malnourished. It looks like she's been on her own a long time.$2\"/pause 500/speak Juliet \"Oh, you poor girl!$2\"/playSound dogWhining/emote Juliet 40/speak Jacob \"She'll be fine, but she's very lucky you found her, Juliet.$2#$b#She needs someone to look after her and someone to love.#$b#A dog is a big responsibility. Are you ready to take it on?\"/pause 500/faceDirection Juliet 1/faceDirection farmer 3/speak Jacob \"You're not under any obligation because you helped her.#$b#I work with a local rescue; we will find her an excellent home.\"/emote farmer 8/pause 500/faceDirection Juliet 0/pause 500/faceDirection Gremlin 2/playSound dog_pant/pause 500/speak Juliet \"No, I want to keep her Doc. She's... she's chosen me. And I ... well, I've chosen her.\"/jump Gremlin 3/move Gremlin 0 1 2/emote Gremlin 20/playSound dog_bark/emote Jacob 32/speak Jacob \"That's excellent news. And dogs are a good judge of character, Juliet.#$b#I know it's a little trite, but I believe you found each other for a reason.$1\"/emote Juliet 20/pause 1000/end"
+        "86571142/e 86571141/k 86571138/t 900 1700/d Tue": "none/7 14/Juliet 3 14 0 Gremlin 4 12 3 Jacob 5 12 3 farmer 5 20 0/animate Gremlin false true 240 16 17/skippable/pause 500/textAboveHead Juliet \"Good girl.\"/playSound dogWhining/pause 500/speak Jacob \"You're a good girl, aren't you Gremlin?#$b#Almost done! Just one last injection...\"/pause 500/playSound dog_bark/pause 500/speak Juliet \"So, what's the verdict, Doc? Is she okay?$2\"/pause 500/emote Juliet 28/move Gremlin -1 0 2/playSound dog_pant/move farmer 0 -2 0/doAction 5 17/pause 500/move farmer 0 -3 0/jump Juliet 5/playSound dog_bark/faceDirection Jacob 2/emote farmer 60/pause 500/speak Jacob \"I'm sorry... you shouldn't...$2\"/pause 500/speak Juliet \"It's okay, Doctor. I invited .\"/faceDirection Juliet 1/speak Juliet \"You're late...$5#$b#...but I'm glad you're here.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"I'd feel better Doc, having someone with me. If it's bad news.$2#$b#Is it bad news? Is she sick or hurt?$2\"/move farmer -1 0 0/move farmer 0 -1 3/faceDirection Juliet 1/emote Juliet 20/pause 1500/faceDirection Jacob 3/faceDirection farmer 0 true/faceDirection Juliet 0 true/faceDirection Gremlin 1/speak Jacob \"She's underweight and malnourished. It looks like she's been on her own a long time.$2\"/pause 500/speak Juliet \"Oh, you poor girl!$2\"/playSound dogWhining/emote Juliet 40/speak Jacob \"She'll be fine, but she's very lucky you found her, Juliet.$2#$b#She needs someone to look after her and someone to love.#$b#A dog is a big responsibility. Are you ready to take it on?\"/pause 500/faceDirection Juliet 1/faceDirection farmer 3/speak Jacob \"You're not under any obligation because you helped her.#$b#I work with a local rescue; we will find her an excellent home.\"/emote farmer 8/pause 500/faceDirection Juliet 0/pause 500/faceDirection Gremlin 2/playSound dog_pant/pause 500/speak Juliet \"No, I want to keep her Doc. She's... she's chosen me. And I ... well, I've chosen her.\"/jump Gremlin 3/move Gremlin 0 1 2/emote Gremlin 20/playSound dog_bark/emote Jacob 32/speak Jacob \"That's excellent news. And dogs are a good judge of character, Juliet.#$b#I know it's a little trite, but I believe you found each other for a reason.$1\"/emote Juliet 20/pause 1000/end"
       }
     },
     {
@@ -1027,7 +1026,7 @@
       }
     },
     //If Stray Catfe installed
-    //Triggers on Juliet's birthday              
+    //Triggers on Juliet's birthday       
     {
       "Action": "EditData",
       "Target": "Data/Events/BusStop",
@@ -1036,7 +1035,7 @@
       },
       "Entries": {
         "86571139/u 15/z winter/z summer/z fall": "jaunty/17 25/farmer 9 23 1 Juliet 21 23 3 Tabitha -100 -100 2 Theo -100 -100 3/skippable/move Juliet -5 0 3 true/move farmer 5 0 1 true/pause 2000/emote Juliet 32/pause 500/speak Juliet \"Hey @, fancy meeting you here!\"/pause 500/emote farmer 8/pause 500/speak Juliet \"Oh, it sucks to work on your birthday, so I called in sick.$1#$b#Anyhow, I was heading down to treat myself at the cafe.\"/emote farmer 40/move farmer 1 0 1/speak Juliet \"$q 86571140 null#Do you wanna join me?#$r 86571141 50 Juliet_Bday_Y#Sounds awesome!#$r 86571144 0 Juliet_Bday_N#Nah, I'm too busy.#$r 86571145 -50 Juliet_Bday_W#No way. And you should be at work.\"/fork 86571141 Juliet_Catfe/pause 500/speak Juliet \"Okay, well, guess I'll see you around then. But you're missing out.#$b#Their maple bars are worth dying for. Or killing for!$1\"/pause 500/move Juliet 0 6 2 true/faceDirection farmer 2/pause 500/emote farmer 60/pause 1000/end",
-        "Juliet_Catfe": "pause 500/speak Juliet \"You'll love it. Their maple bars are worth dying for.#$b#Or killing for. I haven't decided!$1\"/pause 500/emote Juliet 20/move Juliet 0 4 2 true/move farmer 0 4 2 true/fade/viewport -1000 -1000/pause 2000/warp Juliet 6 24/warp farmer -100 -100/warp Tabitha 14 13/warp Theo 18 19/changeLocation CafeIndoors/viewport 11 17 true/move Juliet 0 -4 2/textAboveHead Tabitha \"Hi Juliet!\"/warp farmer 6 24/move farmer 0 -2 2/faceDirection farmer 1/pause 1000/faceDirection farmer 3/speak Juliet \"Welcome to the Stray Catfe.$1#$b#Cute place, isn't it? But if you're looking for the cats, you aren't gonna find any.#$b#False advertising, yeah, I know. But the food's good, so I ain't about to file a complaint!\"/emote farmer 32/speak Juliet \"Come on, let's find a seat.\"/fade/viewport -1000 -1000/warp Juliet 5 17/faceDirection Juliet 2/warp farmer 3 19/faceDirection farmer 1/positionOffset farmer 0 -20/showframe 117/warp Tabitha 9 18/faceDirection Tabitha 3/viewport 8 17/pause 500/move Tabitha -3 0 3/speak Tabitha \"Juliet! My favourite customer! Happy Birthday!\"/speak Juliet \"Oh Tabby, I bet you say that to all the girls!$4\"/pause 500/emote Tabitha 60/pause 2000/speak Tabitha \"It's good to see you too, @. I didn't know you two were friends.\"/quickQuestion #Juliet's awesome, I like her a lot.#Yeh, Juliet seems pretty cool.#We're not. I'm here for the food.(break)friendship Juliet 25\\faceDirection Juliet 3\\emote Juliet 20\\speak Juliet \"Thanks @. $4\"(break)friendship Juliet 10\\faceDirection Juliet 3\\emote Juliet 32\\speak Juliet \"Thanks @.$1\"(break)friendship Juliet -25\\emote Juliet 12\\speak Juliet \"That's the last time I invite you anywhere.$5\"/faceDirection Juliet 2/pause 500/speak Tabitha \"Well, I hope you enjoy your food!\"/pause 1000/fade/viewport -100 -100/farmerEat 731/message \"Juliet was right, the maple bars are worth dying - or killing - for!\"/end"
+        "Juliet_Catfe": "pause 500/speak Juliet \"You'll love it. Their maple bars are worth dying for.#$b#Or killing for. I haven't decided!$1\"/pause 500/emote Juliet 20/move Juliet 0 4 2 true/move farmer 0 4 2 true/fade/viewport -1000 -1000/pause 2000/warp Juliet 6 24/warp farmer -100 -100/warp Tabitha 14 13/warp Theo 18 19/changeLocation CafeIndoors/viewport 11 17 true/move Juliet 0 -4 2/textAboveHead Tabitha \"Hi Juliet!\"/warp farmer 6 24/move farmer 0 -2 2/faceDirection farmer 1/pause 1000/faceDirection farmer 3/speak Juliet \"Welcome to the Stray Catfe.$1#$b#Cute place, isn't it? But if you're looking for the cats, you aren't gonna find any.#$b#False advertising, yeah, I know. But the food's good, so I ain't about to file a complaint!\"/emote farmer 32/speak Juliet \"Come on, let's find a seat.\"/fade/viewport -1000 -1000/warp Juliet 5 17/faceDirection Juliet 2/warp farmer 3 19/faceDirection farmer 1/positionOffset farmer 0 -20/showframe 117/warp Tabitha 9 18/faceDirection Tabitha 3/viewport 8 17/pause 500/move Tabitha -3 0 3/speak Tabitha \"Juliet! My favourite customer! Happy Birthday!\"/speak Juliet \"Oh Tabby, I bet you say that to all the girls!$4\"/pause 500/emote Tabitha 60/pause 2000/speak Tabitha \"It's good to see you too, . I didn't know you two were friends.\"/quickQuestion #Juliet's awesome, I like her a lot.#Yeh, Juliet seems pretty cool.#We're not. I'm here for the food.(break)friendship Juliet 25\\faceDirection Juliet 3\\emote Juliet 20\\speak Juliet \"Thanks . $4\"(break)friendship Juliet 10\\faceDirection Juliet 3\\emote Juliet 32\\speak Juliet \"Thanks .$1\"(break)friendship Juliet -25\\emote Juliet 12\\speak Juliet \"That's the last time I invite you anywhere.$5\"/faceDirection Juliet 2/pause 500/speak Tabitha \"Well, I hope you enjoy your food!\"/pause 1000/fade/viewport -100 -100/farmerEat 731/message \"Juliet was right, the maple bars are worth dying - or killing - for!\"/end"
       }
     },
     //Juliet's schedule on her birthday
@@ -1048,7 +1047,7 @@
         "HasMod": "alistairweekend.TSCCharacters"
       },
       "Entries": {
-        "spring_15": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 CafeIndoors 5 15 1 \"Strings\\schedules\\Juliet:spring_17.100\"/1740 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+        "spring_15": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 CafeIndoors 5 15 1 \"Strings\\schedules\\Juliet:spring_17.100\"/1740 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
       }
     },
     {
@@ -1061,10 +1060,10 @@
         "Day": "15"
       },
       "Entries": {
-        "rain": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 CafeIndoors 5 15 1 \"Strings\\schedules\\Juliet:spring_17.100\"/1740 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+        "rain": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 CafeIndoors 5 15 1 \"Strings\\schedules\\Juliet:spring_17.100\"/1740 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
       }
     },
-    //Gremlin schedule on Juliet's birthday      
+    //Gremlin schedule on Juliet's birthday   
     {
       "LogName": "Schedule - Stray Catfe",
       "Action": "EditData",
@@ -1073,7 +1072,7 @@
         "HasMod": "alistairweekend.TSCCharacters"
       },
       "Entries": {
-        "spring_15": "700 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1130 CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 29 7 2 Gremlin_sleep"
+        "spring_15": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1130 CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep"
       }
     },
     {
@@ -1086,7 +1085,7 @@
         "Day": "15"
       },
       "Entries": {
-        "spring_15": "700 Custom_LK_LodgingHouse 19 17 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1130 CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 29 7 2 Gremlin_sleep"
+        "rain": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1130 CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep"
       }
     },
     //Makes Fun Leave DIalogue more fun!
@@ -1164,7 +1163,7 @@
         "HasMod": "CopperSun.JojaSeedsJA"
       },
       "Entries": {
-        "JojaMart_Tue": "Hey, farmer @. Looking to plant some crops? Ours are genetically enhanced! Yes really! But they probably won't make you grow two heads.$7"
+        "JojaMart_Tue": "Hey, farmer . Looking to plant some crops? Ours are genetically enhanced! Yes really! But they probably won't make you grow two heads.$7"
       }
     },
     {
@@ -1188,28 +1187,28 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Juliet",
       "Entries": {
-        "Juliet_NoMarried": "Oh yeah, right. 'Course you are.$5#$b#You don't have to pretend, @. I can take no for an answer, you know.$2"
+        "Juliet_NoMarried": "Oh yeah, right. 'Course you are.$5#$b#You don't have to pretend, . I can take no for an answer, you know.$2"
       },
       "When": {
         "HasValue:{{spouse}}": "false"
       }
     },
-   /* {
-      "Action": "EditData",
-      "Target": "strings/StringsFromCSFiles",
-      "Entries": {
-          "Utility.cs.5367": "{{i18n:3567.aideen}}",
-          "Utility.cs.5369": "{{i18n:5369.aideen}}", Need to figure outwhich is which!
-          "Utility.cs.5371": "{{i18n:5371.aideen}}",
-          "Utility.cs.5377": "{{i18n:5377.aideen}}"
-      },
-      "When": {
-          "Relationship:Juliet": "Engaged"
-      }
-  },*/
+    /* {
+   "Action": "EditData",
+   "Target": "strings/StringsFromCSFiles",
+   "Entries": {
+     "Utility.cs.5367": "{{i18n:3567.aideen}}",
+     "Utility.cs.5369": "{{i18n:5369.aideen}}", Need to figure outwhich is which!
+     "Utility.cs.5371": "{{i18n:5371.aideen}}",
+     "Utility.cs.5377": "{{i18n:5377.aideen}}"
+   },
+   "When": {
+     "Relationship:Juliet": "Engaged"
+   }
+ },*/
     /*******************************
-    A D D I T I O N A L   D I A L O G U E
-    **********************************/
+  A D D I T I O N A L  D I A L O G U E
+  **********************************/
     {
       "LogName": "Dialogue",
       "Action": "EditData",
@@ -1228,10 +1227,10 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Juliet",
       "Entries": {
-        "Mon2": "Do you smoke, @? I tried it once, but it kinda sucked, you know.#$b#Hah, I've got better stuff to spend my hard-earned pennies on.",
+        "Mon2": "Do you smoke, ? I tried it once, but it kinda sucked, you know.#$b#Hah, I've got better stuff to spend my hard-earned pennies on.",
         "Mon4": "There's gotta be something we can do to liven up this quiet little town.#$b#Hmmm.... I wonder if Lewis would let me organize one of the festivals. Hah, that'd be a hoot.$1",
         "summer_Thu": "All work and no play, and all that... Hope you're finding some time to have fun, farmer.$1#$b#You're not a Joja desk slave anymore, after all!",
-        "summer_Fri6": "You wanna head to the beach this weekend, @? Yeh, I figured I might check out the local talent."
+        "summer_Fri6": "You wanna head to the beach this weekend, ? Yeh, I figured I might check out the local talent."
       },
       "When": {
         "HasSeenEvent": "191393"
@@ -1247,6 +1246,41 @@
       "When": {
         "HasSeenEvent": "5295016"
       }
-    }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "fall_Juliet": "Good morning lover! Well, I'm off for the day! Laters!$1#$b#Oh, here's a little something to stop you wearing yourself out. I have plans for you later.$4[240]",
+      }
+    },
+    //Trigger 14-heart event without dating pathing: 
+    {
+      "LogName": "Talent Show Event starts",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "when": {
+        "HasDialogueAnswer": "639898, 639896",
+        "Relationship:Juliet |contains=Dating,Engaged, Married": false
+      },
+      "Entries": {
+        "6398443/f Juliet 2749/o Juliet/O {{spouse}}/t 600 1200": "playful/12 17/Juliet -100 -100 0 farmer 12 18 0/addConversationTopic Juliet_TalentShow 7/skippable/pause 500/speak Juliet \"Oh good, you're home.$1#$b#Sooooo, I may have mentioned to the Mayor that things were pretty dull around here and... guess what?\"/emote farmer 8/pause 500/speak Juliet \"I've got a promotion! I'm now the Official Events Co-ordinator for PT!\"/emote farmer 16/speak Juliet \"Yeh, I'm pretty sure he made it up, and he's just palming off responsibility again, but who cares?#$b#I'm officially organizing an event to 'invigorate the community.'#$b#His words, not mine. Pretentious BS. It's a party. Let's call it a party.$1\"/quickQuestion #Sounds great, you'll do an awesome job!#That's a lot of responsibility, are you sure you're up for it?#He's just trying to get you off his back.(break)emote Juliet 20\\speak Juliet \"Yeah, I hope so! It's exciting, isn't it?\"(break)emote Juliet 12\\speak Juliet \"Huh, I guess I married you to be my killjoy.$5#$b#Well, ye of little faith. I'll prove you wrong. You'll see!\"(break)emote Juliet 40\\speak Juliet \"Oh yeh, totally. But that doesn't mean I can't rock his socks off.#$b#Not that I really want to... I bet he's got bunions or ingrown toenails. Eww.$5\"/speak Juliet \"You're gonna help me, right? You're like the true power behind this village. Everyone loves you.#$b#Me? Well, I'm just the loudmouth Joja chick. They'll just brush me off.\"/emote farmer 60/speak Juliet \"Sweet. I knew I could count on you. It's a talent show. I'm seeking to expose everyone's hidden talents.#$b#Well, maybe not _expose_ cos, gross, but let's see what everyone's got. Right?\"/emote farmer 56/pause 1000/speak Juliet \"So, hey, what's your hidden talent, @?\"/pause 500/emote farmer 28/pause 1500/end"
+      }
+    },
+    {
+      "LogName": "Juliet reminds you of the event",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueJuliet",
+      "When": {
+          "HasSeenEvent": "6398443",
+          "HasConversationTopic |contains=Juliet_TalentShow": false,
+          "HasFlag |contains=Juliet_TalentShowReminder": false,
+          "Relationship:Juliet |contains=Dating,Engaged, Married": false
+      },
+      "Entries": {
+          "{{season}}_{{day}}": "$1 Juliet_TalentShowReminder#Hey farmer. Don't forget the talent show! It's at the Community Center this afternoon.$1#$b#The whole town'll be there so don't be late!$a"
+      }
+  },
   ]
 }

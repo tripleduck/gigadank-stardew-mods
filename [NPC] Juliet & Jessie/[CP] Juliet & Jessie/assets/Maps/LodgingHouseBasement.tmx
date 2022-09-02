@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
-  <property name="Warp" value="5 11 Custom_LK_LodgingHouse 21 13"/>
+  <property name="Warp" value="5 11 Custom_LK_LodgingHouse 21 18"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>

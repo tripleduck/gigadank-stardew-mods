@@ -2,28 +2,28 @@
     "Changes": [
         //JULIET - SCHEDULE EDITS; DISABLED PARTS ARE IN RELEVANT FILES LISTED BELOW
         /* EDITS in...
-            -CP: content.json, Juliet.json, Jessie.Json, Custom_LK_LodgingHouse.json; added SVE schedules, 
-                assets for recolors (atdsv OR rcti, AND/OR seasside, which should be noted as also 
-                including exteriors)/door patch (all)/gate removal (non-sve)
-                ^code is in place to make door patch (and recolors) SVE exclusive, if you so wish; 
-                if not, remove the TownMap "SVE" token from content.json
-            -TMX (Custom_LK_LodgingHouse): content.json
-            -JA (Potions): made it so the file wouldn't produce errors for the time being because it wasn't as disabled as intended
-           
-        */
+      -CP: content.json, Juliet.json, Jessie.Json, Custom_LK_LodgingHouse.json; added SVE schedules, 
+        assets for recolors (atdsv OR rcti, AND/OR seasside, which should be noted as also 
+        including exteriors)/door patch (all)/gate removal (non-sve)
+        ^code is in place to make door patch (and recolors) SVE exclusive, if you so wish; 
+        if not, remove the TownMap "SVE" token from content.json
+      -TMX (Custom_LK_LodgingHouse): content.json
+      -JA (Potions): made it so the file wouldn't produce errors for the time being because it wasn't as disabled as intended
+      
+    */
         {
             "LogName": "Schedule - SVE",
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
                 // second counter: 5, 25; first counter (conflicts with SVE's claire): 9, 25
-                "rain": "700 Custom_LK_LodgingHouse 21 16 3/1100 Custom_LK_LodgingHouse 9 17 0/1300 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1500 Town 95 51 0/1700 JojaMart 5 25 1 Juliet_work/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "spring_17": "620 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 77 0 Juliet_drums/1000 Beach 44 35 2/1700 Town 25 23 2 Juliet_yoyo/2300 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "spring": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Beach 29 36 1 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Sat": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Sun": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 100 60 2/1700 Town 25 23 2 Juliet_yoyo/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
+                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 95 51 0/1700 JojaMart 5 25 1 Juliet_work/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "spring_17": "620 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 77 0 Juliet_drums/1000 Beach 44 35 2/1700 Town 25 23 2 Juliet_yoyo/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Beach 29 36 1 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 100 60 2/1700 Town 25 23 2 Juliet_yoyo/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "JojaMart_Replacement": "Town 26 22 2 Juliet_yoyo"
             },
             "When": {
@@ -32,28 +32,28 @@
             }
         },
         /* {
-            "LogName": "Schedule - SVE",
-            "Action": "EditData",
-            "Target": "Characters/schedules/Juliet",
-            "Entries": {
-                "22": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
-            },
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-                //Conditions for Joja Day here
-            }
-        },*/
+      "LogName": "Schedule - SVE",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Juliet",
+      "Entries": {
+        "22": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        //Conditions for Joja Day here
+      }
+    },*/
         {
             "LogName": "Schedule - SVE version",
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
                 // second counter: 5, 25; first counter (conflicts with SVE's claire): 9, 25
-                "spring": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Beach 36 33 1 \"Strings\\schedules\\Juliet:winter_17.100\"/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Sat": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Sun": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 100 60 2/1700 Town 26 22 2 Juliet_yoyo/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Beach 36 33 1 \"Strings\\schedules\\Juliet:winter_17.100\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 100 60 2/1700 Town 26 22 2 Juliet_yoyo/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "JojaMart_Replacement": "Town 26 23 2 Juliet_yoyo"
             },
             "When": {
@@ -75,7 +75,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "86571101/f Juliet 1000/t 1600 1800/d Sat Sun/w sunny": "none/-100 -100/Juliet 56 53 2 farmer 68 60 0/addTemporaryActor Gremlin 16 32 65 52 1 false/addConversationTopic JulietGremlin 3/animate Gremlin false true 300 22 22 23 23 23/skippable/viewport 66 57/playSound trashcan/pause 500/playSound dogWhining/jump Juliet 3/pause 500/emote Juliet 16/pause 500/playSound trashcan/pause 500/move Juliet 2 0 1/textAboveHead Juliet \"Hey puppy.\"/move Juliet 2 0 1/pause 1000/move Juliet 2 0 1/pause 1000/textAboveHead Juliet \"Don't be scared.\"/pause 1000/move farmer 0 -2 0/pause 500/stopAnimation Gremlin/pause 500/faceDirection Gremlin 3/shake Gremlin 250/showFrame Gremlin 18/pause 500/faceDirection Juliet 2/pause 500/speak Juliet \"Stop! You'll scare her.$5\"/pause 500/emote farmer 28/pause 500/playSound dog_bark/pause 500/shake Gremlin 250/playSound dog_bark/faceDirection Juliet 1/showFrame Juliet 26/pause 500/speak Juliet \"It's okay. We're not gonna hurt you. Here, I got you something.\"/addObject 63 53 641 0/pause 500/emote farmer 40/showFrame Gremlin 12/pause 500/playSound dog_pant/move Gremlin 0 1 3/pause 500/move Gremlin -1 0 3/pause 500/playSound dog_bark/textAboveHead Juliet \"It's okay girl.\"/animate Gremlin false true 250 26 27 26 27 12 12 12 12/advancedMove Juliet false 0 1 5 0 0 4/pause 2500/speak Juliet \"What? Yeah, it's Joja meat, so mostly water and growth hormones, but it shouldn't hurt her.$3#$b#Yoba, what were you thinking charging in like that?\"/pause 500/faceDirection farmer 3/faceDirection Juliet 1/emote farmer 40/speak Juliet \"$q 86571116 null#You almost scared her away!#$r 8651116 25 Juliet_Gremlin_Apologise#I'm sorry...I didn't mean to scare her#$r 8651116 0 Juliet_Gremlin_Charge#What do you mean charging?#$r 8651118 -50 Juliet_Gremlin_Pest#You shouldn't be encouraging vermin.\"/pause 500/fork 8651118 Juliet_Gremlin_Disgust/pause 500/faceDirection Juliet 0/faceDirection farmer 0/speak Juliet \"Well, no harm, no foul, right? She's been hanging around for days. Poor thing.$2#$b#I've been trying to get her to trust me. Doesn't help Morris throws junk at her everytime he sees her.$5\"/removeSprite 63 53/stopAnimation Gremlin/showFrame Gremlin 0/pause 500/move Gremlin 2 0 2/pause 1000/emote Juliet 32/pause 500/move Gremlin 0 2 2/pause 1000/emote farmer 28/move Gremlin 0 3 2/textAboveHead Gremlin \"Arruuu?\"/pause 500/warp Gremlin -100 -100/showFrame Juliet 27/pause 1000/emote Juliet 20/pause 500/faceDirection farmer 3/emote farmer 32/pause 1000/end dialogue Juliet \"She followed me home, @... I guess I have a dog now?$1\""
+                "86571101/f Juliet 1000/t 1600 1800/d Sat Sun/w sunny": "none/-100 -100/Juliet 56 53 2 farmer 68 60 0/addTemporaryActor Gremlin 16 32 65 52 1 false/addConversationTopic JulietGremlin 3/animate Gremlin false true 300 22 22 23 23 23/skippable/viewport 66 57/playSound trashcan/pause 500/playSound dogWhining/jump Juliet 3/pause 500/emote Juliet 16/pause 500/playSound trashcan/pause 500/move Juliet 2 0 1/textAboveHead Juliet \"Hey puppy.\"/move Juliet 2 0 1/pause 1000/move Juliet 2 0 1/pause 1000/textAboveHead Juliet \"Don't be scared.\"/pause 1000/move farmer 0 -2 0/pause 500/stopAnimation Gremlin/pause 500/faceDirection Gremlin 3/shake Gremlin 250/showFrame Gremlin 18/pause 500/faceDirection Juliet 2/pause 500/speak Juliet \"Stop! You'll scare her.$5\"/pause 500/emote farmer 28/pause 500/playSound dog_bark/pause 500/shake Gremlin 250/playSound dog_bark/faceDirection Juliet 1/showFrame Juliet 26/pause 500/speak Juliet \"It's okay. We're not gonna hurt you. Here, I got you something.\"/addObject 63 53 641 0/pause 500/emote farmer 40/showFrame Gremlin 12/pause 500/playSound dog_pant/move Gremlin 0 1 3/pause 500/move Gremlin -1 0 3/pause 500/playSound dog_bark/textAboveHead Juliet \"It's okay girl.\"/animate Gremlin false true 250 26 27 26 27 12 12 12 12/advancedMove Juliet false 0 1 5 0 0 4/pause 2500/speak Juliet \"What? Yeah, it's Joja meat, so mostly water and growth hormones, but it shouldn't hurt her.$3#$b#Yoba, what were you thinking charging in like that?\"/pause 500/faceDirection farmer 3/faceDirection Juliet 1/emote farmer 40/speak Juliet \"$q 86571116 null#You almost scared her away!#$r 8651116 25 Juliet_Gremlin_Apologise#I'm sorry...I didn't mean to scare her#$r 8651116 0 Juliet_Gremlin_Charge#What do you mean charging?#$r 8651118 -50 Juliet_Gremlin_Pest#You shouldn't be encouraging vermin.\"/pause 500/fork 8651118 Juliet_Gremlin_Disgust/pause 500/faceDirection Juliet 0/faceDirection farmer 0/speak Juliet \"Well, no harm, no foul, right? She's been hanging around for days. Poor thing.$2#$b#I've been trying to get her to trust me. Doesn't help Morris throws junk at her everytime he sees her.$5\"/removeSprite 63 53/stopAnimation Gremlin/showFrame Gremlin 0/pause 500/move Gremlin 2 0 2/pause 1000/emote Juliet 32/pause 500/move Gremlin 0 2 2/pause 1000/emote farmer 28/move Gremlin 0 3 2/textAboveHead Gremlin \"Arruuu?\"/pause 500/warp Gremlin -100 -100/showFrame Juliet 27/pause 1000/emote Juliet 20/pause 500/faceDirection farmer 3/emote farmer 32/pause 1000/end dialogue Juliet \"She followed me home, ... I guess I have a dog now?$1\""
             },
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
@@ -86,22 +86,22 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_LK_JojaBreakRoom",
             "Entries": {
-                "6398445/t 900 1800/d Sat Sun": "none/-100 -100/Claire 4 6 2 Juliet -100 -100 0 farmer -100 -100 0/skippable/viewport 9 7/showFrame Claire 34/pause 500/playSound doorOpen/warp Juliet 2 11/move Juliet 0 -3 0/emote Claire 16/move Claire -1 0 2/pause 500/speak Claire \"Oh, hello. You must be the new girl.#$b#Juliet, right?\"/move Juliet 0 -2 1/faceDirection Claire 3/speak Juliet \"You've done your homework. I'm impressed.$1#$b#Hmm, Morris really does like redheads, doesn't he? Of course, mine ain't natural.$3\"/pause 500/emote Claire 40/pause 1500/speak Claire \"Err, anyway, I'm Claire.#$b#Um, would you like me to show you around?\"/pause 500/speak Juliet \"Yeh sure, why not.#$b#Hey, you seem sweet. What are you in for?\"/pause 500/emote Claire 8/speak Claire \"I... I don't know what you're talking about.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"To be dragged into this ... this purgatory.$2#$b#Oh... Oh crap. You're here by choice?$4\"/pause 500/speak Claire \"Well, yes. I suppose so. Aren't you?\"/pause 500/emote Juliet 60/pause 1500/speak Juliet \"Err..#$b#Yeah, yeah of course I am. Loving that Joja cola. Join Us Thrive. Yeah.\"/pause 500/emote Juliet 28/pause 2000/emote Claire 40/pause 2000/playSound doorOpen/warp farmer 2 10/jump Juliet 4/jump Claire 4/faceDirection Juliet 2 true/faceDirection Claire 2 true/pause 1000/move farmer 0 -1 0/speak Juliet \"Hey, you're the farmer right, I heard you'd escaped the Joja clutches! So what brought you here?\"/quickQuestion #The fresh country air.#I wanted to follow my grandfather's legacy.#A bus, duh.#None of your business.(break)speak Juliet \"Hah, yeh, that's all the rage these days, isn't it?\"(break)speak Juliet \"Noble choice! Turning soil and milking cows... not really my scene, but to each their own.\"(break)speak Juliet \"Hah, a sense of sarcasm. I like you.$1\"(break)speak Juliet \"Okay yeah, fair call. I'll stop sticking my nose in where it doesn't belong.\"/pause 500/speak Claire \"Sorry @. You shouldn't really be in here.#$b#This is for staff only.$2\"/emote farmer 60/pause 500/speak Juliet \"Anyhow, good to meet you, @. See you around sometime.\"/faceDirection Juliet 1/speak Juliet \"I 'spose I'd better get the grand tour now.\"/emote Claire 32/faceDirection Claire 3/speak Claire \"Sure Juliet... the lockers are over here...\"/pause 500/end dialogue Juliet \"Poor Claire... that Morris guy really didn't like you coming in there.$2#$b#You'd think he had the crowned jewels or the holy grail hidden somewhere.\""
+                "6398445/t 900 1800/d Sat Sun": "none/-100 -100/Claire 4 6 2 Juliet -100 -100 0 farmer -100 -100 0/skippable/viewport 9 7/showFrame Claire 34/pause 500/playSound doorOpen/warp Juliet 2 11/move Juliet 0 -3 0/emote Claire 16/move Claire -1 0 2/pause 500/speak Claire \"Oh, hello. You must be the new girl.#$b#Juliet, right?\"/move Juliet 0 -2 1/faceDirection Claire 3/speak Juliet \"You've done your homework. I'm impressed.$1#$b#Hmm, Morris really does like redheads, doesn't he? Of course, mine ain't natural.$3\"/pause 500/emote Claire 40/pause 1500/speak Claire \"Err, anyway, I'm Claire.#$b#Um, would you like me to show you around?\"/pause 500/speak Juliet \"Yeh sure, why not.#$b#Hey, you seem sweet. What are you in for?\"/pause 500/emote Claire 8/speak Claire \"I... I don't know what you're talking about.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"To be dragged into this ... this purgatory.$2#$b#Oh... Oh crap. You're here by choice?$4\"/pause 500/speak Claire \"Well, yes. I suppose so. Aren't you?\"/pause 500/emote Juliet 60/pause 1500/speak Juliet \"Err..#$b#Yeah, yeah of course I am. Loving that Joja cola. Join Us Thrive. Yeah.\"/pause 500/emote Juliet 28/pause 2000/emote Claire 40/pause 2000/playSound doorOpen/warp farmer 2 10/jump Juliet 4/jump Claire 4/faceDirection Juliet 2 true/faceDirection Claire 2 true/pause 1000/move farmer 0 -1 0/speak Juliet \"Hey, you're the farmer right, I heard you'd escaped the Joja clutches! So what brought you here?\"/quickQuestion #The fresh country air.#I wanted to follow my grandfather's legacy.#A bus, duh.#None of your business.(break)speak Juliet \"Hah, yeh, that's all the rage these days, isn't it?\"(break)speak Juliet \"Noble choice! Turning soil and milking cows... not really my scene, but to each their own.\"(break)speak Juliet \"Hah, a sense of sarcasm. I like you.$1\"(break)speak Juliet \"Okay yeah, fair call. I'll stop sticking my nose in where it doesn't belong.\"/pause 500/speak Claire \"Sorry . You shouldn't really be in here.#$b#This is for staff only.$2\"/emote farmer 60/pause 500/speak Juliet \"Anyhow, good to meet you, . See you around sometime.\"/faceDirection Juliet 1/speak Juliet \"I 'spose I'd better get the grand tour now.\"/emote Claire 32/faceDirection Claire 3/speak Claire \"Sure Juliet... the lockers are over here...\"/pause 500/end dialogue Juliet \"Poor Claire... that Morris guy really didn't like you coming in there.$2#$b#You'd think he had the crowned jewels or the holy grail hidden somewhere.\""
             },
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
-        /*{  
-    //It would be nice to have one that switched the roles if you had Juliet installed THEN added SVE. But unfprtunately I haven't quite figured out how to code that in yet. When - if - I do, there'll be a nice little easter egg.
-    "LogName": "Juliet and Claire - new reversed",  
-    "Action": "EditData",  
-    "Target": "Data/Events/JojaBreakRoom",
-    "Entries": {
-        "6398445/t 900 1800/f Juliet 250/d Sat Sun": "none/7 7/Juliet -100 -100 0 farmer -100 -100 0 Claire 5 6 2/skippable/showFrame Claire 34/pause 500/playSound doorOpen/warp Juliet 2 11/move Juliet 0 -3 0/emote Claire 16/move Claire -1 0 2/pause 500/speak Claire \"Oh, hello. I'm new here.#$b#You're Juliet, right? Morris told you'd show me the ropes.\"/move Juliet  0 -2 1/speak Juliet \"Oh, did he just. Typical...$5#$b#Morris really does like redheads, doesn't he? Of course, mine ain't natural.$3\"/pause 500/emote Claire 40/pause 1500/speak Claire \"Err, anyway, I'm Claire.#$b#Um, were you maybe going to show me around? What locker can I use?$2\"/pause 500/speak Juliet \"Yeh sure, of course.#$B#Hey, you seem sweet. What are you in for?\"/pause 500/emote Claire 8/speak Claire \"I... I don't know what you're talking about.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"To be dragged into this ... this Joja purgatory.$2#$b#Oh... Oh crap. You're here by choice?$4\"/pause 500/speak Claire \"Well, yes. I suppose so. Aren't you?\"/pause 500/emote Juliet 60/pause 1500/speak Juliet \"Err..#$b#Yeah, yeah of course I am. Loving that Joja cola. Join Us Thrive. Yeah.\"/pause 500/emote Juliet 28/pause 2000/emote Claire 40/pause 2000/speak Juliet \"Okay, so a lock-\"/playSound doorOpen/warp farmer 2 11/jump Juliet 4/jump Claire 4/faceDirection Juliet 2 true/faceDirection Claire 2 true/pause 1000/move farmer 0 -1 0/speak Juliet \"Hey Claire, this is the local farmer.#$b#@,what can we do you for today? Come to pick up some genetically enhanced seeds?\"/quickQuestion #Yeh, Pierre's is closed.#I heard there was someone new in town.#I came to see you, Juliet.(break)speak Juliet \"Yep, good business sense... closing on Wednesdays.#$b#And he complains that they're running him out of town.\"(break)speak Juliet \"Hah, there's more than one new face in town, @. Have you seen the cute girl with the pink hair yet?#$b#Things are changing around here, that's for sure!\"(break)speak Juliet \"
-            },
-    "When":  {  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "Relationship:Juliet":"Friendly"    }
-            },*/
+        /*{ 
+  //It would be nice to have one that switched the roles if you had Juliet installed THEN added SVE. But unfprtunately I haven't quite figured out how to code that in yet. When - if - I do, there'll be a nice little easter egg.
+  "LogName": "Juliet and Claire - new reversed", 
+  "Action": "EditData", 
+  "Target": "Data/Events/JojaBreakRoom",
+  "Entries": {
+    "6398445/t 900 1800/f Juliet 250/d Sat Sun": "none/7 7/Juliet -100 -100 0 farmer -100 -100 0 Claire 5 6 2/skippable/showFrame Claire 34/pause 500/playSound doorOpen/warp Juliet 2 11/move Juliet 0 -3 0/emote Claire 16/move Claire -1 0 2/pause 500/speak Claire \"Oh, hello. I'm new here.#$b#You're Juliet, right? Morris told you'd show me the ropes.\"/move Juliet 0 -2 1/speak Juliet \"Oh, did he just. Typical...$5#$b#Morris really does like redheads, doesn't he? Of course, mine ain't natural.$3\"/pause 500/emote Claire 40/pause 1500/speak Claire \"Err, anyway, I'm Claire.#$b#Um, were you maybe going to show me around? What locker can I use?$2\"/pause 500/speak Juliet \"Yeh sure, of course.#$B#Hey, you seem sweet. What are you in for?\"/pause 500/emote Claire 8/speak Claire \"I... I don't know what you're talking about.\"/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"To be dragged into this ... this Joja purgatory.$2#$b#Oh... Oh crap. You're here by choice?$4\"/pause 500/speak Claire \"Well, yes. I suppose so. Aren't you?\"/pause 500/emote Juliet 60/pause 1500/speak Juliet \"Err..#$b#Yeah, yeah of course I am. Loving that Joja cola. Join Us Thrive. Yeah.\"/pause 500/emote Juliet 28/pause 2000/emote Claire 40/pause 2000/speak Juliet \"Okay, so a lock-\"/playSound doorOpen/warp farmer 2 11/jump Juliet 4/jump Claire 4/faceDirection Juliet 2 true/faceDirection Claire 2 true/pause 1000/move farmer 0 -1 0/speak Juliet \"Hey Claire, this is the local farmer.#$b# ,what can we do you for today? Come to pick up some genetically enhanced seeds?\"/quickQuestion #Yeh, Pierre's is closed.#I heard there was someone new in town.#I came to see you, Juliet.(break)speak Juliet \"Yep, good business sense... closing on Wednesdays.#$b#And he complains that they're running him out of town.\"(break)speak Juliet \"Hah, there's more than one new face in town, . Have you seen the cute girl with the pink hair yet?#$b#Things are changing around here, that's for sure!\"(break)speak Juliet \"
+      },
+  "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "Relationship:Juliet":"Friendly"  }
+      },*/
         //Till sign fix - lights up the "2" (1 is also recolored and available, if needed)... any way to set this so it's only while she's around?
         {
             "LogName": "JojaMart till number sign fix",
@@ -130,7 +130,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sat": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/950 Custom_LK_ClearingHouse 25 20 2/1030 Custom_EastScarpe 21 102 0/1400 Custom_EastScarpe 56 41 2/1700 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/950 Custom_LK_ClearingHouse 25 20 2/1030 Custom_EastScarpe 21 102 0/1400 Custom_EastScarpe 56 41 2/1700 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             },
             "When": {
                 "HasSeenEvent": "86571101",
@@ -142,7 +142,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sun": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 Beach 44 35/1330 SeedShop 37 22 0/1700 Town 16 61 1/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Beach 44 35/1330 SeedShop 37 22 0/1700 Town 16 61 1/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             },
             "When": {
                 "HasMod": "Ginnyclaire.Paul, midnightsky550",
@@ -154,7 +154,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sun": "700 Custom_LK_LodgingHouse 21 16 3/900 Custom_LK_LodgingHouse 33 7 0 Juliet_drums/1100 Beach 44 35/1330 SeedShop 37 22 0/1700 Town 16 61 1/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Beach 44 35/1330 SeedShop 37 22 0/1700 Town 16 61 1/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             },
             "When": {
                 "HasMod": "Ginnyclaire.Paul, midnightsky550",
@@ -297,9 +297,9 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "spring": "620 Custom_LK_LodgingHouse 21 16 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 16 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 16 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/800 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "marriage_Mon": "700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/2100 BusStop -1 23 3",
                 "marriage_Wed": "700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/2100 BusStop -1 23 3",
             },
@@ -307,11 +307,12 @@
                 "HasFlag |contains=ccMovieTheaterJoja": true
             }
         },
-        {   "LogName": "Joja Day",
+        {
+            "LogName": "Joja Day",
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "22": "620 Custom_LK_LodgingHouse 21 16 3/700 Town 95 51 0/850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 27 6 2 Juliet_sleep"
+                "22": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             },
             "When": {
                 "HasSeenEvent |contains=502261": true,
@@ -320,63 +321,63 @@
         },
         //Changes Theater BackRoom warps:
         /* {
-            "Action": "EditMap",
-            "Target": "Custom_LK_TheaterBreakroom",
-            "MapProperties": {
-                "NPCWarp": "20 21 Town 52 20 21 21 Town 52 20",
-            },
-            "When": {
-                "HasFlag |contains=ccMovieTheater": true
-            }
-        },*/
+      "Action": "EditMap",
+      "Target": "Custom_LK_TheaterBreakroom",
+      "MapProperties": {
+        "NPCWarp": "20 21 Town 52 20 21 21 Town 52 20",
+      },
+      "When": {
+        "HasFlag |contains=ccMovieTheater": true
+      }
+    },*/
         //Remove tree from museum
         /*{
-            "LogName": "Removes bush in front of Community Center",
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 57,
-                        "Y": 22
-                    },
-                    "Layer": "Buildings",
-                    "Remove": true
-                },
-                {
-                    "Position": {
-                        "X": 58,
-                        "Y": 22
-                    },
-                    "Layer": "Buildings",
-                    "Remove": true
-                },
-                {
-                    "Position": {
-                        "X": 59,
-                        "Y": 22
-                    },
-                    "Layer": "Buildings",
-                    "Remove": true
-                },
-                {
-                    "Position": {
-                        "X": 59,
-                        "Y": 21
-                    },
-                    "Layer": "Front",
-                    "Remove": true
-                },
-                {
-                    "Position": {
-                        "X": 59,
-                        "Y": 20
-                    },
-                    "Layer": "Front",
-                    "Remove": true
-                },
-            ]
-        },*/
+      "LogName": "Removes bush in front of Community Center",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 57,
+            "Y": 22
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 58,
+            "Y": 22
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 59,
+            "Y": 22
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 59,
+            "Y": 21
+          },
+          "Layer": "Front",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 59,
+            "Y": 20
+          },
+          "Layer": "Front",
+          "Remove": true
+        },
+      ]
+    },*/
         {
             "LogName": "Removes leaves in front of Community Center",
             "Action": "EditMap",

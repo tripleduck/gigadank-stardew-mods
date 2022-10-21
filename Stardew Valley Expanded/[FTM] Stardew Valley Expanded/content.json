@@ -2107,6 +2107,47 @@
       },
       {
         "SpringItemIndex": [],
+        "SummerItemIndex": [
+          259
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Extra fiddlehead fern forage in expanded secret woods during summer",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "63,63;35,45",
+          "67,34;54,11",
+          "45,28;35,20"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [],
         "SummerItemIndex": [],
         "FallItemIndex": [],
         "WinterItemIndex": [
@@ -4488,8 +4529,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Copper Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 7,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -4535,8 +4576,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Iron Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 7,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -4582,8 +4623,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Gold Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 7,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -4677,8 +4718,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Stone + Geode Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 450,
-        "MaximumSpawnsPerDay": 450,
+        "MinimumSpawnsPerDay": 380,
+        "MaximumSpawnsPerDay": 380,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [

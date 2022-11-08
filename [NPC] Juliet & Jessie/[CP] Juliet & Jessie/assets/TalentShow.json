@@ -37,7 +37,7 @@
                 "HasSeenEvent": "6398443",
                 "HasConversationTopic |contains=Juliet_TalentShow": false,
                 "HasFlag |contains=Juliet_TalentShowReminder": false,
-                "Relationship:Juliet":"Dating,Engaged, Married"
+                "Relationship:Juliet": "Dating,Engaged, Married"
             },
             "Entries": {
                 "{{season}}_{{day}}": "$1 Juliet_TalentShowReminder#Hello lover. Don't forget the talent show! I'll meet you at the Community Center this afternoon.$1#$b#The whole town'll be there so you'd better not be late.$2",
@@ -233,7 +233,8 @@
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
                 "Juliet_TalentShow": "It's good to see Juliet realizing her potential. For all her sharp tongue, she works hard.",
-                "Juliet_TalentShow2": "i'll have to say, Juliet's impressed me. You've been a good influence on her, @."
+                "Juliet_TalentShow2": "I have to say, Juliet's impressed me. You've been a good influence on her, @.",
+                "JulietParents": "You've heard the news I take it? The Donaghues will be visiting Pelican Town.#$b#They're very important, and very rich - so we need to make a good impression.#$b#Hopefully everyone is on their best behavior. Juliet especially...$2"
             }
         },
         {

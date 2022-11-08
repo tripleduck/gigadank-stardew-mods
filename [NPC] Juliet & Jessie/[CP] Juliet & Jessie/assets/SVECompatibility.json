@@ -17,11 +17,11 @@
             "Target": "Characters/schedules/Juliet",
             "Entries": {
                 // second counter: 5, 25; first counter (conflicts with SVE's claire): 9, 25
-                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 95 51 0/1700 JojaMart 5 25 1 Juliet_work/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 92 51 2/1700 JojaMart 5 25 1 Juliet_work/2300 Town 35 20 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "spring_17": "620 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 77 0 Juliet_drums/1000 Beach 44 35 2/1700 Town 25 23 2 Juliet_yoyo/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Beach 29 36 1 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 5 25 1 Juliet_work/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 5 25 1 Juliet_work/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 5 25 1 Juliet_work/1700 Beach 29 36 1 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 5 25 1 Juliet_work/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 100 60 2/1700 Town 25 23 2 Juliet_yoyo/2300 Town 34 10 2/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "JojaMart_Replacement": "Town 26 22 2 Juliet_yoyo"
@@ -312,7 +312,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "22": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "22": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 12 28 1/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             },
             "When": {
                 "HasSeenEvent |contains=502261": true,

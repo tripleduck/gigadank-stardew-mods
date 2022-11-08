@@ -1,15 +1,15 @@
 {
-    "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 95 51 0/1800 Custom_LK_LodgingHouse 17 17 0/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+    "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1800 Custom_LK_LodgingHouse 17 17 0/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     //"spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 92 44 0/850 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     //"spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 100 53 0/850 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 25 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     //"winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 92 44 0/900 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 36 33 1 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 44 0/900 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Town 26 22 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-    "Fri": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 44 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+    "Fri": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 44 21 3/2100 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-    "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 95 51 0/1700 Town 34 10 2/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+    "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/a1700 Town 34 10 2/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
     "JojaMart_Replacement": "Town 26 22 2 Juliet_yoyo",
     "marriage_Sat": "700 Custom_LK_ClearingHouse 20 17 2/1310 Beach 44 35 2/1800 Saloon 42 21 3/2200 BusStop -1 23 3",
-    "marriage_Sun": "700 Custom_LK_ClearingHouse 20 17 2/1100 SeedShop 38 22 0/1400 Town 95 51 0/1700 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3"
+    "marriage_Sun": "700 Custom_LK_ClearingHouse 20 17 2/1100 SeedShop 38 22 0/a1700 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3"
 }

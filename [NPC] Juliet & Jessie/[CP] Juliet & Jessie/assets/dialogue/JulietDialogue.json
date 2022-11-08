@@ -83,7 +83,7 @@
   "JasperHomeA": "So, I hear the professor's back and monsters ate his leg. Nasty stuff. Poor guy.$2#$b#You should take him something - pretty sure he likes blueberries; he certainly used to buy a ton of them.$3",
   "LucikielArrives": "Morris is such a jerk; he's really gone too far this time. Like his dumb ass could contain a demon!$5#$b#Did you see him - Lucikiel? He's hot, isn't he? And not just cos he's a demon. Nice tail too.$4#$b#But with Mr Come-join-my-pity-party in charge, things are really gonna get interesting around here...$3",
   "ReputationIncreased": "The new demon-guy's pretty hot, yeh? Nah, don't worry, he's not my type - tail or not!$1#$b#But hey, what do you think? Are he and Mr Pity-Party kind of a thing now? He doesn't seem as much of a grumpy misery-guts when I see him around town.#$b#And they'd make a cute couple, right? Yeh, I'm totally shipping them.$4",
-  "election":"So, Morris has ascended the Pelican Town throne. Here's hoping he doesn't choose to reign in blood and terror.$1",
+  "election": "So, Morris has ascended the Pelican Town throne. Here's hoping he doesn't choose to reign in blood and terror.$1",
   /*/mentions of Jade
   "Sun2": "You're not afraid of spiders, are you? My housemate, Jade, is sweet on all kinds of creepy crawlies, so you never know what might crawl into your ear when you're asleep.",
   "Sun4": "At breakfast this morning, one of Jade's 8-legged friends marched straight across the table. Not gonna lie, I almost screamed like a little girl.#$b#And calm as anything, Jessie picked it up - in her bare hands! - and put it outside!",
@@ -93,7 +93,7 @@
   "SeedShop_Sun": "Didn't expect to see me here, didya? Well, this girl's gotta repent her sins, right?$1",
   "JojaMart_Mon": "Joja suck, but when there's bills to pay... You do what you gotta do. Right?$7",
   "JojaMart_Tue": "Hey, farmer @. Looking to plant some crops? Ours are genetically enhanced! Nah, not really, I just made that up. They're just seeds.$7",
-  "JojaMart_Wed": "Lemme guess, farmer @, you want seeds, and Mr My-seeds-are- the-best-in-the- valley can't be bothered getting out of his cosy bed to open?$7#$b#Well, at JojaMart we're here to supply all your farming needs, 7 days a week!$6",
+  "JojaMart_Wed": "Lemme guess, farmer @, you want seeds, and Mr My-seeds-are-the-best-in-the- valley can't be bothered getting out of his cozy bed to open?$7#$b#Well, at JojaMart we're here to supply all your farming needs, 7 days a week!$6",
   "JojaMart_Thu": "Join us. Thrive. What corporate feel-good BS. Like, the only ones that thrive are the head honchos' wallets.$7",
   "JojaMart_Fri": "$c .5#Shane's easy on the eyes, but I'm pretty sure he hates me. Ah well, at least I can enjoy the view, right?$6#$e#Wanna spice up your life, farmer @? You should plant some hot peppers. You might even manage to snare the mayor... He loves that stuff.$6",
   "JojaMart_Sun": "You know, in some places people actually get a weekend off. But not when you're working for The Man, eh @?$6",
@@ -107,11 +107,11 @@
   "Custom_LK_TheaterBreakroom_Thu": "$c 0.05#Hey @, I thought you might like to see a movie sometime. See who you can coerce into joining you.$4[809][809]#$b#Hey @, seen any good movies lately? Me? I like the truly out-there crazy stuff. None ot the saccharine-sweet feel-good nonsense.$1",
   "Custom_EastScarpe_Sat": "Gremlin loves to bark at the pelicans. I'm kinda scared one of them might eat her.",
   "Custom_EastScarpe_56_41": "$q 6398001 JulietGhostStory#Do you like spooky stories, @?#$r 6398001 50 JulietGhost_Yes#Heck yes!#$r 6398002 0 JulietGhost_No#No thanks.",
-  "JulietGhost_Yes": "Here's a good one for you... they say there was once a beautiful orchard near here, that produced the best cherry wine in Stardew Valley.#$b#Until she came into his life. Some say she bewitched him... that she was a witch!#$b#He was indeed smitten, but his new wife was cruel and ambitious.#$b#Within a year of marriage he was dead. A tragic accident, they said. Or was it?#$b#Shortly after, the wine grew sour, and fruit rotted on the trees. The wife? She vanished. Some say she took his money and fled... but others say that she's still there. And on rainy nights you may see her, barefoot and fey, roaming the scarpe in search of fresh prey.",
+  "JulietGhost_Yes": "Here's a good one for you... they say there was once a vintner that produced the best cherry wine in Stardew Valley.#$b#Until a mysterious woman came into his life. Some say she bewitched him... that she was a witch!#$b#He was indeed smitten, but his new wife was cruel and ambitious.#$b#Within a year of marriage he was dead. A tragic accident, they said. Or was it?#$b#Shortly after, the wine grew sour, and fruit rotted on the trees. The wife? She vanished. Some say she took his money and fled... but others say that she's still there. And on rainy nights you may see her, barefoot and fey, roaming the scarp in search of fresh prey.",
   "JulietGhost_No": "Aww, are you scared of the dark? I thought you'd be braver than that.",
-  "JulietGhostStory": "$p 6398001#Noticed anything strange around East Scarpe recently, @? I think she's still about...|Hey, did you know this is built over the old mine site? Where a bunch of people died. Creepy, eh? Oh, I hope I haven't given you nightmares!",
+  "JulietGhostStory": "$p 6398001#Noticed anything strange around East Scarp recently, @? I think the witch must still be about...|Hey, did you know this is built over the old mine site? Where a bunch of people died. Creepy, eh? Oh, I hope I haven't given you nightmares!",
   "CommunityCenter_Wed": "Do you think this place is haunted, @? Sometimes when I'm here alone, I hear scratching in the walls.$2#$b#Maybe someone's buried in them, like in that creepy poem!$1",
-  "Custom_EastScarpe_21_102": "Hey @, have you tried Rosa's maple bars? They're divine!$1",
+  "Custom_EastScarpe_20_102": "Hey @, have you tried Rosa's maple bars? They're divine!$1",
   // Question Answers
   "Jules_Metal": "Stellar! I knew that you'd have good taste. You wanna drop by sometime, listen to me play?#$b#Saturday mornings, when Jessie's working, I literally rock this house!",
   "Jules_Pop": "Ah, so you follow the crowd like a happy little consumer. Well, to each their own, I guess. I suppose some of it's okay.$1",
@@ -151,7 +151,6 @@
   "giftquestion_lie": "Hey I'm pretty much cool with everything except lying. So don't give me that BS.$5",
   "rejectNPCA": "Oh, I'm not really the flowers kinda gal. Well, not those flowers anyway.",
   "rejectNPCB": "Not saying I don't love the attention, but I'm not looking for any strings. Okay?",
-
   //Event Question Dialogue
   "Jules_BandY": "Wait... are you being sarcastic? No?#$b#Well then, um, thanks.$4",
   "Jules_BandM": "Let's see... my pride... possibly my dignity...?$3#$b#Ah well, those aren't worth much anyway, are they?$1",
@@ -172,8 +171,12 @@
   "Juliet_Bday_N": "Typical. You're always rushing around like your feet are on fire.#$b#Well, maybe next year then. Hah. Like I believe that.",
   "Juliet_Bday_W": "Oh, you're really quite the party pooper, aren't you @?$5",
   "Shane_6_heart": "Shane wasn't at work today. Morris was pissed, but I gotta admit, I'm worried. You haven't seen him, have you?#$b#Oh.. Frikk. Err, if you visit him, give him a fruit basket or whatever from me. Oh I dunno. Just tell him I miss him, okay?$2",
+  //Conversation Topics
+  "Aideen_Garden": "Me, help with a garden? Hah! I have the opposite of a green thumb.#$b#Jessie won't even let me touch her watering can. I'll provide moral support though!$1",
   // mobile phone
   "MobilePhoneGreeting": "Hey {0}. Whatcha up to? Doing something wicked I hope?",
   "MobilePhoneReminisce": "Hah yeh, sounds like fun. Flashback time!",
-  "MobilePhoneGoodBye": "Catch ya later! Don't be a stranger, {0}."
+  "MobilePhoneGoodBye": "Catch ya later! Don't be a stranger, {0}.",
+  //Custom gift tastes
+  "GiftReaction_Rodney's_Autograph": "Haha, it's Two-time Rodney. Hmm, how do you think he'd look with glasses and a moustache, @?$1#$b#Now, where's my marker?"
 }

@@ -2,7 +2,7 @@
     "Format": "1.15",
     "ConfigSchema": {
         "ManualRecolourSelection":{
-            "AllowValues":"Off, Vanilla, Earthy, Eemie, ProjectYellog, Starblue, VibrantPastoral, WittilyNamed",
+            "AllowValues":"Off, Vanilla, Earthy, Eemie, Starblue, VibrantPastoral, WittilyNamed",
             "Default":"Off"
         },
         "ManualInterfaceSelection":{
@@ -76,14 +76,14 @@
                 "ManualRecolourSelection":"Off"
             }
         },
-        {
+        /*{
             "Name":"recolour",
             "Value":"ProjectYellog",
             "When":{
                 "HasMod":"yri.ProjectYellogTownOverhaul",
                 "ManualRecolourSelection":"Off"
             }
-        },
+        },*/
         {
             "Name":"recolour",
             "Value":"{{ManualRecolourSelection}}",

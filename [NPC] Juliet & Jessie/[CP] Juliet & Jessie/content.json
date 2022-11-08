@@ -85,7 +85,7 @@
                         "Name": "Costume",
                         "Value": "Zombie",
                         "When": {
-                                "Year":"1,3,5,7,11,13,17,19,23,27,31,37,43"
+                                "Year": "1,3,5,7,11,13,17,19,23,27,31,37,43"
                         }
                 },
                 //Determines what gifts Jessie can give in her 2-heart event
@@ -530,7 +530,6 @@
                                 "LodgingHouse.015": "Looks like this is designed to only play DVDs, and they're all kids titles. Movies about family and friendship. Very wholesome.",
                                 "JulesMovie.1": "The owl blinks sleepily at you. It looks well fed.",
                                 "JulesMovie.2": "You put out your hand and the little bird pecks it. Ow!"
-                                //Jule's favourite author: Rachael Morrigan, author of the Cerulean Moon/Sanguine Skies.
                         }
                 },
                 // Adds the warp so that Juliet can enter the Theater Breakroom (non-SVE). 

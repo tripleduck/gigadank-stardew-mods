@@ -18,10 +18,10 @@ All the mods are hosted on NexusMods and are the intellectual property of their 
 
 ## Requirements
 * Have latest Stardew Valley version installed on a PC
- - 1.5.6 hotfix#3 at the time of writing
- - doesn't matter if through Steam or GoG
-* Have the latest [SMAPI]() version installed
- - It is up to you to keep this up to date
+  - 1.5.6 hotfix#3 at the time of writing
+  - doesn't matter if through Steam or GoG
+* Have the latest [SMAPI](https://smapi.io/) version installed
+  - It is up to you to keep this up to date
 
 ## Instructions
 * Download:

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="7" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="288">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="7" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="288">
  <properties>
   <property name="Arch" value="102 .02 100 .008 110 .02 115 .002"/>
   <property name="DayTiles" value="Buildings 92 79 186 Buildings 41 69 560 Buildings 71 67 720"/>
@@ -14,8 +14,8 @@
   <property name="Warp" value="-1 52 BusStop 34 23 -1 53 BusStop 34 23 -1 54 BusStop 34 23 -1 55 BusStop 34 24 53 110 Beach 38 0 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 92 Forest 118 25 -1 90 Forest 118 25 -1 89 Forest 118 25 -1 91 Forest 118 25 54 110 Beach 38 0 55 110 Beach 38 0 120 70 TownEast 0 21 120 71 TownEast 0 21 120 72 TownEast 0 21 120 73 TownEast 0 22 120 74 TownEast 0 22 120 75 TownEast 0 22 120 76 TownEast 0 22"/>
   <property name="Winter_Objects" value="418 .7 414 .1"/>
  </properties>
- <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="paths.png" width="64" height="128"/>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>
@@ -47,8 +47,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="33" name="spring_z_extras" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
-  <image source="spring_z_extras.png" width="400" height="1200"/>
+ <tileset firstgid="37" name="spring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
+  <image source="spring_z_extras.png" width="400" height="4096"/>
   <tile id="519">
    <animation>
     <frame tileid="519" duration="1000"/>
@@ -104,7 +104,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="1908" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+ <tileset firstgid="6437" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="winter_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
@@ -1429,45 +1429,45 @@
  </tileset>
  <layer id="1" name="Back" width="7" height="13">
   <data encoding="csv">
-2258,2259,2259,2259,2259,2259,2259,
-2283,2284,2284,2311,2259,2259,2259,
-0,2083,2083,2258,2259,2259,2259,
-2235,2309,2083,2283,2311,2259,2259,
-2285,2245,2246,2247,2283,2284,2284,
-2058,2245,2246,2247,0,0,2259,
-0,2245,2246,2247,0,0,2259,
-0,3002,3002,3002,0,0,0,
-0,3000,3027,3001,3002,3002,3002,
-3027,3028,2288,3003,3027,3027,3027,
-2313,2313,2313,2313,2313,2313,2313,
-2259,2259,2259,2259,2259,2259,2259,
-2259,2259,2259,2259,2259,2259,2259
+6787,6788,6788,6788,6788,6788,6788,
+6812,6813,6813,6840,6788,6788,6788,
+0,6612,6612,6787,6788,6788,6788,
+6764,6838,6612,6812,6840,6788,6788,
+6814,6774,6775,6776,6812,6813,6813,
+6587,6774,6775,6776,0,0,6788,
+0,6774,6775,6776,0,0,6788,
+0,7531,7531,7531,0,0,0,
+0,7529,7556,7530,7531,7531,7531,
+7556,7557,6817,7532,7556,7556,7556,
+6842,6842,6842,6842,6842,6842,6842,
+6788,6788,6788,6788,6788,6788,6788,
+6788,6788,6788,6788,6788,6788,6788
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="7" height="13">
   <data encoding="csv">
-2165,0,0,0,0,1996,1997,
-2165,0,0,0,0,2021,2022,
-2183,0,0,0,2165,0,0,
-0,2297,0,2345,1996,1997,0,
-0,2327,0,2349,2021,2022,0,
-0,2352,0,2374,2375,2376,2375,
-2376,2377,0,2399,2400,2401,2400,
-2401,2402,0,2424,2425,2426,2425,
-2426,2427,0,2449,2450,2451,2450,
-2451,2452,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,2037,0,0,0,
-0,0,0,0,2291,2292,2292
+6694,0,0,0,0,6525,6526,
+6694,0,0,0,0,6550,6551,
+6712,0,0,0,6694,0,0,
+0,6826,0,6874,6525,6526,0,
+0,6856,0,6878,6550,6551,0,
+0,6881,0,6903,6904,6905,6904,
+6905,6906,0,6928,6929,6930,6929,
+6930,6931,0,6953,6954,6955,6954,
+6955,6956,0,6978,6979,6980,6979,
+6980,6981,0,0,0,0,0,
+6573,0,0,0,0,0,0,
+0,0,0,6566,0,0,0,
+0,0,0,0,6820,6821,6821
 </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="7" height="13">
   <data encoding="csv">
-0,2010,2010,2010,0,0,0,
-0,2010,2010,2010,0,0,0,
-0,2010,0,2010,0,0,0,
+0,6539,6539,6539,0,0,0,
+0,6539,6539,6539,0,0,0,
+0,6539,0,6539,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -1490,27 +1490,27 @@
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,2012,0,0,0,
-0,0,0,0,2266,2267,2267,
-0,0,0,2269,489,489,489
+6498,0,0,0,0,0,0,
+6523,0,0,0,0,0,0,
+6548,0,0,0,0,0,0,
+0,0,0,6541,0,0,0,
+0,0,0,0,6795,6796,6796,
+0,0,0,6798,493,493,493
 </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="7" height="13">
   <data encoding="csv">
-1978,1979,0,0,0,0,0,
-2003,2004,0,0,0,0,0,
+6507,6508,0,0,0,0,0,
+6532,6533,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,1911,1912,1913,0,0,
-0,0,1936,1937,1938,0,0,
-0,0,1961,1962,1963,0,0,
-0,0,1986,1987,1988,0,0,
+6448,6449,0,0,0,0,0,
+6473,6474,6440,6441,6442,0,0,
+0,6499,6465,6466,6467,0,0,
+0,6524,6490,6491,6492,0,0,
+0,0,6515,6516,6517,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0

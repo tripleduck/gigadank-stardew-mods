@@ -26,7 +26,6 @@
                 "6398310/f Juliet 2500/f Jessie 2500/f Lewis 2000/e 6398444/o Juliet/w sunny/t 1200 1800": "{{season}}_day_ambient/25 10/Juliet -100 -100 0 Jessie 26 11 1 farmer 25 15 0 Gremlin 27 10 1/addConversationTopic JulietParents 5/skippable/advancedMove Gremlin true 3 0 0 1 -3 0 3 1000 0 -1/move farmer 0 -4 1/faceDirection Jessie 3/pause 500/speak Jessie \"Good afternoon, @. I'm pleased to see you.#$b#If you have time, would you mind popping in to talk to Juliet?#$b#She could do with a friendly face right now.$2\"/emote farmer 8 /pause 500/speak Jessie \"She received a letter this morning, and has been pounding the drums ever since.$2#$b#I don't mind the noise, but I'm worried about her.$2\"/pause 500/emote farmer 56/pause 500/textAboveHead Jessie \"Thank you\"/pause 1000/faceDirection Jessie 0/move farmer 0 -4 0/pause 100/warp farmer -100 -100/playSound doorOpen/pause 2000/fade/viewport -200 -200/changeLocation Custom_LK_LodgingHouse/viewport -200 -200/switchEvent 6398310_2"
             }
         },
-
         {
             "LogName": "Schedule",
             "Action": "EditData",
@@ -93,13 +92,13 @@
                 "HasSeenEvent |contains=191393": false
             },
             "Entries": {
-                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/a1700 JojaMart 9 25 1 Juliet_work/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "spring": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "spring_15": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2 \"Strings\\schedules\\Juliet:spring_17.000\"/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1600 Town 92 51 2/1700 JojaMart 9 25 1 Juliet_work/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/a1700 JojaMart 9 25 1 Juliet_work/2300 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "spring_15": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2 \"Strings\\schedules\\Juliet:spring_17.000\"/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.000\"/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/a850 JojaMart 9 25 1 Juliet_work/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1600 Town 92 51 2/1700 JojaMart 9 25 1 Juliet_work/2300 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
                 "JojaMart_Replacement": "Custom_ESClearingHouse 29 9 2 Juliet_yoyo"
             }
         },
@@ -112,12 +111,12 @@
                 "HasFlag |contains=ccMovieTheater": false
             },
             "Entries": { //Juliet Joja Closed, Theater not open
-                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/1700 CommunityCenter 23 17 0/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 27 9 0/1430 CommunityCenter 23 19 3/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.100\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/930 CommunityCenter 14 5 0/1130 CommunityCenter 27 9 0/1430 CommunityCenter 23 19 3/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2300 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/1700 CommunityCenter 23 17 0/2300 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 27 9 0/1430 CommunityCenter 23 19 3/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.100\"/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/930 CommunityCenter 14 5 0/1130 CommunityCenter 27 9 0/1430 CommunityCenter 23 19 3/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 18 28 2/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1600 Town 95 51 0 \"Strings\\schedules\\Juliet:JojaClosed{{random:A,B,C}}\"/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2300 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
                 "JojaMart_Replacement": "Custom_ESClearingHouse 29 9 2 Juliet_yoyo",
                 "marriage_Mon": "700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3",
                 "marriage_Wed": "700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 27 9 0/1430 CommunityCenter 23 19 3/1700 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3",
@@ -134,18 +133,18 @@
                 "HasFlag |contains=ccMovieTheater": true
             },
             "Entries": {
-                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 97 52 0/1800 Custom_LK_LodgingHouse 17 22 0/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 44 0/900 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Fri": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/1300 Beach 44 35 2/1800 Saloon 44 21 3/2100 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
-                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1400 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2000 Custom_LK_LodgingHouse 31 5 0/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "rain": "700 Custom_LK_LodgingHouse 21 21 3/1100 Custom_LK_LodgingHouse 7 18 0/1300 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1500 Town 97 52 0/1800 Custom_LK_LodgingHouse 17 22 0/2200 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 44 0/900 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Beach 29 36 2 \"Strings\\schedules\\Juliet:winter_17.200\"/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 8 2/1400 Custom_LK_TheaterBreakroom 14 5 0/1700 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Fri": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/1300 Beach 44 35 2/1800 Saloon 44 21 3/2100 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1600 Custom_ESClearingHouse 29 9 2 Juliet_yoyo/2000 Custom_LK_LodgingHouse 31 5 0/2200 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
                 "JojaMart_Replacement": "Custom_ESClearingHouse 29 9 2 Juliet_yoyo",
                 "marriage_Mon": "700 Town 95 44 0/850 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/2100 BusStop -1 23 3",
                 "marriage_Wed": "700 Town 95 44 0/850 Custom_LK_TheaterBreakroom 8 18 1/1200 Custom_LK_TheaterBreakroom 8 7 2/1400 Custom_LK_TheaterBreakroom 14 5 0/2100 BusStop -1 23 3",
                 "marriage_Sat": "700 Custom_ESClearingHouse 28 11 2/1310 Beach 44 35 2/1800 Saloon 42 21 3/2200 BusStop -1 23 3",
-                "marriage_Sun": "700 Custom_ESClearingHouse 28 11 2/1100 SeedShop 38 22 0/1400 Town 97 52 0/1700 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3"
+                "marriage_Sun": "700 Custom_ESClearingHouse 28 11 2/1100 SeedShop 38 22 0/1600 Town 97 52 0/1800 Custom_LK_LodgingHouse 17 22 0/2200 BusStop -1 23 3"
             }
         },
         {
@@ -153,7 +152,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 1/900 Custom_ESClearingHouse 18 28 2/1100 SamHouse 16 18 0 Juliet_drums/1500 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 1/900 Custom_ESClearingHouse 18 28 2/1100 SamHouse 16 18 0 Juliet_drums/1500 Beach 44 35 2/1800 Saloon 42 20 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep"
             },
             "When": {
                 "HasDialogueAnswer": "8571103, 8571105"
@@ -178,11 +177,10 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Gremlin",
             "When": {
-                "HasMod": "alistairweekend.TSCCharacters"
+                "HasMod": "ch20youk.TSCCP"
             },
             "Entries": {
-                "spring_15": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_ESClearingHouse 19 19 1 square_3_3/1130 CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep"
-            }
+                "spring_15": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_ESClearingHouse 19 19 1 square_3_3/1130 Custom_StrayCatfe_CafeOutdoors 21 16 2 square 10_3/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 25 6 2 Gremlin_sleep"  }
         },
         {
             "LogName": "Schedule",
@@ -218,7 +216,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1020 Custom_ESClearingHouse 24 12 3/1100 Custom_EastScarpe 20 102 0/1400 Custom_EastScarpe 56 41 2/1650 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1020 Custom_ESClearingHouse 24 12 3/1100 Custom_EastScarpe 20 102 0/1400 Custom_EastScarpe 56 41 2/1650 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep"
             },
             "When": {
                 "HasSeenEvent": "86571101" //Has Gremlin
@@ -229,11 +227,24 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Juliet",
             "Entries": {
-                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1020 Custom_ESClearingHouse 24 12 3/1100 Custom_EastScarpe 20 102 0/1650 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1020 Custom_ESClearingHouse 24 12 3/1100 Custom_EastScarpe 20 102 0/1650 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 38 22 0/1600 Custom_EastScarpe 45 130 2/2000 Custom_EastScarpe 45 130 3/2100 Custom_EastScarpe 45 130 2/2200 Custom_EastScarpe 40 67 1/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
             },
             "When": {
-                "HasSeenEvent |contains=86571101": true,
                 "HasSeenEvent |contains=57874020": true
+                //Has Gremlin
+            }
+        },
+        {
+            "LogName": "Schedule - if East Scarpe installed",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Juliet",
+            "Entries": {
+                "Sun": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 SeedShop 37 22 0/1600 Custom_EastScarpe 46 130 2/2000 Custom_EastScarpe 46 130 3/2100 Custom_EastScarpe 46 130 2/2200 Custom_EastScarpe 40 67 1/2400 Custom_LK_LodgingHouse 22 6 2 juliet_sleep",
+            },
+            "When": {
+                "HasSeenEvent |contains=57874020": true,
+                "HasMod": "Rafseazz.RSVCP"
                 //Has Gremlin
             }
         },
@@ -242,7 +253,8 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Gremlin",
             "Entries": {
-                "Sat": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_ESClearingHouse 19 19 1 square_3_3/1010 Custom_ESClearingHouse 24 20 2 Gremlin_sit/1030 Custom_EastScarpe 20 108 2 square_5_4/1620 Custom_EastScarpe 19 102 1/1650 Saloon 41 22 1 Gremlin_sit/2400 Custom_LK_LodgingHouse 22 6 2 Gremlin_sleep"
+                "Sat": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_ESClearingHouse 19 19 1 square_3_3/1010 Custom_ESClearingHouse 24 20 2 Gremlin_sit/1030 Custom_EastScarpe 20 108 2 square_5_4/1620 Custom_EastScarpe 19 102 1/1650 Saloon 41 22 1 Gremlin_sit/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_ESClearingHouse 30 11 1 square_3_3/1100 Town 42 59 0 square_5_5/1600 Town 42 57 2/1650 Custom_EastScarpe 45 127 square_1_5/2100 Custom_EastScarpe 47 130 3/2200 Custom_EastScarpe 35 67 2/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep",
             },
             "When": {
                 "HasSeenEvent |contains=86571101": true,

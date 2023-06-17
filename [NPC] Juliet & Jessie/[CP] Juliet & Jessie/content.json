@@ -297,6 +297,13 @@
                                 "HasMod": "malic.cp.jadeNPC"
                         }
                 },
+                {
+                        "Name": "Juliet_SetUp",
+                        "Value": "{{Juliet_SetUp}} Rosa 36 13 2",
+                        "When": {
+                                "HasMod": "Lemurkat.JacobEloise.CP"
+                        }
+                },
                 //Main Event Rearrangement, includes custom NPCs
                 {
                         "Name": "Juliet_MainEvent",
@@ -324,14 +331,21 @@
                                 "HasMod": "Arknir.Lucikiel"
                         }
                 },
+                {
+                        "Name": "Juliet_MainEvent",
+                        "Value": "{{Juliet_MainEvent}}/warp Rosa 39 11/FaceDirection Rosa 3",
+                        "When": {
+                                "HasMod": "Lemurkat.JacobEloise.CP"
+                        }
+                },
                 //Adds Lucikiel's reactions into 14-heart event
                 {
                         "Name": "Clint_Heckle",
-                        "Value": "textAboveHead Pam \"Get on with it!\""
+                        "Value": "textAboveHead Pam \"Get on with it!\"/pause 50"
                 },
                 {
                         "Name": "Clint_Heckle",
-                        "Value": "textAboveHead Pam \"Get on with it!\"/pause 500/emote Lucikiel 12/pause 500/textAboveHead Lucikiel \"Show 'em, Beardy!\"",
+                        "Value": "textAboveHead Pam \"Get on with it!\"/pause 500/emote Lucikiel 12/pause 500/textAboveHead Lucikiel \"Show 'em, Beardy!\"/pause 50",
                         "When": {
                                 "HasMod": "Arknir.Lucikiel"
                         }
@@ -537,7 +551,7 @@
                         "Action": "EditMap",
                         "Target": "Maps/Town",
                         "MapProperties": {
-                                "NPCWarp": "90 43 Custom_LK_TheaterBreakroom 2 11"
+                                "NPCWarp": "100 51 Custom_LK_TheaterBreakroom 21 20"
                         },
                         "When": {
                                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
@@ -604,6 +618,22 @@
                         "Action": "Load",
                         "Target": "Maps/Lemurkat_Juliet_SpouseRoom",
                         "FromFile": "assets/Maps/SpouseRoomJulietRev.tmx"
+                },
+                {
+                        //Add "displayname" to locations
+                        "Action": "EditData",
+                        "Target": "Mods/shekurika.EventLookup/locationnames",
+                        "When": {
+                                "HasMod": "shekurika.EventLookup"
+                        },
+                        "Entries": {
+                                "Custom_LK_ClearingHouse": "Jessie's Garden",
+                                "Custom_LK_LodgingHouse": "Jessie's Lodging House",
+                                "Custom_LK_JojaBreakRoom": "Joja Breakroom",
+                                "Custom_LK_TheaterBreakroom": "Theater Backstage",
+                                "Custom_LK_LodgingHouseBasement": "Jessie's Basement",
+                                "Custom_ESClearingHouse": "Jessie's Garden"
+                        }
                 }
         ]
 }

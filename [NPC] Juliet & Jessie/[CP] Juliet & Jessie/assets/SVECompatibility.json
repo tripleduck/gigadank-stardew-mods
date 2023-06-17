@@ -49,7 +49,7 @@
             "Target": "Characters/schedules/Juliet",
             "Entries": {
                 // second counter: 5, 25; first counter (conflicts with SVE's claire): 9, 25
-                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 72 100 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 86 103 2/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 25 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "winter_17": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Beach 36 33 1 \"Strings\\schedules\\Juliet:winter_17.100\"/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "Wed": "620 Custom_LK_LodgingHouse 21 21 3/700 Town 95 51 0/930 CommunityCenter 14 5 0/1130 CommunityCenter 18 19 0/1430 CommunityCenter 23 19 3/1700 Town 26 23 2 Juliet_yoyo/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
                 "Sat": "700 Custom_LK_LodgingHouse 21 21 3/900 Custom_LK_LodgingHouse 28 7 0 Juliet_drums/1100 Custom_LK_ClearingHouse 16 7 3/1300 Beach 44 35 2/1800 Saloon 42 21 3/2400 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep",
@@ -59,6 +59,22 @@
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
                 "HasSeenEvent |contains=191393": true
+            }
+        },
+        {
+            "LogName": "Schedule - SVE version",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Gremlin",
+            "Entries": {
+                "rain": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/1100 Custom_LK_LodgingHouse 3 15 0 Gremlin_sleep/1300 Custom_LK_ClearingHouse 19 19 1 square_3_3/1600 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/2300 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep",
+                "spring": "620 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/700 Town 84 100 0 square_3_3/930 Town 53 25 2 square_5_5/1700 Town 28 18 1 square_3_3/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep",
+                "Sat": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1310 Beach 43 35 2/1800 Saloon 42 22 3/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep",
+                "Sun": "700 Custom_LK_LodgingHouse 19 22 0 Gremlin_sit/900 Custom_LK_ClearingHouse 19 19 1 square_3_3/1500 Town 53 25 0 square_4_4/2300 Town 34 11 0/2400 Custom_LK_LodgingHouse 25 7 2 Gremlin_sleep"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "HasSeenEvent |contains=191393": true,
+                "HasSeenEvent": "86571101"
             }
         },
         {

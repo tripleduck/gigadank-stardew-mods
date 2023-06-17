@@ -429,10 +429,48 @@
                     ],
                     "Value": "Gremlin 34 25 2",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 62 45 2",
+                    "Delimiter": "/"
                 }
             ],
             "When": {
-                "HasSeenEvent": "86571101"
+                "HasSeenEvent": "86571101",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 34 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 57 51 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasSeenEvent": "86571101",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
         {
@@ -544,13 +582,143 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
+        //RSV
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Jessie": "Hello @, I see you've made the journey up here too. I thought I might do a little foraging afterwards.#$b#There's some unique flora up here on the ridge."
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Jessie 86 38 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Juliet": "Hey @! Boys versus girls, ye olde traditional gender feud. It's all a bit binary, don't ya think?#$b#Hmm, which team am I rooting for? Well, I guess at the moment, it's gotta be the girls, right Rosie?$4"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 113 41 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP",
+                "HasMod |contains=Lemurkat.JacobEloise.CP": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Juliet": "Hey @! Boys versus girls, ye olde traditional gender feud. It's all a bit binary, don't ya think?#$b#Hmm, which team am I rooting for? Well, they all have their perks.$1"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Juliet 113 41 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP",
+                "HasMod |contains=Lemurkat.JacobEloise.CP": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Gremlin": "Arp!$1"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Gremlin 108 41 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "set-up",
+                        7
+                    ],
+                    "Value": "speed Gremlin 4/advancedMove Gremlin true 3 0 0 2 -3 0 0 -2",
+                    "Delimiter": "/"
+                },
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP",
+                "HasSeenEvent: hostPlayer": "86571101"
+            }
+        },
+        // Ember of Resolutions
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter28",
+    "Entries": {
+        "Juliet": "Not gonna lie, @, I'm here for the bonfire.$1#$b#Resolutions? Well, they're just made to be broken.",
+        "Jessie": "Hello @. I wish you a bountiful and beautiful new year, filled with joy and smiles.$1"
+    },
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [
+                "Entries",
+                "Set-Up_additionalCharacters"
+            ],
+            "Value": "Juliet 36 36 2/Jessie 43 25 2",
+            "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [
+                "Entries",
+                "MainEvent_additionalCharacters"
+            ],
+            "Value": "Juliet 56 49 3/Jessie 55 45 3",
+            "Delimiter": "/"
+        }
+    ],
+    "When": {
+        "HasMod": "Rafseazz.RSVCP"
+    }
+},
         //Festival Dialogue for Jessie and Juliet
         {
             "LogName": "Egg Festival Dialogue",
             "Action": "EditData",
             "Target": "data/festivals/spring13",
             "Entries": {
-                "Juliet": "Hey farmer, you gonna chase after the eggs? Me? Nah. I think I'd rather hang back and check out the talent.$8",
+                "Juliet": "Hey farmer, you gonna chase after the eggs? Me? Nah. I think I'd rather hang back and check out the talent.$1",
                 "Jessie": "Hello @. You know, it would be nice if the kids could win the egg hunt for once.$1#$b#But Abigail? She's been winning it every year since she was a child. Very competitive spirit, that lass."
             }
         },
@@ -559,7 +727,7 @@
             "Action": "EditData",
             "Target": "data/festivals/spring24",
             "Entries": {
-                "Juliet": "How quaint, everyone's all paired neatly off. Wanna shake it up a bit, @?$9#$b#Go on, ask Sebastian to dance, I dare ya.^Go on, ask Abigail to dance, I dare ya.$9",
+                "Juliet": "How quaint, everyone's all paired neatly off. Wanna shake it up a bit, @?$1#$b#Go on, ask Sebastian to dance, I dare ya.^Go on, ask Abigail to dance, I dare ya.",
                 "Jessie": "It's lovely to see everyone gathered together, but a little overwhelming too."
             }
         },
@@ -578,9 +746,20 @@
             "Action": "EditData",
             "Target": "data/festivals/summer28",
             "Entries": {
-                "Juliet": "Hey @! If I were to jump in right now, do you think they'd consider me one of their own?$12#$b#Nah, they'd probably just sting me to death!$12",
+                "Juliet": "Hey @! If I were to jump in right now, do you think they'd consider me one of their own?$1#$b#Nah, they'd probably just sting me to death!$2",
                 "Gremlin": "Arp?#$b#%Gremlin seems to be watching the water.",
                 "Jessie": "There's something mystical about the jellyfish. They're so insubstantial, yet they travel so far and visit us every year."
+            }
+        },
+        {
+            "LogName": "Jellyfish Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Juliet": "Hey @! Must be nice, y'know, floating along, going where the current takes you.#$b#Actually... nah, it sounds a bit dull. I think I'd rather be a shark. Or an octopus...$1",
+            },
+            "When": {
+                "HasMod": "Poltergeister.SeasonalCuteSpritesJojaClerks"
             }
         },
         {
@@ -588,7 +767,7 @@
             "Action": "EditData",
             "Target": "data/festivals/fall16",
             "Entries": {
-                "Juliet": "Not meaning to brag, but I'm so good with the slingshot that they won't let me play anymore.$13#$b#I pretend I'm shooting Morris between the eyes!$13",
+                "Juliet": "Not meaning to brag, but I'm so good with the slingshot that they won't let me play anymore.$2#$b#I pretend I'm shooting Morris between the eyes!$5",
                 "Jessie": "Too much excitement for me, my dear. I would rather stay here and let Linus keep me company.",
                 "Gremlin": "Arp!$1#$b#%Gremlin looks at you expectantly, hoping your brought her a treat."
             }
@@ -598,8 +777,29 @@
             "Action": "EditData",
             "Target": "data/festivals/fall27",
             "Entries": {
-                "Juliet": "Have you heard the tale of the Woman in White, @? No?$14#$b#Legend says she lost her child, long ago, then took her own life in despair.$14#$b#On Spirit's Eve, when the veil between our world and the shadow world grows thin, she prowls the woods, seeking that which she has lost...$14#$b#...an innocent child to claim as her own.$14",
                 "Jessie": "Oh... Spirit's Eve sends shivers down my spine. The folk here don't realize that it's their happiness and good cheer that keeps the void's creeping touch at bay.$2"
+            }
+        },
+        {
+            "LogName": "Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Juliet": "Have you heard the tale of the Woman in White, @? No?$1#$b#Legend says she lost her child, long ago, then took her own life in despair.$2#$b#On Spirit's Eve, when the veil between our world and the shadow world grows thin, she prowls the woods, seeking that which she has lost...#$b#...an innocent child to claim as her own.$3"
+            },
+            "When": {
+                "Costume": "zombie"
+            }
+        },
+        {
+            "LogName": "Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Juliet": "Did you know there was an entire city under this town, @?$2#$b#Once it was home to miscreants, outlaws - and pirates.#$b#Now, naught remains but their bones, and their spirits restlessly seeking wicked vengence.$1"
+            },
+            "When": {
+                "Costume": "pirate"
             }
         },
         {
@@ -622,7 +822,7 @@
             }
         },
         {
-            "LogName": "Ice Festival Dialogue",
+            "LogName": "Winter Star Dialogue",
             "Action": "EditData",
             "Target": "data/festivals/winter25",
             "Entries": {
@@ -631,6 +831,7 @@
             "When": {
                 "Relationship:Juliet": "Dating, engaged, married"
             }
-        }
+        },
+        
     ]
 }

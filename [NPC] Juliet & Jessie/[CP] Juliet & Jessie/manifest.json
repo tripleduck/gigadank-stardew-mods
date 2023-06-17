@@ -1,7 +1,7 @@
 {
    "Name": "Juliet, Jessie and Lodging House",
    "Author": "Lemurkat",
-   "Version": "1.4.6",  
+   "Version": "1.4.10",  
    "Description": "Adds the NPC's Juliet and Jessie, plus their House and More!",
    "UpdateKeys": [
       "Nexus:6398"
@@ -20,6 +20,10 @@
       },
      {
          "UniqueID": "Gweniaczek.WayBackPT",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "ch20youk.TSCCP",
          "IsRequired": false
       }
    ],
